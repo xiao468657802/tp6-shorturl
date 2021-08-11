@@ -167,9 +167,12 @@ Content-Type： multipart/form-data
 成功响应示例
 https://www.bilibili.com/video/BV1V7411x7Qm?p=15
 
+后台
+/admin/start/#/user/login/redirect=%2F
+or 
+http://192.168.133.131/home
 
-
-
-
+数据库修改文件file
+config/database.php
 
 

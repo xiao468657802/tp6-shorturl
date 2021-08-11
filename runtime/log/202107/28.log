@@ -1,0 +1,445 @@
+[2021-07-28T13:05:02+08:00][sql] CONNECT:[ UseTime:0.017613s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T13:05:02+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.036856s ]
+[2021-07-28T13:05:02+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'home' [ RunTime:0.003420s ]
+[2021-07-28T13:05:23+08:00][sql] CONNECT:[ UseTime:0.001461s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T13:05:23+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.004129s ]
+[2021-07-28T13:05:23+08:00][sql] SELECT * FROM `users` [ RunTime:0.000941s ]
+[2021-07-28T13:05:51+08:00][sql] CONNECT:[ UseTime:0.001053s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T13:05:51+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000769s ]
+[2021-07-28T13:05:51+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'captcha' [ RunTime:0.000525s ]
+[2021-07-28T13:05:59+08:00][sql] CONNECT:[ UseTime:0.001140s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T13:05:59+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000778s ]
+[2021-07-28T13:05:59+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'captcha' [ RunTime:0.000538s ]
+[2021-07-28T14:08:09+08:00][error] [8192]Non-static method think\captcha\Captcha::create() should not be called statically[/www/wwwroot/short.com/think/app/controller/Home.php:15]
+[2021-07-28T14:12:16+08:00][sql] CONNECT:[ UseTime:0.004628s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:12:16+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002441s ]
+[2021-07-28T14:12:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'captcha' [ RunTime:0.000831s ]
+[2021-07-28T14:14:14+08:00][sql] CONNECT:[ UseTime:0.000746s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:14:14+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000840s ]
+[2021-07-28T14:14:14+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'home' [ RunTime:0.000456s ]
+[2021-07-28T14:14:25+08:00][sql] CONNECT:[ UseTime:0.001221s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:14:25+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001927s ]
+[2021-07-28T14:14:25+08:00][sql] SELECT * FROM `users` [ RunTime:0.001161s ]
+[2021-07-28T14:14:42+08:00][sql] CONNECT:[ UseTime:0.000767s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:14:42+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000902s ]
+[2021-07-28T14:14:42+08:00][sql] SELECT * FROM `links` [ RunTime:0.001071s ]
+[2021-07-28T14:14:43+08:00][sql] CONNECT:[ UseTime:0.000820s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:14:43+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001057s ]
+[2021-07-28T14:14:43+08:00][sql] SELECT * FROM `links` [ RunTime:0.002466s ]
+[2021-07-28T14:14:44+08:00][sql] CONNECT:[ UseTime:0.000854s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:14:44+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001094s ]
+[2021-07-28T14:14:44+08:00][sql] SELECT * FROM `links` [ RunTime:0.002805s ]
+[2021-07-28T14:14:45+08:00][sql] CONNECT:[ UseTime:0.000741s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:14:45+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000814s ]
+[2021-07-28T14:14:45+08:00][sql] SELECT * FROM `links` [ RunTime:0.002469s ]
+[2021-07-28T14:14:47+08:00][sql] CONNECT:[ UseTime:0.000840s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:14:47+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000826s ]
+[2021-07-28T14:14:47+08:00][sql] SELECT * FROM `links` [ RunTime:0.000492s ]
+[2021-07-28T14:15:00+08:00][sql] CONNECT:[ UseTime:0.001402s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:15:00+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000919s ]
+[2021-07-28T14:15:00+08:00][sql] SELECT * FROM `links` [ RunTime:0.000575s ]
+[2021-07-28T14:20:09+08:00][sql] CONNECT:[ UseTime:0.000612s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:20:09+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000707s ]
+[2021-07-28T14:20:09+08:00][sql] SELECT * FROM `links` [ RunTime:0.000880s ]
+[2021-07-28T14:20:41+08:00][sql] CONNECT:[ UseTime:0.000795s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:20:41+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002539s ]
+[2021-07-28T14:20:41+08:00][sql] SELECT * FROM `links` [ RunTime:0.000552s ]
+[2021-07-28T14:21:08+08:00][sql] CONNECT:[ UseTime:0.000684s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:21:08+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000740s ]
+[2021-07-28T14:21:08+08:00][sql] SELECT * FROM `links` [ RunTime:0.000548s ]
+[2021-07-28T14:22:24+08:00][sql] CONNECT:[ UseTime:0.002209s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:22:24+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001061s ]
+[2021-07-28T14:22:24+08:00][sql] SELECT * FROM `links` [ RunTime:0.000505s ]
+[2021-07-28T14:23:23+08:00][sql] CONNECT:[ UseTime:0.001835s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:23:23+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000786s ]
+[2021-07-28T14:23:23+08:00][sql] SELECT * FROM `links` [ RunTime:0.000343s ]
+[2021-07-28T14:25:05+08:00][sql] CONNECT:[ UseTime:0.003333s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:25:05+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000867s ]
+[2021-07-28T14:25:05+08:00][sql] SELECT * FROM `links` [ RunTime:0.000572s ]
+[2021-07-28T14:25:43+08:00][sql] CONNECT:[ UseTime:0.000575s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:25:43+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000740s ]
+[2021-07-28T14:25:43+08:00][sql] SELECT * FROM `links` [ RunTime:0.000518s ]
+[2021-07-28T14:26:10+08:00][sql] CONNECT:[ UseTime:0.000658s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:26:10+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001081s ]
+[2021-07-28T14:26:10+08:00][sql] SELECT * FROM `links` [ RunTime:0.000513s ]
+[2021-07-28T14:26:51+08:00][sql] CONNECT:[ UseTime:0.000954s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:26:51+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000750s ]
+[2021-07-28T14:26:51+08:00][sql] SELECT * FROM `links` [ RunTime:0.000729s ]
+[2021-07-28T14:27:26+08:00][sql] CONNECT:[ UseTime:0.000797s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:27:26+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000969s ]
+[2021-07-28T14:27:26+08:00][sql] SELECT * FROM `links` [ RunTime:0.000600s ]
+[2021-07-28T14:27:27+08:00][sql] CONNECT:[ UseTime:0.000917s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:27:27+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001072s ]
+[2021-07-28T14:27:27+08:00][sql] SELECT * FROM `links` [ RunTime:0.000664s ]
+[2021-07-28T14:27:52+08:00][sql] CONNECT:[ UseTime:0.000734s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:27:52+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000880s ]
+[2021-07-28T14:27:52+08:00][sql] SELECT * FROM `links` [ RunTime:0.000495s ]
+[2021-07-28T14:34:54+08:00][sql] CONNECT:[ UseTime:0.000929s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:34:54+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001265s ]
+[2021-07-28T14:34:54+08:00][sql] SELECT * FROM `links` [ RunTime:0.000662s ]
+[2021-07-28T14:34:59+08:00][sql] CONNECT:[ UseTime:0.000716s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:34:59+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000748s ]
+[2021-07-28T14:34:59+08:00][sql] SELECT * FROM `links` [ RunTime:0.000503s ]
+[2021-07-28T14:35:10+08:00][sql] CONNECT:[ UseTime:0.002717s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:35:10+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001808s ]
+[2021-07-28T14:35:10+08:00][sql] SELECT * FROM `links` [ RunTime:0.000634s ]
+[2021-07-28T14:35:14+08:00][sql] CONNECT:[ UseTime:0.000592s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:35:14+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000631s ]
+[2021-07-28T14:35:14+08:00][sql] SELECT * FROM `links` [ RunTime:0.000387s ]
+[2021-07-28T14:36:27+08:00][sql] CONNECT:[ UseTime:0.001309s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:36:27+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001159s ]
+[2021-07-28T14:36:27+08:00][sql] SELECT * FROM `links` [ RunTime:0.000613s ]
+[2021-07-28T14:37:45+08:00][sql] CONNECT:[ UseTime:0.001935s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:37:45+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001419s ]
+[2021-07-28T14:37:45+08:00][sql] SELECT * FROM `users` [ RunTime:0.000872s ]
+[2021-07-28T14:37:45+08:00][sql] CONNECT:[ UseTime:0.000615s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:37:45+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000974s ]
+[2021-07-28T14:37:45+08:00][sql] SELECT * FROM `links` [ RunTime:0.000763s ]
+[2021-07-28T14:38:23+08:00][sql] CONNECT:[ UseTime:0.000552s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:38:23+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001281s ]
+[2021-07-28T14:38:23+08:00][sql] SELECT * FROM `users` [ RunTime:0.000640s ]
+[2021-07-28T14:38:23+08:00][sql] CONNECT:[ UseTime:0.000639s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:38:23+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001417s ]
+[2021-07-28T14:38:23+08:00][sql] SELECT * FROM `links` [ RunTime:0.000867s ]
+[2021-07-28T14:38:48+08:00][sql] CONNECT:[ UseTime:0.002928s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:38:48+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001929s ]
+[2021-07-28T14:38:48+08:00][sql] SELECT * FROM `users` [ RunTime:0.000686s ]
+[2021-07-28T14:38:48+08:00][sql] CONNECT:[ UseTime:0.000637s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:38:48+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001139s ]
+[2021-07-28T14:38:48+08:00][sql] SELECT * FROM `links` [ RunTime:0.000551s ]
+[2021-07-28T14:41:39+08:00][sql] CONNECT:[ UseTime:0.001427s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:41:39+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001270s ]
+[2021-07-28T14:41:39+08:00][sql] SELECT * FROM `users` [ RunTime:0.000674s ]
+[2021-07-28T14:41:39+08:00][sql] CONNECT:[ UseTime:0.000661s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:41:39+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000858s ]
+[2021-07-28T14:41:39+08:00][sql] SELECT * FROM `links` [ RunTime:0.000510s ]
+[2021-07-28T14:41:48+08:00][sql] CONNECT:[ UseTime:0.000578s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:41:48+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000891s ]
+[2021-07-28T14:41:48+08:00][sql] SELECT * FROM `users` [ RunTime:0.000922s ]
+[2021-07-28T14:41:49+08:00][sql] CONNECT:[ UseTime:0.000625s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:41:49+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000819s ]
+[2021-07-28T14:41:49+08:00][sql] SELECT * FROM `links` [ RunTime:0.000429s ]
+[2021-07-28T14:44:11+08:00][sql] CONNECT:[ UseTime:0.000824s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:44:11+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001030s ]
+[2021-07-28T14:44:11+08:00][sql] SELECT * FROM `users` [ RunTime:0.000505s ]
+[2021-07-28T14:51:57+08:00][sql] CONNECT:[ UseTime:0.001062s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:51:57+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001903s ]
+[2021-07-28T14:51:57+08:00][sql] SELECT * FROM `users` [ RunTime:0.000756s ]
+[2021-07-28T14:51:58+08:00][sql] CONNECT:[ UseTime:0.002090s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:51:58+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000751s ]
+[2021-07-28T14:51:58+08:00][sql] SELECT * FROM `links` [ RunTime:0.000396s ]
+[2021-07-28T14:53:16+08:00][sql] CONNECT:[ UseTime:0.000836s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:53:16+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002957s ]
+[2021-07-28T14:53:16+08:00][sql] SELECT * FROM `links` [ RunTime:0.000872s ]
+[2021-07-28T14:54:48+08:00][sql] CONNECT:[ UseTime:0.001185s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:54:48+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000836s ]
+[2021-07-28T14:54:48+08:00][sql] SELECT * FROM `links` [ RunTime:0.000562s ]
+[2021-07-28T14:59:48+08:00][sql] CONNECT:[ UseTime:0.002248s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T14:59:48+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001419s ]
+[2021-07-28T14:59:48+08:00][sql] SELECT * FROM `links` [ RunTime:0.001000s ]
+[2021-07-28T15:03:10+08:00][sql] CONNECT:[ UseTime:0.002709s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:03:10+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000999s ]
+[2021-07-28T15:03:10+08:00][sql] SELECT * FROM `links` [ RunTime:0.000573s ]
+[2021-07-28T15:04:03+08:00][sql] CONNECT:[ UseTime:0.002883s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:04:03+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000799s ]
+[2021-07-28T15:04:03+08:00][sql] SELECT * FROM `links` [ RunTime:0.000392s ]
+[2021-07-28T15:05:24+08:00][sql] CONNECT:[ UseTime:0.000914s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:05:24+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000933s ]
+[2021-07-28T15:05:24+08:00][sql] SELECT * FROM `users` [ RunTime:0.000604s ]
+[2021-07-28T15:05:25+08:00][sql] CONNECT:[ UseTime:0.000666s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:05:25+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000730s ]
+[2021-07-28T15:05:25+08:00][sql] SELECT * FROM `links` [ RunTime:0.000402s ]
+[2021-07-28T15:06:56+08:00][sql] CONNECT:[ UseTime:0.001660s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:06:56+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001341s ]
+[2021-07-28T15:06:56+08:00][sql] SELECT * FROM `users` [ RunTime:0.000651s ]
+[2021-07-28T15:06:56+08:00][sql] CONNECT:[ UseTime:0.000640s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:06:56+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000882s ]
+[2021-07-28T15:06:56+08:00][sql] SELECT * FROM `links` [ RunTime:0.000739s ]
+[2021-07-28T15:07:09+08:00][sql] CONNECT:[ UseTime:0.001005s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:07:09+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000976s ]
+[2021-07-28T15:07:09+08:00][sql] SELECT * FROM `users` [ RunTime:0.000649s ]
+[2021-07-28T15:07:09+08:00][sql] CONNECT:[ UseTime:0.000877s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:07:09+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000766s ]
+[2021-07-28T15:07:09+08:00][sql] SELECT * FROM `links` [ RunTime:0.000587s ]
+[2021-07-28T15:07:44+08:00][sql] CONNECT:[ UseTime:0.000634s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:07:44+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000844s ]
+[2021-07-28T15:07:44+08:00][sql] SELECT * FROM `links` [ RunTime:0.000682s ]
+[2021-07-28T15:07:58+08:00][sql] CONNECT:[ UseTime:0.000699s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:07:58+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001211s ]
+[2021-07-28T15:07:58+08:00][sql] SELECT * FROM `users` [ RunTime:0.000558s ]
+[2021-07-28T15:07:59+08:00][sql] CONNECT:[ UseTime:0.000599s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:07:59+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000825s ]
+[2021-07-28T15:07:59+08:00][sql] SELECT * FROM `links` [ RunTime:0.000595s ]
+[2021-07-28T15:11:17+08:00][sql] CONNECT:[ UseTime:0.000891s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:11:17+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001228s ]
+[2021-07-28T15:11:17+08:00][sql] SELECT * FROM `users` [ RunTime:0.000867s ]
+[2021-07-28T15:11:17+08:00][sql] CONNECT:[ UseTime:0.000688s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:11:17+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001331s ]
+[2021-07-28T15:11:17+08:00][sql] SELECT * FROM `links` [ RunTime:0.000381s ]
+[2021-07-28T15:14:09+08:00][sql] CONNECT:[ UseTime:0.001422s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:14:09+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001206s ]
+[2021-07-28T15:14:09+08:00][sql] SELECT * FROM `users` [ RunTime:0.000535s ]
+[2021-07-28T15:14:09+08:00][sql] CONNECT:[ UseTime:0.000710s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:14:09+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000852s ]
+[2021-07-28T15:14:09+08:00][sql] SELECT * FROM `links` [ RunTime:0.000496s ]
+[2021-07-28T15:14:13+08:00][sql] CONNECT:[ UseTime:0.000725s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:14:13+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000792s ]
+[2021-07-28T15:14:13+08:00][sql] DELETE FROM `links` WHERE  `id` = 361 [ RunTime:0.007051s ]
+[2021-07-28T15:14:30+08:00][sql] CONNECT:[ UseTime:0.000572s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:14:30+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000651s ]
+[2021-07-28T15:14:30+08:00][sql] SELECT * FROM `links` [ RunTime:0.000349s ]
+[2021-07-28T15:18:30+08:00][sql] CONNECT:[ UseTime:0.000794s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:18:30+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.003166s ]
+[2021-07-28T15:18:30+08:00][sql] SELECT * FROM `links` [ RunTime:0.000484s ]
+[2021-07-28T15:20:30+08:00][sql] CONNECT:[ UseTime:0.000832s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:20:30+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000845s ]
+[2021-07-28T15:20:30+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'test' [ RunTime:0.000615s ]
+[2021-07-28T15:22:59+08:00][sql] CONNECT:[ UseTime:0.001051s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:22:59+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001058s ]
+[2021-07-28T15:22:59+08:00][sql] SELECT * FROM `users` [ RunTime:0.000545s ]
+[2021-07-28T15:40:31+08:00][sql] CONNECT:[ UseTime:0.001245s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:40:31+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002403s ]
+[2021-07-28T15:40:31+08:00][sql] SELECT * FROM `users` [ RunTime:0.001063s ]
+[2021-07-28T15:41:40+08:00][sql] CONNECT:[ UseTime:0.000680s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:41:40+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000778s ]
+[2021-07-28T15:41:40+08:00][sql] SELECT * FROM `links` [ RunTime:0.000383s ]
+[2021-07-28T15:42:55+08:00][sql] CONNECT:[ UseTime:0.003796s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:42:55+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001121s ]
+[2021-07-28T15:42:55+08:00][sql] SELECT * FROM `links` [ RunTime:0.000484s ]
+[2021-07-28T15:42:56+08:00][sql] CONNECT:[ UseTime:0.000834s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:42:56+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001118s ]
+[2021-07-28T15:42:56+08:00][sql] SELECT * FROM `users` [ RunTime:0.000600s ]
+[2021-07-28T15:42:57+08:00][sql] CONNECT:[ UseTime:0.000888s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:42:57+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001031s ]
+[2021-07-28T15:42:57+08:00][sql] SELECT * FROM `links` [ RunTime:0.000547s ]
+[2021-07-28T15:43:31+08:00][sql] CONNECT:[ UseTime:0.000689s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:43:31+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000804s ]
+[2021-07-28T15:43:31+08:00][sql] SELECT * FROM `links` [ RunTime:0.000545s ]
+[2021-07-28T15:45:49+08:00][sql] CONNECT:[ UseTime:0.001023s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:45:49+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000988s ]
+[2021-07-28T15:45:49+08:00][sql] SELECT * FROM `users` [ RunTime:0.001095s ]
+[2021-07-28T15:45:49+08:00][sql] CONNECT:[ UseTime:0.000765s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:45:49+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001163s ]
+[2021-07-28T15:45:49+08:00][sql] SELECT * FROM `links` [ RunTime:0.000564s ]
+[2021-07-28T15:46:43+08:00][sql] CONNECT:[ UseTime:0.001302s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:46:43+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000958s ]
+[2021-07-28T15:46:43+08:00][sql] SELECT * FROM `links` [ RunTime:0.003450s ]
+[2021-07-28T15:46:49+08:00][sql] CONNECT:[ UseTime:0.001006s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:46:49+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002717s ]
+[2021-07-28T15:46:49+08:00][sql] SELECT * FROM `users` [ RunTime:0.001234s ]
+[2021-07-28T15:46:49+08:00][sql] CONNECT:[ UseTime:0.000663s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:46:49+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001266s ]
+[2021-07-28T15:46:49+08:00][sql] SELECT * FROM `links` [ RunTime:0.001139s ]
+[2021-07-28T15:50:39+08:00][sql] CONNECT:[ UseTime:0.001144s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:50:39+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001380s ]
+[2021-07-28T15:50:39+08:00][sql] SELECT * FROM `users` [ RunTime:0.000762s ]
+[2021-07-28T15:50:39+08:00][sql] CONNECT:[ UseTime:0.000674s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T15:50:39+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000701s ]
+[2021-07-28T15:50:39+08:00][sql] SELECT * FROM `links` [ RunTime:0.000642s ]
+[2021-07-28T16:02:28+08:00][sql] CONNECT:[ UseTime:0.001870s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T16:02:28+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001615s ]
+[2021-07-28T16:02:28+08:00][sql] SELECT * FROM `users` [ RunTime:0.002176s ]
+[2021-07-28T16:02:28+08:00][sql] CONNECT:[ UseTime:0.000730s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T16:02:28+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001882s ]
+[2021-07-28T16:02:28+08:00][sql] SELECT * FROM `links` [ RunTime:0.000488s ]
+[2021-07-28T16:06:42+08:00][sql] CONNECT:[ UseTime:0.000980s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T16:06:42+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001087s ]
+[2021-07-28T16:06:42+08:00][sql] SELECT * FROM `users` [ RunTime:0.000508s ]
+[2021-07-28T16:06:42+08:00][sql] SELECT * FROM `users` WHERE  `username` = 'admin' [ RunTime:0.000663s ]
+[2021-07-28T16:06:43+08:00][sql] CONNECT:[ UseTime:0.000770s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T16:06:43+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001450s ]
+[2021-07-28T16:06:43+08:00][sql] SELECT * FROM `users` [ RunTime:0.001948s ]
+[2021-07-28T16:06:49+08:00][sql] CONNECT:[ UseTime:0.000758s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T16:06:49+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000742s ]
+[2021-07-28T16:06:49+08:00][sql] SELECT * FROM `links` [ RunTime:0.000518s ]
+[2021-07-28T16:21:41+08:00][sql] CONNECT:[ UseTime:0.001776s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T16:21:41+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001991s ]
+[2021-07-28T16:21:41+08:00][sql] SELECT * FROM `users` [ RunTime:0.000537s ]
+[2021-07-28T16:21:41+08:00][sql] CONNECT:[ UseTime:0.000617s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T16:21:41+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000981s ]
+[2021-07-28T16:21:41+08:00][sql] SELECT * FROM `links` [ RunTime:0.000548s ]
+[2021-07-28T16:23:09+08:00][sql] CONNECT:[ UseTime:0.001022s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T16:23:09+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001541s ]
+[2021-07-28T16:23:09+08:00][sql] SELECT * FROM `users` [ RunTime:0.000677s ]
+[2021-07-28T16:23:09+08:00][sql] CONNECT:[ UseTime:0.000662s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T16:23:09+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000813s ]
+[2021-07-28T16:23:09+08:00][sql] SELECT * FROM `links` [ RunTime:0.000424s ]
+[2021-07-28T16:31:47+08:00][sql] CONNECT:[ UseTime:0.001226s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T16:31:47+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002594s ]
+[2021-07-28T16:31:47+08:00][sql] SELECT * FROM `users` [ RunTime:0.001089s ]
+[2021-07-28T16:31:48+08:00][sql] CONNECT:[ UseTime:0.000615s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T16:31:48+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002677s ]
+[2021-07-28T16:31:48+08:00][sql] SELECT * FROM `links` [ RunTime:0.001330s ]
+[2021-07-28T16:33:19+08:00][sql] CONNECT:[ UseTime:0.001655s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T16:33:19+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002507s ]
+[2021-07-28T16:33:19+08:00][sql] SELECT * FROM `users` [ RunTime:0.000620s ]
+[2021-07-28T16:33:19+08:00][sql] CONNECT:[ UseTime:0.000720s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T16:33:19+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000844s ]
+[2021-07-28T16:33:19+08:00][sql] SELECT * FROM `links` [ RunTime:0.001099s ]
+[2021-07-28T16:34:12+08:00][sql] CONNECT:[ UseTime:0.000904s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T16:34:12+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001365s ]
+[2021-07-28T16:34:12+08:00][sql] SELECT * FROM `users` [ RunTime:0.000807s ]
+[2021-07-28T16:34:12+08:00][sql] CONNECT:[ UseTime:0.000789s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T16:34:12+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000783s ]
+[2021-07-28T16:34:12+08:00][sql] SELECT * FROM `links` [ RunTime:0.001697s ]
+[2021-07-28T16:34:36+08:00][sql] CONNECT:[ UseTime:0.000829s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T16:34:36+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001802s ]
+[2021-07-28T16:34:36+08:00][sql] SELECT * FROM `links` [ RunTime:0.000670s ]
+[2021-07-28T16:35:31+08:00][sql] CONNECT:[ UseTime:0.000964s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T16:35:31+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000914s ]
+[2021-07-28T16:35:31+08:00][sql] SELECT * FROM `links` [ RunTime:0.000623s ]
+[2021-07-28T17:01:09+08:00][sql] CONNECT:[ UseTime:0.001889s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:01:09+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001735s ]
+[2021-07-28T17:01:09+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'home' [ RunTime:0.000637s ]
+[2021-07-28T17:01:29+08:00][sql] CONNECT:[ UseTime:0.001327s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:01:29+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001217s ]
+[2021-07-28T17:01:29+08:00][sql] SELECT * FROM `users` [ RunTime:0.000548s ]
+[2021-07-28T17:01:29+08:00][sql] SELECT * FROM `users` WHERE  `username` = 'admin' [ RunTime:0.000506s ]
+[2021-07-28T17:01:30+08:00][sql] CONNECT:[ UseTime:0.000913s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:01:30+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001164s ]
+[2021-07-28T17:01:30+08:00][sql] SELECT * FROM `users` [ RunTime:0.000752s ]
+[2021-07-28T17:01:36+08:00][sql] CONNECT:[ UseTime:0.000817s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:01:36+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.003001s ]
+[2021-07-28T17:01:36+08:00][sql] SELECT * FROM `links` [ RunTime:0.000953s ]
+[2021-07-28T17:02:06+08:00][sql] CONNECT:[ UseTime:0.000878s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:02:06+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002803s ]
+[2021-07-28T17:02:06+08:00][sql] SELECT * FROM `links` [ RunTime:0.000496s ]
+[2021-07-28T17:02:08+08:00][sql] CONNECT:[ UseTime:0.000679s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:02:08+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.003036s ]
+[2021-07-28T17:02:08+08:00][sql] SELECT * FROM `links` [ RunTime:0.000441s ]
+[2021-07-28T17:05:25+08:00][error] [8]未定义数组索引: url[/www/wwwroot/short.com/think/app/controller/Links.php:179]
+[2021-07-28T17:10:10+08:00][sql] CONNECT:[ UseTime:0.000855s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:10:10+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.003268s ]
+[2021-07-28T17:10:10+08:00][sql] SELECT * FROM `links` [ RunTime:0.001362s ]
+[2021-07-28T17:14:59+08:00][sql] CONNECT:[ UseTime:0.001521s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:14:59+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001743s ]
+[2021-07-28T17:14:59+08:00][sql] SELECT * FROM `links` [ RunTime:0.000731s ]
+[2021-07-28T17:15:01+08:00][sql] CONNECT:[ UseTime:0.000853s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:15:01+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002369s ]
+[2021-07-28T17:15:01+08:00][sql] SELECT * FROM `links` [ RunTime:0.000884s ]
+[2021-07-28T17:15:02+08:00][sql] CONNECT:[ UseTime:0.002141s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:15:02+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001054s ]
+[2021-07-28T17:15:02+08:00][sql] SELECT * FROM `links` [ RunTime:0.000521s ]
+[2021-07-28T17:15:16+08:00][sql] CONNECT:[ UseTime:0.001198s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:15:16+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.004174s ]
+[2021-07-28T17:15:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'links' [ RunTime:0.000494s ]
+[2021-07-28T17:15:55+08:00][sql] CONNECT:[ UseTime:0.000693s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:15:55+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001180s ]
+[2021-07-28T17:15:55+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'links' [ RunTime:0.000584s ]
+[2021-07-28T17:25:29+08:00][sql] CONNECT:[ UseTime:0.001012s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:25:29+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001216s ]
+[2021-07-28T17:25:29+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'dfg45' [ RunTime:0.000720s ]
+[2021-07-28T17:25:32+08:00][sql] CONNECT:[ UseTime:0.000823s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:25:32+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002342s ]
+[2021-07-28T17:25:32+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'dfg45' [ RunTime:0.000607s ]
+[2021-07-28T17:25:36+08:00][sql] CONNECT:[ UseTime:0.000712s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:25:36+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001478s ]
+[2021-07-28T17:25:36+08:00][sql] SELECT * FROM `links` [ RunTime:0.000449s ]
+[2021-07-28T17:27:12+08:00][sql] CONNECT:[ UseTime:0.017005s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:27:12+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001873s ]
+[2021-07-28T17:27:12+08:00][sql] SELECT * FROM `users` [ RunTime:0.000578s ]
+[2021-07-28T17:27:12+08:00][sql] CONNECT:[ UseTime:0.000830s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:27:12+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001221s ]
+[2021-07-28T17:27:12+08:00][sql] SELECT * FROM `links` [ RunTime:0.000597s ]
+[2021-07-28T17:31:59+08:00][sql] CONNECT:[ UseTime:0.001717s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:31:59+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001461s ]
+[2021-07-28T17:31:59+08:00][sql] SELECT * FROM `users` [ RunTime:0.000676s ]
+[2021-07-28T17:36:27+08:00][sql] CONNECT:[ UseTime:0.001456s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:36:27+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001833s ]
+[2021-07-28T17:36:27+08:00][sql] SELECT * FROM `users` [ RunTime:0.000533s ]
+[2021-07-28T17:36:27+08:00][sql] CONNECT:[ UseTime:0.001513s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:36:27+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001321s ]
+[2021-07-28T17:36:27+08:00][sql] SELECT * FROM `links` [ RunTime:0.000854s ]
+[2021-07-28T17:39:29+08:00][sql] CONNECT:[ UseTime:0.001037s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:39:29+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002301s ]
+[2021-07-28T17:39:29+08:00][sql] SELECT * FROM `users` [ RunTime:0.000539s ]
+[2021-07-28T17:39:29+08:00][sql] CONNECT:[ UseTime:0.001445s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:39:29+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001767s ]
+[2021-07-28T17:39:29+08:00][sql] SELECT * FROM `links` [ RunTime:0.000662s ]
+[2021-07-28T17:42:41+08:00][sql] CONNECT:[ UseTime:0.000737s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:42:41+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001902s ]
+[2021-07-28T17:42:41+08:00][sql] SELECT * FROM `links` [ RunTime:0.000657s ]
+[2021-07-28T17:43:33+08:00][sql] CONNECT:[ UseTime:0.000705s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:43:33+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001977s ]
+[2021-07-28T17:43:33+08:00][sql] SELECT * FROM `links` [ RunTime:0.000496s ]
+[2021-07-28T17:43:42+08:00][error] [8]未定义数组索引: url[/www/wwwroot/short.com/think/app/controller/Links.php:57]
+[2021-07-28T17:43:44+08:00][sql] CONNECT:[ UseTime:0.002093s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:43:44+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002554s ]
+[2021-07-28T17:43:44+08:00][sql] SELECT * FROM `users` [ RunTime:0.001055s ]
+[2021-07-28T17:43:44+08:00][sql] CONNECT:[ UseTime:0.000671s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:43:44+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001267s ]
+[2021-07-28T17:43:44+08:00][sql] SELECT * FROM `links` [ RunTime:0.000678s ]
+[2021-07-28T17:43:49+08:00][error] [8]未定义数组索引: url[/www/wwwroot/short.com/think/app/controller/Links.php:57]
+[2021-07-28T17:44:31+08:00][sql] CONNECT:[ UseTime:0.000741s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:44:31+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002846s ]
+[2021-07-28T17:44:31+08:00][sql] SELECT * FROM `links` [ RunTime:0.000793s ]
+[2021-07-28T17:45:33+08:00][sql] CONNECT:[ UseTime:0.001794s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:45:33+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002673s ]
+[2021-07-28T17:45:33+08:00][sql] SELECT * FROM `users` [ RunTime:0.000582s ]
+[2021-07-28T17:45:33+08:00][sql] CONNECT:[ UseTime:0.000709s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:45:33+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002290s ]
+[2021-07-28T17:45:33+08:00][sql] SELECT * FROM `links` [ RunTime:0.000873s ]
+[2021-07-28T17:49:38+08:00][sql] CONNECT:[ UseTime:0.003460s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:49:38+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001648s ]
+[2021-07-28T17:49:38+08:00][sql] SELECT * FROM `links` [ RunTime:0.000849s ]
+[2021-07-28T17:51:18+08:00][sql] CONNECT:[ UseTime:0.000711s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:51:18+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002919s ]
+[2021-07-28T17:51:18+08:00][sql] SELECT * FROM `users` [ RunTime:0.000948s ]
+[2021-07-28T17:52:02+08:00][sql] CONNECT:[ UseTime:0.000615s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:52:02+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001792s ]
+[2021-07-28T17:52:02+08:00][sql] SELECT * FROM `users` [ RunTime:0.000735s ]
+[2021-07-28T17:52:02+08:00][sql] CONNECT:[ UseTime:0.000517s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:52:02+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001043s ]
+[2021-07-28T17:52:02+08:00][sql] SELECT * FROM `links` [ RunTime:0.000447s ]
+[2021-07-28T17:52:07+08:00][error] [8]未定义数组索引: url[/www/wwwroot/short.com/think/app/controller/Links.php:163]
+[2021-07-28T17:52:22+08:00][error] [8]未定义数组索引: url[/www/wwwroot/short.com/think/app/controller/Links.php:163]
+[2021-07-28T17:52:54+08:00][error] [8]未定义数组索引: url[/www/wwwroot/short.com/think/app/controller/Links.php:163]
+[2021-07-28T17:52:59+08:00][error] [8]未定义数组索引: url[/www/wwwroot/short.com/think/app/controller/Links.php:163]
+[2021-07-28T17:53:08+08:00][sql] CONNECT:[ UseTime:0.000828s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:53:08+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002171s ]
+[2021-07-28T17:53:08+08:00][sql] SELECT * FROM `users` [ RunTime:0.000681s ]
+[2021-07-28T17:53:08+08:00][sql] CONNECT:[ UseTime:0.000670s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:53:08+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001291s ]
+[2021-07-28T17:53:08+08:00][sql] SELECT * FROM `links` [ RunTime:0.000773s ]
+[2021-07-28T17:53:12+08:00][error] [8]未定义数组索引: url[/www/wwwroot/short.com/think/app/controller/Links.php:163]
+[2021-07-28T17:54:22+08:00][sql] CONNECT:[ UseTime:0.000838s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:54:22+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001857s ]
+[2021-07-28T17:54:22+08:00][sql] SELECT * FROM `users` [ RunTime:0.000582s ]
+[2021-07-28T17:54:22+08:00][sql] CONNECT:[ UseTime:0.001987s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:54:22+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000823s ]
+[2021-07-28T17:54:22+08:00][sql] SELECT * FROM `links` [ RunTime:0.000585s ]
+[2021-07-28T17:54:27+08:00][error] [8]未定义数组索引: url[/www/wwwroot/short.com/think/app/controller/Links.php:163]
+[2021-07-28T17:55:47+08:00][sql] CONNECT:[ UseTime:0.001046s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:55:47+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002204s ]
+[2021-07-28T17:55:47+08:00][sql] SELECT * FROM `users` [ RunTime:0.000678s ]
+[2021-07-28T17:55:47+08:00][sql] CONNECT:[ UseTime:0.001288s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T17:55:47+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002130s ]
+[2021-07-28T17:55:47+08:00][sql] SELECT * FROM `links` [ RunTime:0.001932s ]
+[2021-07-28T18:00:45+08:00][sql] CONNECT:[ UseTime:0.000809s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T18:00:45+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001538s ]
+[2021-07-28T18:00:45+08:00][sql] SELECT * FROM `users` [ RunTime:0.001100s ]
+[2021-07-28T18:00:45+08:00][sql] CONNECT:[ UseTime:0.000726s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T18:00:45+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000953s ]
+[2021-07-28T18:00:45+08:00][sql] SELECT * FROM `links` [ RunTime:0.000680s ]
+[2021-07-28T18:00:50+08:00][error] [8]未定义数组索引: url[/www/wwwroot/short.com/think/app/controller/Links.php:163]
+[2021-07-28T18:01:10+08:00][sql] CONNECT:[ UseTime:0.000823s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T18:01:10+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001589s ]
+[2021-07-28T18:01:10+08:00][sql] SELECT * FROM `users` [ RunTime:0.000757s ]
+[2021-07-28T18:01:10+08:00][sql] CONNECT:[ UseTime:0.000731s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T18:01:10+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001180s ]
+[2021-07-28T18:01:10+08:00][sql] SELECT * FROM `links` [ RunTime:0.000544s ]
+[2021-07-28T18:01:13+08:00][sql] CONNECT:[ UseTime:0.000640s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T18:01:13+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002381s ]
+[2021-07-28T18:01:13+08:00][sql] UPDATE `links`  SET `url` = 'http://www.baidu.com' , `link` = 'g69Va' , `pass` = '' , `last_visit` = '2021-07-28 18:01:13'  WHERE  `id` = 362 [ RunTime:0.010122s ]
+[2021-07-28T18:01:49+08:00][sql] CONNECT:[ UseTime:0.000993s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T18:01:49+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002031s ]
+[2021-07-28T18:01:49+08:00][sql] SELECT * FROM `users` [ RunTime:0.000703s ]
+[2021-07-28T18:01:49+08:00][sql] CONNECT:[ UseTime:0.000628s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T18:01:49+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000974s ]
+[2021-07-28T18:01:49+08:00][sql] SELECT * FROM `links` [ RunTime:0.000696s ]
+[2021-07-28T18:01:53+08:00][sql] CONNECT:[ UseTime:0.000655s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T18:01:53+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002328s ]
+[2021-07-28T18:01:53+08:00][sql] UPDATE `links`  SET `url` = 'http://www.baidu.com' , `link` = 'g69Va' , `pass` = '' , `last_visit` = '2021-07-28 18:01:53'  WHERE  `id` = 362 [ RunTime:0.004115s ]
+[2021-07-28T18:02:14+08:00][sql] CONNECT:[ UseTime:0.000710s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-28T18:02:14+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002021s ]
+[2021-07-28T18:02:14+08:00][sql] UPDATE `links`  SET `url` = 'http://www.baidu.com' , `link` = 'g69Va' , `pass` = '' , `last_visit` = '2021-07-28 18:02:14'  WHERE  `id` = 362 [ RunTime:0.002275s ]

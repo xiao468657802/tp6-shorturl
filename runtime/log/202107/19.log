@@ -1,0 +1,9 @@
+[2021-07-19T12:38:41+08:00][sql] CONNECT:[ UseTime:0.002044s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-19T12:38:41+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.004422s ]
+[2021-07-19T12:38:41+08:00][sql] SELECT `id`,`username`,`gender`,`email` FROM `user` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000795s ]
+[2021-07-19T12:38:51+08:00][sql] CONNECT:[ UseTime:0.001134s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-19T12:38:51+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.003036s ]
+[2021-07-19T12:38:51+08:00][sql] SELECT `id`,`username`,`gender`,`email` FROM `user` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000455s ]
+[2021-07-19T12:40:42+08:00][sql] CONNECT:[ UseTime:0.000865s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-07-19T12:40:42+08:00][sql] SHOW FULL COLUMNS FROM `user` [ RunTime:0.000876s ]
+[2021-07-19T12:40:42+08:00][sql] SELECT `id`,`username` FROM `user` [ RunTime:0.000541s ]

@@ -55,7 +55,7 @@ ThinkPHP® 商标和著作权所有者为上海顶想信息科技有限公司。
 
 更多细节参阅 [LICENSE.txt](LICENSE.txt)
 
-
+~~~
 2021年7月24日19:19:09
 nginx 伪静态
 location /home {
@@ -75,9 +75,9 @@ rewrite ^(/u/)?$ /u/$2?u=$1 last;
 rewrite ^(.*)?$ /$2?s=$1 last;
 }
 }
+~~~
 
-
-
+~~~
 /*  路由也有顺序, :s 模糊匹配的放最后, 'u/:k' 二级模糊匹配,方倒数第二. 'home' 三级精准匹配最上面精准匹配 */
 /* rewrite ^(/u/)(.*)$ /u/$2?k=$1; -http://192.168.133.131/u/dfg45 nginx 规则 在源URL中 /u/为$1,那么第二个(.*)$ 后面的无限匹配为第二个参数
 在301 重定向时, 地址为 /u/$2 即可 后面的 ?k=$1 是传的参数,因/u/目录不变,所以$1 用来传参,
@@ -92,10 +92,10 @@ http://192.168.133.131/u/aasd
 /u/aasd
 不想要从二级匹配注释词句路由
 Route::get('u/:k','Url/index');
+~~~
 
 
-
-
+~~~
 --------------------------测试 v0.1
 route/app.php
 
@@ -121,7 +121,9 @@ Route::get('/home/httphost','/Home/httphost'); //domain host 路由
 Route::get('/home/token','/Home/token');  //登录验证路由
 //Route::get('home/index:h','Home/index');
 Route::get('u/:u','Url/index'); //二级模糊
+~~~
 -------------------------------
+~~~
 api docs (apiw文档)
 https://docs.apipost.cn/preview/169c041b0119aa29/7d62d891a511cdb3
 基本信息
@@ -171,7 +173,7 @@ https://www.bilibili.com/video/BV1V7411x7Qm?p=15
 /admin/start/#/user/login/redirect=%2F
 or 
 http://192.168.133.131/home
-
+~~~
 数据库修改文件file
 config/database.php
 

@@ -155,6 +155,11 @@ https://www.bilibili.com/video/BV1V7411x7Qm?p=15
 /admin/start/#/user/login/redirect=%2F
 or 
 http://192.168.133.131/home
+or
+http://$hostname/home
+默认用户密码
+admin
+123456
 ~~~
 ~~~
 部署流程

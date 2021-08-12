@@ -56,25 +56,7 @@ ThinkPHP® 商标和著作权所有者为上海顶想信息科技有限公司。
 更多细节参阅 [LICENSE.txt](LICENSE.txt)
 
 ~~~
-2021年7月24日19:19:09
-nginx 伪静态
-location /home {
-if (!-e $request_filename){
-rewrite ^(.*)(.*?)$ /$1?k=$2 last;
-break;
-}}
-location /links {
-if (!-e $request_filename){
-rewrite ^(.*)(.*?)$ /$1?k=$2 last;
-break;
-}}
 
-location / {
-if (!-e $request_filename){
-rewrite ^(/u/)?$ /u/$2?u=$1 last;
-rewrite ^(.*)?$ /$2?s=$1 last;
-}
-}
 ~~~
 
 ~~~
@@ -174,7 +156,46 @@ https://www.bilibili.com/video/BV1V7411x7Qm?p=15
 or 
 http://192.168.133.131/home
 ~~~
+~~~
+部署流程
+2021年7月24日19:19:09
+nginx 伪静态
+location /home {
+if (!-e $request_filename){
+rewrite ^(.*)(.*?)$ /$1?k=$2 last;
+break;
+}}
+location /links {
+if (!-e $request_filename){
+rewrite ^(.*)(.*?)$ /$1?k=$2 last;
+break;
+}}
+
+location / {
+if (!-e $request_filename){
+rewrite ^(/u/)?$ /u/$2?u=$1 last;
+rewrite ^(.*)?$ /$2?s=$1 last;
+}
+}
+
+在服务器运行时请删除 .env 文件
 数据库修改文件file
 config/database.php
+因为要写入session,所以给予runtime目录755权限
+chmod 755 runtime
+
+
+
+~~~
+
+~~~
+待开发
+访问密码验证跳转功能
+url前台页面
+api说明,前台显示
+页面自动安装配置页面
+api文件/get 方式的缩短链接
+
+~~~
 
 

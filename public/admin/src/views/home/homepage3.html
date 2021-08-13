@@ -1,0 +1,238 @@
+
+
+<title>开启头部工具栏 - 数据表格</title>
+
+<div class="layui-card layadmin-header">
+  <div class="layui-breadcrumb" lay-filter="breadcrumb">
+    <a lay-href="">主页</a>
+    <a><cite>应用</cite></a>
+    <a><cite>批量管理链接</cite></a>
+    <a><cite></cite></a>
+  </div>
+</div>
+
+<div class="layui-fluid">
+  <div class="layui-row layui-col-space15">
+    <div class="layui-col-md12">
+      <div class="layui-card">
+        <div class="layui-card-header">头部工具栏</div>
+        <div class="layui-card-body">
+          <table class="layui-hide" id="test-table-toolbar" lay-filter="test-table-toolbar"></table>
+          <script type="text/html" id="test-table-toolbar-toolbarDemo">
+            <div class="layui-btn-container">
+              <button class="layui-btn layui-btn-sm" lay-event="getCheckData">获取选中行数据</button>
+              <button class="layui-btn layui-btn-sm" lay-event="getCheckLength">获取选中数目</button>
+              <button class="layui-btn layui-btn-sm" lay-event="isAll">验证是否全选</button>
+              <button class="layui-btn layui-btn-sm" lay-event="all_del">批量删除</button>
+              <button class="layui-btn layui-btn-sm" lay-event="add">添加</button>
+            </div>
+          </script>
+
+          <script type="text/html" id="test-table-toolbar-barDemo">
+            <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+            <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+          </script>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  layui.use('contlist', layui.factory('contlist')).use(['admin', 'contlist', 'table'], function() {
+    var $ = layui.$
+            , admin = layui.admin
+            , view = layui.view
+            , table = layui.table
+            , layer = layui.layer
+            , form = layui.form;
+
+  // })
+  //
+  // layui.use(['admin', 'table'], function(){
+  //   var admin = layui.admin
+  //           ,table = layui.table;
+    table.render({
+      elem: '#test-table-toolbar'
+      ,url:'/links'
+      ,toolbar: '#test-table-toolbar-toolbarDemo'
+      ,title: '用户数据表'
+      ,cols: [[
+        {type: 'checkbox', fixed: 'left'}
+        ,{field:'id', title:'ID', width:80, fixed: 'left', unresize: true, sort: true}
+        ,{field:'url', title:'目标网址', width:500}
+        ,{field:'link', title:'短链', width:80}
+        ,{field:'date', title:'创建日期', width:180, edit: 'text', sort: true}
+        ,{field:'hits', title:'点击', width:50}
+        ,{field:'pass', title:'密码',width:80}
+        ,{field:'custom', title:'链接', width:80, sort: true}
+        ,{field:'last_visit', title:'新访问', width:180}
+        ,{fixed: 'right', title:'操作', toolbar: '#test-table-toolbar-barDemo', width:150}
+      ]]
+      ,page: true
+    });
+
+    //头工具栏事件
+    table.on('toolbar(test-table-toolbar)', function(obj){
+      var checkStatus = table.checkStatus(obj.config.id);
+      switch(obj.event){
+        case 'getCheckData':
+          var data = checkStatus.data;
+          layer.alert(JSON.stringify(data));
+          break;
+        case 'getCheckLength':
+          var data = checkStatus.data;
+          layer.msg('选中了：'+ data.length + ' 个');
+          break;
+        case 'isAll':
+          layer.msg(checkStatus.isAll ? '全选': '未全选');
+          break;
+        case 'all_del':
+          var data = checkStatus.data;
+          var ids = [];
+          for (i=0;i<data.length;i++){
+            ids.push(data[i].id)
+          }
+          // console.log(ids);
+          admin.req({
+            url: "/links/dels",
+            data: {ids},
+            type: 'post',
+            success: function (res) {
+              // console.log(res);
+              if (res.status == 0)
+
+              {
+                // obj.del();
+                layer.msg(res.msg);
+                layui.table.reload('LAY-app-content-tags');
+                // layer.close(index);
+              }
+              layer.msg(res.msg)
+            }
+          });
+          layui.table.reload('test-table-toolbar'); //重载表格
+          // layer.close(index); //执行关闭
+          //layer.alert(JSON.stringify(data));
+
+          break;
+          case 'add':
+            // console.log('add');
+            admin.popup({
+              title: '添加分类'
+              ,area: ['450px', '350px']
+              ,id: 'LAY-popup-content-tags'
+              ,success: function(layero, index){
+                view(this.id).render('home/home3_form').done(function(){
+                  form.render(null, 'layuiadmin-form-tags');
+                  //监听提交
+                  form.on('submit(layuiadmin-app-tags-submit)', function(data){
+                    var field = data.field; //获取提交的字段
+                    admin.req({
+                      url:'/links/addlink',
+                      data:field,
+                      type:'post',
+                      success:function (res){
+                        //console.log(res)
+                        if(res.status==0){
+                          layer.msg(res.msg);
+                          layui.table.reload('LAY-app-content-tags');
+                          layer.close(index);
+                        }
+                        layer.msg(res.msg)
+                      }
+                    })
+                    //alert(JSON.stringify(field));
+                    //提交 Ajax 成功后，关闭当前弹层并重载表格
+                    //$.ajax({});
+                    layui.table.reload('LAY-app-content-tags'); //重载表格
+                    layer.close(index); //执行关闭
+                  });
+                });
+              }
+            });
+      }
+    });
+
+    //监听行工具事件
+    table.on('tool(test-table-toolbar)', function(obj){
+      var data = obj.data;
+      if(obj.event === 'del') {
+        layer.confirm('真的删除行么', function (index) {
+          admin.req({
+            url: "/links/del",
+            data: data,
+            type: 'post',
+            success: function (res) {
+              //console.log(res);
+              if (res.status == 0) {
+                obj.del();
+                layer.msg(res.msg);
+                layer.close(index);
+              }
+            }
+          });
+        });
+      }else if(obj.event === 'edit'){
+        admin.popup({
+               title: '编辑分类'
+              ,area: ['450px', '350px']
+              ,id: 'LAY-popup-content-tags'
+              ,success: function(layero, index){
+                  view(this.id).render('home/home3_form', data).done(function(){
+                    form.render(null, 'layuiadmin-form-tags');
+                    //监听提交
+                    form.on('submit(layuiadmin-app-tags-submit)', function(data){
+                      var field = data.field; //获取提交的字段
+                      // console.log(field);
+                      //提交 Ajax 成功后，关闭当前弹层并重载表格
+                      admin.req({
+                        url:'/links/edit',
+                        data: field,
+                        type:'post',
+                        success:function (res){
+                          if(res.status==0){
+                            layer.msg(res.msg);
+                            layui.table.reload('test-table-toolbar'); //重载表格
+                            layer.close(index); //执行关闭
+                          }else {
+                            layer.msg(res.msg)
+                            layer.close(index); //执行关闭
+                          }}
+                     });
+                    });
+                  });
+             }
+        });
+      }
+    });
+
+  var active = {
+    add: function () {
+      admin.popup({
+        title: '添加分类'
+        , area: ['450px', '350px']
+        , id: 'test-table-toolbar-toolbarDemo'
+        , success: function (layero, index) {
+          alert(ok);
+          view(this.id).render('home/home1_form').done(function () {
+            form.render(null, 'layuiadmin-form-tags');
+//test-table-toolbar     test-table-toolbar-toolbarDemo
+            table.on('tool(test-table-toolbar)', function(obj){
+              var data = obj.data;
+              if(obj.event === 'add'){
+                layer.confirm('真的删除行么', function(index){
+                  obj.del();
+                  layer.close(index);
+                });
+              }
+              });
+            });
+          }
+        });
+    }
+        ,del: function (){
+          alert('del');
+        }
+  }
+  })
+</script>

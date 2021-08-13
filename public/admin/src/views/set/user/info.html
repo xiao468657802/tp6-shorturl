@@ -1,0 +1,155 @@
+
+<title>设置我的资料</title>
+
+<div class="layui-card layadmin-header">
+    <div class="layui-breadcrumb" lay-filter="breadcrumb">
+        <a lay-href="">主页</a>
+        <a><cite>设置</cite></a>
+        <a><cite>我的资料</cite></a>
+    </div>
+</div>
+
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+        <div class="layui-col-md12">
+            <div class="layui-card">
+                <div class="layui-card-header">设置我的资料</div>
+                <div class="layui-card-body" pad15>
+
+                    <div class="layui-form" lay-filter="">
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">我的角色</label>
+                            <div class="layui-input-inline">
+                                <select name="role" lay-verify="" >
+                                    <option value="1" selected>超级管理员</option>
+                                    <option value="2" disabled>普通管理员</option>
+                                    <option value="3" disabled>审核员</option>
+                                    <option value="4" disabled>编辑人员</option>
+                                </select>
+                            </div>
+                            <div class="layui-form-mid layui-word-aux">当前角色不可更改为其它角色</div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">性别</label>
+                            <div class="layui-input-block" id="sex1">
+                                <input type="radio" name="sex" value="男" title="男" >
+                                <input type="radio" name="sex" value="女" title="女" checked >
+                            </div>
+                        </div>
+                        <script type="text/html" template lay-url="/home/token">
+                            <div class="layui-form" lay-filter="">
+                                <div class="layui-form-item" >
+
+                                    <div class="layui-input-inline">
+                                        <!--      hidden            15c890958326b4f5cafc182616708eef250760ab ,c6f29e5f7ee627f5978549a488a6113819a16a0a   {{d.data}}   <?php echo token(); ?> -->
+                                        <input type="hidden" name="__token__" value="{{d.data}}" size="80" >
+                                    </div>
+                                </div>
+                            </div>
+                        </script>
+
+                        <script type="text/html" template lay-url="/home/setuser">
+                            <div class="layui-form-item" id="layuiadmin-infoa-form-tags">
+                                <label class="layui-form-label">用户名</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" name="username" value="{{d.data[0].username}}"  class="layui-input">
+                                    <!--                        readonly -->
+                                </div>
+                                <!--                      <div class="layui-input-block" style="width:190px;height:2px;line-height:1.3px">-->
+                                <!--                          <textarea name="username" class="layui-textarea" style="width:190px;height:2px;line-height:1.3px">-->
+                                <!--                               {{d.data[0].username}}-->
+                                <!--                          </textarea>-->
+                                <!--                      </div>-->
+                                <div class="layui-form-mid layui-word-aux"></div>
+                            </div>
+                            <div class="layui-form-item" id="layuiadmin-infob-form-tags">
+                                <label class="layui-form-label">昵称</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" name="nickname" value="{{d.data[0].nickname}}" lay-verify="nickname" autocomplete="off" placeholder="请输入昵称" class="layui-input">
+                                </div>
+                            </div>
+
+
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">头像</label>
+                                <div class="layui-input-inline">
+                                    <input name="avatar" lay-verify="required" id="LAY_avatarSrc" placeholder="图片地址" value="{{d.data[0].avatar}}" class="layui-input">
+                                </div>
+                                <div class="layui-input-inline layui-btn-container" style="width: auto;">
+                                    <button type="button" class="layui-btn layui-btn-primary" id="LAY_avatarUpload">
+                                        <i class="layui-icon">&#xe67c;</i>上传图片
+                                    </button>
+                                    <button class="layui-btn layui-btn-primary" layadmin-event="avartatPreview">查看图片</button >
+                                </div>
+                            </div>
+
+                            <!--                  <div class="layui-form-item">-->
+                            <!--                    <label class="layui-form-label">手机</label>-->
+                            <!--                    <div class="layui-input-inline">-->
+                            <!--                      <input type="text" name="cellphone" value="" lay-verify="phone" autocomplete="off" class="layui-input">-->
+                            <!--                    </div>-->
+                            <!--                  </div>-->
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">邮箱</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" name="email" value="{{d.data[0].email}}" lay-verify="email" autocomplete="off" class="layui-input">
+                                </div>
+                            </div>
+                            <div class="layui-form-item layui-form-text">
+                                <label class="layui-form-label">备注</label>
+                                <div class="layui-input-block">
+                                    <textarea name="remarks" placeholder="请输入内容" class="layui-textarea">{{d.data[0].remarks}}</textarea>
+                                </div>
+                            </div>
+
+                            <div class="layui-form-item">
+                                <div class="layui-input-block">
+                                    <button class="layui-btn" lay-submit lay-filter="setmyinfo">确认修改</button>
+                                    <button type="reset" class="layui-btn layui-btn-primary">重新填写</button>
+                                </div>
+                            </div>
+
+                        </script>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function reimg(){
+        var input = document.getElementById("input");
+        input.src = "<?=$Verify['url']?>?rnd=" + Math.random();
+    }
+</script>
+<script>
+    //layui.use('set', layui.factory('set'));
+    layui.use(['admin','layer','form'], function(){
+        var $ = layui.$
+            ,admin = layui.admin
+            ,view = layui.view
+            ,layer =layui.layer
+            ,form = layui.form;
+        form.on('submit(setmyinfo)',function (data){
+            var data = data.field;
+            console.log(data);
+            admin.req({
+                url:'/home/save'
+                ,data:data
+                ,type:'post'
+                ,success:function (res){
+                    if (res.status==0){
+                        layer.alert(res.msg);
+                        layer.form.reload('layui-form');
+                        layer.close(index);
+                    }else{
+                        layer.alert(res.msg);
+                        icon: 1;
+                    }
+                }
+            })
+        })
+    })
+
+</script>

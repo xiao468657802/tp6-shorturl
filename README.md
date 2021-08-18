@@ -194,13 +194,48 @@ chmod 755 runtime
 ~~~
 
 ~~~
-待开发
+待开发 
 访问密码验证跳转功能
-url前台页面
-api说明,前台显示
-页面自动安装配置页面
-api文件/get 方式的缩短链接
+url前台页面   √
+api说明,前台显示  √
+页面自动安装配置页面 
+api文件/get 方式的缩短链接  √
+
+//q前台页面的url请求
+POST | get
+http://192.168.133.131/home/api?type=toShort&kind=local&url=https%3A%2F%2Ftinyurl.com%2Fapi-create.php
+
+api 请求 GET
+http://192.168.133.131/Api/?url=http://192.168.133.131:8888/site
+---17点46分
+
+
+
 
 ~~~
 
+~~~
+location ^~(api.php) {
+	if (!-e $request_filename){
+	    rewrite ^(api.php)(.*?)$ /Api.php?k=$2 last;
+	  break;
+	}}
+location /home {
+	if (!-e $request_filename){
+	    rewrite ^(.*)(.*?)$ /$1?k=$2 last;
+	  break;
+	}}
+location /links {
+	if (!-e $request_filename){
+    rewrite ^(.*)(.*?)$ /$1?k=$2 last;
+    break;
+	}}
+location / {
+	if (!-e $request_filename){
+	  rewrite ^(/u/)?$ /u/$2?u=$1 last;
+	  rewrite ^(.*)?$ /$2?s=$1 last;
+	}
+}
 
+
+~~~

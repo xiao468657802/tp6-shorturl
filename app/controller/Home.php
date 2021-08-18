@@ -18,6 +18,49 @@ class Home extends BaseController
     {
         return "<script>location.href = '/admin/start/' </script>";
     }
+    public function api(Request $request)
+    {
+//        error_reporting(0);
+        $url=$request->param();
+        header('Content-type: application/json; charset=utf-8');
+        header('Access-Control-Allow-Origin:*');
+        header('Access-Control-Allow-Methods:POST');
+
+        if ($url['type'] == 'toLong') {
+            $long_url = $this->restoreUrl($url['url']);
+//            $this->returnResult($long_url);
+        } elseif ($url['type'] == 'toShort') {
+//            $long_url=urlencode($url['url']);
+            if ($url['kind'] == 'isgd') {
+                $short_url = $this->get("https://is.gd/api.php?longurl=" . $url['url']);
+            } elseif ($url['kind'] == 'unu') {
+                $short_url = $this->get("https://u.nu/api.php?action=shorturl&format=simple&url=" . $url['url']);
+            } elseif ($url['kind'] == 'tinyurl') {
+                $short_url = $this->get("https://tinyurl.com/api-create.php?url=" .$url['url']);
+            } elseif ($url['kind'] == 'vwlin') {
+                $short_url = $this->get("https://vwlin.cn//api.php?url=" .$url['url']);
+            } elseif ($url['kind'] == 'local') {
+                $short_url = $this->get("http://192.168.133.131/Api/?url=".$url['url']);
+            } else {
+                $short_url = '';
+            }
+        } else {
+            $short_url = '';
+        }
+        $short = ['code' => explode(",",$short_url)[0],
+            'shorturl' =>explode(",",$short_url)[2] ];
+      if(!empty($short)){
+            $res_data=['url'=>$short['shorturl']
+                ,'code'=>200];
+        } else {
+            $res_data['code'] = 400;
+            $res_data['msg'] = '获取失败';
+        }
+//      $res_json
+//        return (json($res_data,JSON_UNESCAPED_UNICODE));
+        exit(json_encode($res_data,JSON_UNESCAPED_UNICODE));
+    }
+
     public function setuser(Request $request)   /* 获取用户名等信息 */
     {
 //        var_dump(boolval($this->checkdtoken($request,$request->param())));

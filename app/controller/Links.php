@@ -57,7 +57,7 @@ class Links extends Base
         ,         'pass'=>$data['pass']];
 //        $updatedata = Db::name('links')->where('link','=',$dataarray['link'])->select();
         $findda = Db::name('links')->where('link','=',$dataarray['link'])->find();
-        if (count($findda)){  //判断是否查询到库中存在的
+        if (empty($findda)){  //判断是否查询到库中存在的
             $dataarray['link'] = $this->generateRandNumberVerificationCode($size = 5);
         }
 

@@ -23,11 +23,11 @@ return [
             // 服务器地址
             'hostname'        => env('database.hostname', '127.0.0.1'),
             // 数据库名
-            'database'        => env('database.database', ''),
+            'database'        => env('database.database', 'short_com'),
             // 用户名
-            'username'        => env('database.username', 'root'),
+            'username'        => env('database.username', 'short_com'),
             // 密码
-            'password'        => env('database.password', ''),
+            'password'        => env('database.password', 'short_com'),
             // 端口
             'hostport'        => env('database.hostport', '3306'),
             // 数据库连接参数

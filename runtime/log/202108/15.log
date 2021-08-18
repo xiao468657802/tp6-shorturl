@@ -1,0 +1,60 @@
+[2021-08-15T16:16:20+08:00][error] [0]Too few arguments to function app\controller\repost(), 1 passed in /www/wwwroot/short.com/app/controller/Home.php on line 143 and at least 2 expected[/www/wwwroot/short.com/app/controller/Home.php:73]
+[2021-08-15T16:23:06+08:00][error] [0]Call to undefined function app\controller\arry()[/www/wwwroot/short.com/app/controller/Home.php:86]
+[2021-08-15T16:28:17+08:00][error] [0]Call to undefined function app\controller\arry()[/www/wwwroot/short.com/app/controller/Home.php:86]
+[2021-08-15T16:32:20+08:00][error] [0]Call to undefined function app\controller\arry()[/www/wwwroot/short.com/app/controller/Home.php:86]
+[2021-08-15T16:51:29+08:00][sql] CONNECT:[ UseTime:0.044477s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-15T16:51:29+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.041269s ]
+[2021-08-15T16:51:29+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'vnteW' LIMIT 1 [ RunTime:0.007336s ]
+[2021-08-15T16:51:29+08:00][error] [2]count(): Parameter must be an array or an object that implements Countable[/www/wwwroot/short.com/app/controller/Links.php:60]
+[2021-08-15T16:52:45+08:00][sql] CONNECT:[ UseTime:0.000822s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-15T16:52:45+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000835s ]
+[2021-08-15T16:52:45+08:00][sql] SELECT * FROM `links` WHERE  `link` = '1cUc3' LIMIT 1 [ RunTime:0.000642s ]
+[2021-08-15T16:52:45+08:00][error] [2]count(): Parameter must be an array or an object that implements Countable[/www/wwwroot/short.com/app/controller/Links.php:60]
+[2021-08-15T16:52:45+08:00][sql] CONNECT:[ UseTime:0.001046s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-15T16:52:45+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000941s ]
+[2021-08-15T16:52:45+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'ofbrV' LIMIT 1 [ RunTime:0.000569s ]
+[2021-08-15T16:52:45+08:00][error] [2]count(): Parameter must be an array or an object that implements Countable[/www/wwwroot/short.com/app/controller/Links.php:60]
+[2021-08-15T17:09:43+08:00][sql] CONNECT:[ UseTime:0.001040s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-15T17:09:43+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001934s ]
+[2021-08-15T17:09:43+08:00][sql] SELECT * FROM `links` [ RunTime:0.000828s ]
+[2021-08-15T17:10:10+08:00][sql] CONNECT:[ UseTime:0.001537s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-15T17:10:10+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000752s ]
+[2021-08-15T17:10:10+08:00][sql] SELECT * FROM `links` [ RunTime:0.000482s ]
+[2021-08-15T17:10:22+08:00][sql] CONNECT:[ UseTime:0.000806s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-15T17:10:22+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000852s ]
+[2021-08-15T17:10:22+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'iqGLA' LIMIT 1 [ RunTime:0.000555s ]
+[2021-08-15T17:10:22+08:00][error] [2]count(): Parameter must be an array or an object that implements Countable[/www/wwwroot/short.com/app/controller/Links.php:60]
+[2021-08-15T17:11:31+08:00][sql] CONNECT:[ UseTime:0.000762s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-15T17:11:31+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000818s ]
+[2021-08-15T17:11:31+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'tmICN' LIMIT 1 [ RunTime:0.000566s ]
+[2021-08-15T17:11:31+08:00][error] [2]count(): Parameter must be an array or an object that implements Countable[/www/wwwroot/short.com/app/controller/Links.php:60]
+[2021-08-15T17:12:02+08:00][sql] CONNECT:[ UseTime:0.000804s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-15T17:12:02+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001359s ]
+[2021-08-15T17:12:02+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'qrDtH' LIMIT 1 [ RunTime:0.000789s ]
+[2021-08-15T17:12:02+08:00][error] [2]count(): Parameter must be an array or an object that implements Countable[/www/wwwroot/short.com/app/controller/Links.php:60]
+[2021-08-15T17:12:16+08:00][sql] CONNECT:[ UseTime:0.000398s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-15T17:12:16+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001412s ]
+[2021-08-15T17:12:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = '6FUXV' LIMIT 1 [ RunTime:0.000470s ]
+[2021-08-15T17:12:16+08:00][error] [2]count(): Parameter must be an array or an object that implements Countable[/www/wwwroot/short.com/app/controller/Links.php:60]
+[2021-08-15T17:13:47+08:00][sql] CONNECT:[ UseTime:0.000669s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-15T17:13:47+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001451s ]
+[2021-08-15T17:13:47+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'cm4RE' LIMIT 1 [ RunTime:0.000478s ]
+[2021-08-15T17:13:47+08:00][sql] SELECT `id` FROM `links` WHERE  `link` = '5YRFg' LIMIT 1 [ RunTime:0.001725s ]
+[2021-08-15T17:13:47+08:00][sql] INSERT INTO `links` SET `pass` = '' , `last_visit` = '2021-08-15 17:13:47' , `url` = 'https://www.shuzhiduo.com/A/xl56L4n7zr/' , `link` = '5YRFg' [ RunTime:0.005581s ]
+[2021-08-15T17:14:01+08:00][sql] CONNECT:[ UseTime:0.000598s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-15T17:14:01+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000671s ]
+[2021-08-15T17:14:01+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'HFR4s' LIMIT 1 [ RunTime:0.000518s ]
+[2021-08-15T17:14:01+08:00][sql] SELECT `id` FROM `links` WHERE  `link` = 'voFUj' LIMIT 1 [ RunTime:0.000589s ]
+[2021-08-15T17:14:01+08:00][sql] INSERT INTO `links` SET `pass` = '' , `last_visit` = '2021-08-15 17:14:01' , `url` = 'https://www.shuzhiduo.com/A/xl56L4n7zr/' , `link` = 'voFUj' [ RunTime:0.000546s ]
+[2021-08-15T17:14:24+08:00][sql] CONNECT:[ UseTime:0.000975s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-15T17:14:24+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000870s ]
+[2021-08-15T17:14:24+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'aZcaQ' LIMIT 1 [ RunTime:0.000578s ]
+[2021-08-15T17:14:24+08:00][sql] SELECT `id` FROM `links` WHERE  `link` = 'GWa2H' LIMIT 1 [ RunTime:0.000748s ]
+[2021-08-15T17:14:24+08:00][sql] INSERT INTO `links` SET `pass` = '' , `last_visit` = '2021-08-15 17:14:24' , `url` = 'https://www.shuzhiduo.com/A/xl56L4n7zr/' , `link` = 'GWa2H' [ RunTime:0.000612s ]
+[2021-08-15T17:36:44+08:00][error] [0]Too few arguments to function app\controller\returnResult(), 1 passed in /www/wwwroot/short.com/app/controller/Home.php on line 105 and exactly 2 expected[/www/wwwroot/short.com/app/controller/Home.php:61]
+[2021-08-15T17:38:21+08:00][error] [0]Too few arguments to function app\controller\returnResult(), 1 passed in /www/wwwroot/short.com/app/controller/Home.php on line 105 and exactly 2 expected[/www/wwwroot/short.com/app/controller/Home.php:61]
+[2021-08-15T17:45:59+08:00][error] [0]Argument 1 passed to app\controller\returnResult() must be an instance of app\Request, string given, called in /www/wwwroot/short.com/app/controller/Home.php on line 106[/www/wwwroot/short.com/app/controller/Home.php:61]
+[2021-08-15T17:46:01+08:00][error] [0]Argument 1 passed to app\controller\returnResult() must be an instance of app\Request, string given, called in /www/wwwroot/short.com/app/controller/Home.php on line 106[/www/wwwroot/short.com/app/controller/Home.php:61]
+[2021-08-15T17:46:26+08:00][error] [0]Argument 1 passed to app\controller\returnResult() must be an instance of app\Request, string given, called in /www/wwwroot/short.com/app/controller/Home.php on line 106[/www/wwwroot/short.com/app/controller/Home.php:61]
+[2021-08-15T17:46:31+08:00][error] [0]Argument 1 passed to app\controller\returnResult() must be an instance of app\Request, string given, called in /www/wwwroot/short.com/app/controller/Home.php on line 106[/www/wwwroot/short.com/app/controller/Home.php:61]
+[2021-08-15T17:46:33+08:00][error] [0]Argument 1 passed to app\controller\returnResult() must be an instance of app\Request, string given, called in /www/wwwroot/short.com/app/controller/Home.php on line 106[/www/wwwroot/short.com/app/controller/Home.php:61]

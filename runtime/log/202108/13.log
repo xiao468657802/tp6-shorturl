@@ -1,0 +1,93 @@
+[2021-08-13T17:14:20+08:00][error] [10501]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+[2021-08-13T17:14:33+08:00][error] [10501]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+[2021-08-13T17:15:41+08:00][sql] CONNECT:[ UseTime:0.003430s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-13T17:15:41+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.031351s ]
+[2021-08-13T17:15:41+08:00][sql] SELECT * FROM `users` [ RunTime:0.001987s ]
+[2021-08-13T17:15:41+08:00][sql] SELECT * FROM `users` WHERE  `username` = 'admin' [ RunTime:0.003297s ]
+[2021-08-13T17:15:43+08:00][sql] CONNECT:[ UseTime:0.002953s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-13T17:15:43+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.013888s ]
+[2021-08-13T17:15:43+08:00][sql] SELECT * FROM `users` [ RunTime:0.005172s ]
+[2021-08-13T17:15:50+08:00][sql] CONNECT:[ UseTime:0.001248s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-13T17:15:50+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.005936s ]
+[2021-08-13T17:15:50+08:00][sql] SELECT * FROM `links` [ RunTime:0.001877s ]
+[2021-08-13T17:15:51+08:00][sql] CONNECT:[ UseTime:0.005638s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-13T17:15:51+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.003224s ]
+[2021-08-13T17:15:51+08:00][sql] SELECT * FROM `links` [ RunTime:0.001031s ]
+[2021-08-13T17:15:52+08:00][sql] CONNECT:[ UseTime:0.001116s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-13T17:15:52+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002514s ]
+[2021-08-13T17:15:52+08:00][sql] SELECT * FROM `links` [ RunTime:0.002561s ]
+[2021-08-13T17:19:46+08:00][sql] CONNECT:[ UseTime:0.001298s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-13T17:19:46+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.006574s ]
+[2021-08-13T17:19:46+08:00][sql] SELECT * FROM `links` [ RunTime:0.000672s ]
+[2021-08-13T17:19:46+08:00][sql] CONNECT:[ UseTime:0.000704s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-13T17:19:46+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.005164s ]
+[2021-08-13T17:19:46+08:00][sql] SELECT * FROM `links` [ RunTime:0.002213s ]
+[2021-08-13T17:19:47+08:00][sql] CONNECT:[ UseTime:0.001598s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-13T17:19:47+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.005443s ]
+[2021-08-13T17:19:47+08:00][sql] SELECT * FROM `links` [ RunTime:0.003576s ]
+[2021-08-13T17:19:52+08:00][sql] CONNECT:[ UseTime:0.002750s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-13T17:19:52+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.004178s ]
+[2021-08-13T17:19:52+08:00][sql] SELECT * FROM `links` [ RunTime:0.004403s ]
+[2021-08-13T17:19:53+08:00][sql] CONNECT:[ UseTime:0.001772s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-13T17:19:53+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.004885s ]
+[2021-08-13T17:19:53+08:00][sql] SELECT * FROM `links` [ RunTime:0.003401s ]
+[2021-08-13T17:21:58+08:00][sql] CONNECT:[ UseTime:0.002652s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-13T17:21:58+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.003324s ]
+[2021-08-13T17:21:58+08:00][sql] INSERT INTO `links` SET `url` = 'http://api.xiaod8.cn/api/pay/qr.html?ali=https%3A%2F%2Fqr.alipay.com%2Ffkx17078e9ikgq6seki6dec&vx=wxp%3A%2F%2Ff2f04KksLkECyc_maGiSzC4IlD1_JBuHqyMT7DPG1AYgX7g%3D&qq=https%3A%2F%2Fi.qianbao.qq.com%2Fwallet%2Fsqrcode.htm%3Fm%3Dtenpay%26f%3Dwallet%26a%3D1%26ac%3DCAEQm5D3wwQYhKzehAY%253D_xxx_sign%26u%3D1216202779%26n%3D%25E5%25A2%25A8%25E7%25BE%25BD%25E4%25BF%258A%25E7%2586%2599&uin=1216202779' , `link` = 'Rbjnq' , `pass` = '1' , `last_visit` = '2021-08-13 17:21:58' [ RunTime:0.011827s ]
+[2021-08-13T17:21:58+08:00][sql] CONNECT:[ UseTime:0.000523s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-13T17:21:58+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.003663s ]
+[2021-08-13T17:21:58+08:00][sql] SELECT * FROM `links` [ RunTime:0.004753s ]
+[2021-08-13T17:21:58+08:00][sql] CONNECT:[ UseTime:0.001265s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-13T17:21:58+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.004765s ]
+[2021-08-13T17:21:58+08:00][sql] SELECT * FROM `links` [ RunTime:0.001526s ]
+[2021-08-13T17:22:21+08:00][sql] CONNECT:[ UseTime:0.001019s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-13T17:22:21+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.005634s ]
+[2021-08-13T17:22:21+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'Rbjnq' [ RunTime:0.000882s ]
+[2021-08-13T17:23:35+08:00][sql] CONNECT:[ UseTime:0.001836s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-13T17:23:35+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.008437s ]
+[2021-08-13T17:23:35+08:00][sql] SELECT * FROM `users` [ RunTime:0.001464s ]
+[2021-08-13T17:23:35+08:00][sql] CONNECT:[ UseTime:0.002066s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-13T17:23:35+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002753s ]
+[2021-08-13T17:23:35+08:00][sql] SELECT * FROM `links` [ RunTime:0.001693s ]
+[2021-08-13T17:23:46+08:00][sql] CONNECT:[ UseTime:0.001613s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-13T17:23:46+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.004105s ]
+[2021-08-13T17:23:46+08:00][sql] SELECT * FROM `users` [ RunTime:0.001798s ]
+[2021-08-13T17:27:09+08:00][error] [0]Call to undefined method think\View::temple()
+[2021-08-13T17:29:38+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:29:49+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:29:51+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:30:16+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:30:17+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:30:17+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:30:17+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:30:18+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:30:19+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:30:24+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:30:25+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:30:25+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:30:26+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:30:26+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:30:26+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:30:26+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:30:26+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:32:10+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:32:11+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:32:11+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:32:11+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:32:11+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:32:12+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:32:35+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:32:36+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:32:36+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:32:36+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:32:37+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:32:37+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:32:37+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:32:37+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:33:02+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically
+[2021-08-13T17:38:40+08:00][sql] CONNECT:[ UseTime:0.001449s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-13T17:38:40+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.004868s ]
+[2021-08-13T17:38:40+08:00][sql] SELECT * FROM `users` [ RunTime:0.000844s ]
+[2021-08-13T17:38:43+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically[/www/wwwroot/short.com/app/controller/Index.php:27]
+[2021-08-13T17:40:21+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically[/www/wwwroot/short.com/app/controller/Index.php:27]
+[2021-08-13T17:40:22+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically[/www/wwwroot/short.com/app/controller/Index.php:27]

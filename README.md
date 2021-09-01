@@ -195,11 +195,15 @@ chmod 755 runtime
 
 ~~~
 待开发 
-访问密码验证跳转功能
+访问密码验证跳转功能  √
+dan单条链接重复生成短链   √
 url前台页面   √
 api说明,前台显示  √
 页面自动安装配置页面 
 api文件/get 方式的缩短链接  √
+link 链接的访问次数统计
+网站的首页导航的关键词等设置  
+对前台信息查询进行安全加固，如/links
 
 //q前台页面的url请求
 POST | get
@@ -236,6 +240,10 @@ location / {
 	  rewrite ^(.*)?$ /$2?s=$1 last;
 	}
 }
+
+https://www.layui.com/doc/element/form.html
+g官方文档
+
 
 
 ~~~

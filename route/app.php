@@ -9,22 +9,16 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 use think\facade\Route;
-//Route::get('Api/save','Api/save');
-Route::get('/Api','/Api/index');//->ext('php');
 Route::rule('/home/api','/Home/api','GET|POST');
 Route::get('/home/captcha','/Home/verify'); //http://192.168.133.131/home/captcha?1627879768528=  此目录接参数,不用加  :h
 Route::get('/home/index','/Home/index');  //家入口路由
-//Route::resource('user','User');
+
 Route::post('links/edit','Links/edit');
 Route::post('links/del','Links/del');
 Route::post('links/addlink','Links/addlink');
 Route::delete('links/delete','Links/delete');
 Route::get('links/read','Links/read');
-
-//Route::get('links/','Links/save');
-//Route::post('links/','Links/save');
 Route::post('links/dels','Links/dels');
-//Route::get('links/:k','Links/index');  //接参数不用写二级地址
 Route::get('links/index','Links/index');
 
 Route::get('/home/setuser','Home/setuser'); // 用户管理路由
@@ -33,9 +27,8 @@ Route::get('/home/spwd','/Home/spwd');
 Route::get('/home/respwd','/Home/respwd');
 Route::get('/home/httphost','/Home/httphost'); //domain host 路由
 Route::get('/home/token','/Home/token');  //登录验证路由
-//Route::get('home/index:h','Home/index');
 Route::get('u/:u','Url/index');
-Route::get('/index','/Index/index');
+//Route::get('/index','/Index/index');
 
 
 /*  路由也有顺序, :s 模糊匹配的放最后, 'u/:k' 二级模糊匹配,方倒数第二. 'home' 三级精准匹配最上面精准匹配 */

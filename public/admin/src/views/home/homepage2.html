@@ -37,11 +37,7 @@
           <div class="layui-input-inline">
             <select name="label">
               <option value="">请选择标签</option>
-              <option value="0">美食</option>
-              <option value="1">新闻</option>
-              <option value="2">八卦</option>
-              <option value="3">体育</option>
-              <option value="4">音乐</option>
+
             </select>
           </div>
         </div>
@@ -124,7 +120,7 @@
           ,area: ['550px', '550px']
           ,id: 'LAY-popup-content-add'
           ,success: function(layero, index){
-            view(this.id).render('app/content/listform').done(function(){
+            view(this.id).render('home/home2_form').done(function(){
               form.render(null, 'layuiadmin-app-form-list');
 
               //监听提交

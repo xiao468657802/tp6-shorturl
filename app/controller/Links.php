@@ -3,13 +3,15 @@ declare (strict_types = 1);
 
 namespace app\controller;
 
-use app\model\User as UserModel;
+//use app\model\User as UserModel;
 use app\model\Links as LinksModel;
 //use app\validate\User as UserValidate;
 use app\validate\Links as Linksvalidate;
 use think\facade\Db;
 use think\exception\ValidateException;
-use think\facade\Validate;
+//use think\facade\Validate;
+//use think\Request;
+//use think\facade\Request;
 use think\Request;
 
 class Links extends Base
@@ -19,11 +21,23 @@ class Links extends Base
      *
      * @return \think\Response
      */
-    public function index()
+    public function index(Request $request)
     {
+            $check = $request->checkToken('__token__',$request->param());
+            if(false === $check)
+            {
+                //throw new ValidateException('invalid token');
+                return json(['code' => 0, 'status' => 0, 'msg' => '无效token,请 按 F5刷新页面', 'data' => '']);
+            }
+            $paramdata = \think\facade\Request::instance()->param();
+            $page = (int)$paramdata['page'];
+            $limit = (int)$paramdata['limit'];
 
-        $data = LinksModel::select();
-        return $this->create($data,$data->isEmpty()?'Error':'ok',$code= 0);
+            $data = Db::name('links')->page($page,$limit)->select();//->order('id ')
+            $count = Db::name('links')->count();
+    //        $data = LinksModel::select();
+    //        return $this->create($data,$data->isEmpty()?'Error':'ok',$code= 0);
+            return json(['data'=>$data,'code'=>0,'msg'=>'ok','page'=>$page,'limit'=>$limit,'count'=>$count]);
     }
 
     /**
@@ -127,6 +141,15 @@ class Links extends Base
 //        }
         return json(['code'=>0,'status'=>1,'msg'=>'error','data'=>'']); //如开通请注释这行
     }
+    public function select()
+    {  //cha查询接口
+//        $paramdata = Request::instance()->param();
+//        $page = (int)$paramdata['page'];
+//        $limit = (int)$paramdata['limit'];
+//        $data = Db::name('links')->page($page,$limit)->select();//->order('id ')
+//        $count = Db::name('links')->count();
+//        return json(['data'=>$data,'code'=>0,'msg'=>'ok','page'=>$page,'limit'=>$limit,'count'=>$count]);
+    }
     public function addlink(\app\Request $request){
         $data = \request()->param();   // 公用添加
 
@@ -184,18 +207,15 @@ class Links extends Base
         }else{
             $slen = strlen($data['ids']);
         }
-//        $data_data['id'] = '';
         for($i=0;$i<$slen;$i++){
             $data_data = ['id' => $data['ids'][$i]];  //使用相同名的变量,会覆盖原来变量的内容
 //            print_r($slen.';2;i=0'.$i.';3 $data_data[id]=365'.$data_data['id'].'$data[ids][$i]=365'.$data['ids'][$i]);
-
             $ret= Db::name('links')->delete($data_data['id']);  //在一个方法或循环等中,遇到return即结束执行,  结束
-
         }
         if($ret){
             return json(['code'=>0,'status'=>0,'msg'=>'批量删除成功','data'=>'']); //pa判断上面ret执行成功返回
         }
         return json(['code'=>0,'status'=>1,'msg'=>'error or empty!','data'=>'']);
-        //return json(['code'=>0,'status'=>0,'msg'=>'error','data'=>$data]);
     }
+
 }

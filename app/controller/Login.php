@@ -4,6 +4,7 @@
 namespace app\controller;
 use app\BaseController;
 // think\facade\View;
+use http\Client;
 use think\facade\Db;
 use think\Response;
 use think\route\dispatch\Controller;
@@ -12,24 +13,31 @@ class Login extends BaseController
 {
     public function login()
     {
-        $captchaa = input('post.vercode','','trim');
-//        echo $captchaa;
-        $page = Db::name('users')->select();
+//        $captchaa = input('post.vercode','','trim');
         //y验证码模块
-//        if(!captcha_check(input('post.vercode'))){
-//            return json(['code'=>0,'status'=>1,'msg'=>'验证码错误']);;
-//        }
+        if(!captcha_check(input('post.vercode'))){
+            return json(['code'=>0,'status'=>1,'msg'=>'验证码错误']);;
+        }
         //下面验证密码账号模块
         if ($this->request->isPost()) {
             // 处理登陆请求
             $username = input('post.username', '', 'trim');
             $password = input('post.password', '', 'trim');
+            $page = Db::name('users')->select();
             $ret = Db::name('users')->where('username' ,'=',$username)->select();
             $data = ['access_token'=> 'c276e61cd13ad99fc650e6908c7e5e65b63d2f32185ecfed6b801ee3fbdd5c1b'];
             // print_r($data);
             if ($username == $page[0]['username'] && md5(md5($password).'paswd') == $page[0]['password']) {
                 session('admin_id', 1);
                 if($page){
+                    $datime = date("Y-m-d H:i:s",time());
+                    $login_count = (1+$page[0]['login_count']);
+                    $client = [
+                     'last_ip'=>$_SERVER["REMOTE_ADDR"]
+                    ,'is_admin'=>'1'
+                    ,'lastlogin_time'=>$datime
+                    ,'login_count'=>$login_count];
+                    $insert = Db::name('users')->where('id',$page[0]['id'])->update($client);
                     return json(['code'=>0,'status'=>0,'msg'=>'success','data'=>$data]); //pa判断上面ret执行成功返回
                 }
 

@@ -120,7 +120,7 @@ use think\route\Rule;
  * @method static mixed offsetSet($name, $value)
  * @method static mixed offsetUnset($name)
  */
-class Request extends Facade
+class Request extends Facade//verdor/topthink/framework/src/think/facade/Request
 {
     /**
      * 获取当前Facade对应类名（或者已经绑定的容器对象标识）

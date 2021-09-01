@@ -22,8 +22,9 @@ class Api extends Base
      */
     public function index(Request $request)
     {
-//        $data = ApiModel::select();
-//        return $this->create($data,$data->isEmpty()?'Error':'ok',$code= 0);
+        /*api 请求 GET
+http://192.168.133.131/Api/?url=http://192.168.133.131:8888/site
+---17点46分*/
         $data = $request->param();
         if(empty($data['link'])){
             for($i=1;$i<2;$i++){
@@ -42,7 +43,24 @@ class Api extends Base
             ,        'url'=>$data['url']
             ,        'link'=>$data['link']
             ,         'pass'=>$data['pass']];
-//        $updatedata = Db::name('links')->where('link','=',$dataarray['link'])->select();
+        $longUrl = $dataarray['url'];
+
+        $checkon = Db::name('users')->where('id','=','1')->find();
+//        print_r($checkon);
+        if($checkon['checkon'] == 'on'){
+            $seldata= Db::name('links')->where('url','=',"$longUrl")->select();
+            if (is_object($seldata)) {  ///单条链接重复生成短链开关
+                $selarray = array_values((array)$seldata);
+                if(!empty($selarray[0])){
+                    $shortlink= $selarray[0][0]['link'];
+                    $hostarr = $_SERVER['HTTP_HOST'];
+                    $httphost = [ 'data' => $_SERVER['REQUEST_SCHEME'].'://'.$hostarr];
+                    $dataarray=['link'=>$httphost['data'].'/u/'.$shortlink];
+                    return $this->create($dataarray,'success',200);
+                }
+            }
+        }
+
         $findda = Db::name('links')->where('link','=',$dataarray['link'])->find();
         if (empty($findda)){  //判断是否查询到库中存在的
             $dataarray['link'] = $this->generateRandNumberVerificationCode($size = 5);
@@ -62,14 +80,9 @@ class Api extends Base
         if(empty($id)) {
             return $this->create([], '注册失败', 400);
         }else{
-//            return $this->create($id,'注册成功',200);
             $shortlink= $dataarray['link'];
             $hostarr = $_SERVER['HTTP_HOST'];
-
-            //print_r($_SERVER); // REQUEST_SCHEME 这个常量可能是取HTTP或https的值
-//        print_r($hostarr);  //192.168.133.131
             $httphost = [ 'data' => $_SERVER['REQUEST_SCHEME'].'://'.$hostarr];
-//            print_r($dataarray['link']);
             $dataarray=['link'=>$httphost['data'].'/u/'.$shortlink];
             return $this->create($dataarray,'success',200);
         }

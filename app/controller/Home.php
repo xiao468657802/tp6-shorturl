@@ -197,6 +197,15 @@ class Home extends BaseController
         // return View::fetch('/token/index');
         return json(['code'=>0,'status'=>0,'msg'=>'success','data'=>$data]);
     }
+    public function keywords(){
+        $data = Db::name('settings')->select();
+        if(!empty($data)){
+            return json(['code'=>0,'status'=>0,'msg'=>'success!','data'=>$data]);
+        }else{
+            return json(['code'=>0,'status'=>1,'msg'=>'fail!','data'=>'']);
+        }
+
+    }
     public function website(\think\Request $request)
     {
         $data = $request->param();
@@ -204,7 +213,9 @@ class Home extends BaseController
             'id'=>1
             ,'sitename'=>$data['sitename']
             ,'domain'=>$data['domain']
-        ,'cache'=>$data['cache']
+            ,'cachetime'=>$data['cachetime']
+            ,'maxfile'=>$data['maxfile']
+            ,'filtype'=>$data['filtype']
         ,'title'=>$data['title']
         ,'keywords'=>$data['keywords']
         ,'descript'=>$data['descript']
@@ -220,8 +231,5 @@ class Home extends BaseController
             return json(['code'=>0,'status'=>0,'msg'=>'success!','data'=>$data]);
         }
         return json(['code'=>0,'status'=>1,'msg'=>'fail !','data'=>'']);
-
-
-
     }
 }

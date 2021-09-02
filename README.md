@@ -162,24 +162,7 @@ admin
 123456
 ~~~
 ~~~
-部署流程
-2021年7月24日19:19:09
-nginx 伪静态
-location /home {
-if (!-e $request_filename){
-rewrite ^(.*)(.*?)$ /$1?k=$2 last;
-break;
-}}
-location /links {
-if (!-e $request_filename){
-rewrite ^(.*)(.*?)$ /$1?k=$2 last;
-break;
-}}
 
-location / {
-if (!-e $request_filename){
-rewrite ^(/u/)?$ /u/$2?u=$1 last;
-rewrite ^(.*)?$ /$2?s=$1 last;
 }
 }
 
@@ -201,7 +184,7 @@ url前台页面   √
 api说明,前台显示  √
 页面自动安装配置页面 
 api文件/get 方式的缩短链接  √
-link 链接的访问次数统计
+link 链接的访问次数统计 √
 网站的首页导航的关键词等设置  
 对前台信息查询进行安全加固，如/links
 

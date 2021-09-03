@@ -18,7 +18,7 @@ class Api extends Validate
      */
 //    protected $rule = [];
     protected $rule = [
-        'link|link' => 'require|chsDash|unique:links|require|min:5|require|max:5'
+        'link|link' => 'require|chsDash|unique:links|require|min:5|require|max:10'
     ];
     /**
      * 定义错误信息

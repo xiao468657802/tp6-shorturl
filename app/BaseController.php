@@ -155,64 +155,16 @@ abstract class BaseController
         curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, 2);
         curl_setopt($curl, CURLOPT_ENCODING, 'gzip');
         $data = curl_exec($curl);
-//        var_dump($data);
         $curlInfo = curl_getinfo($curl);
         curl_close($curl);
-//        var_dump($curlInfo);
         if ($curlInfo['http_code'] == 301 || $curlInfo['http_code'] == 302) {
             return $curlInfo['redirect_url'];
         }
-        return '';
+        return 'error';
     }
 	public function repost($url)
     {
-        $curl = curl_init();
 
-        curl_setopt_array($curl, array(
-            CURLOPT_URL => "https://u.nu/api/url/add",
-            CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_ENCODING => "",
-            CURLOPT_MAXREDIRS => 2,
-            CURLOPT_TIMEOUT => 10,
-            CURLOPT_FOLLOWLOCATION => true,
-            CURLOPT_CUSTOMREQUEST => "POST",
-            CURLOPT_HTTPHEADER => array(
-                "Authorization: Token SGX4yitHzsEJ",
-                "Content-Type: application/json",
-            ),
-            CURLOPT_POSTFIELDS => '{
-    "url": "https://google.com",
-    "custom": "google",
-    "password": "mypass",
-    "domain": "http://goo.gl",
-    "expiry": "2020-11-11 12:00:00",
-    "type": "splash",
-    "geotarget": [{
-        "location": "Canada",
-        "link": "https://google.ca"
-      },
-      {
-        "location": "United States",
-        "link": "https://google.us"
-      }
-    ],
-    "devicetarget": [{
-        "device": "iPhone",
-        "link": "https://google.com"
-      },
-      {
-        "device": "Android",
-        "link": "https://google.com"
-      }
-    ]
-  }',
-        ));
-
-        $response = curl_exec($curl);
-
-        curl_close($curl);
-//        echo $response;
-        return $response;
 	}
     public function get($url)
     {//get请求
@@ -225,23 +177,19 @@ abstract class BaseController
         curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
         $result = curl_exec($ch);
         curl_close($ch);
-
-        return json_decode($result);
-
-    }//  解决办法二，你可以通过使用curl函数来替代file_get_contents函数，当然你的主机必须支持curl函数。
+        if(is_string($result)){
+            return json_decode($result);
+        }else{
+            exit($result);
+        }
+    }
+    public function file_get($url){
+        $result = file_get_contents($url);
+        if(is_string($result)){
+            return json_decode($result);
+        }else{
+            exit($result);
+        }
+    }
 }
-//方法1: 用file_get_contents 以get方式获取内容：
-//$url='http://www.51growup.com/';
-//$html = file_get_contents($url);
-//echo $html;
-//
-//方法2: 用fopen打开url, 以get方式获取内容
-// $fp = fopen($url, 'r'); stream_get_meta_data($fp); while(!feof($fp)) { $result .= fgets($fp, 1024); } echo "url body: $result"; fclose($fp);
-//：用file_get_contents函数,以post方式获取url
-//$data = array ('foo' => 'bar');
-// $data = http_build_query($data);
-// $opts = array ( ‘http' => array ( 'method' => 'POST', 'header'=> "Content-type: application/x-www-form-urlencodedrn", "Content-Length: " . strlen($data) . "rn", 'content' => $data ) );
-// $context = stream_context_create($opts);
-// $html = file_get_contents('http://www.51growup.com/e/admin/test.html', false, $context);
-// echo $html;
 

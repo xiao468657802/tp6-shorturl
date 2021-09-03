@@ -1,4 +1,4 @@
-<?php /*a:1:{s:42:"/www/wwwroot/short.com/view/api/index.html";i:1629270916;}*/ ?>
+<?php /*a:1:{s:42:"/www/wwwroot/short.com/view/api/index.html";i:1630651529;}*/ ?>
 <!--   qaw,短链接生成,新浪短连接,腾讯短连接,QAW短网址      -->
 <!DOCTYPE html>
 <html lang="en">
@@ -132,24 +132,6 @@
           <div class="h1 text-neutral my-3">Short Url</div>
           <div class="form-group row  justify-content-center mx-0">
 
-
-
-            <div class="form-check form-check-radio">
-              <label class="form-check-label mx-2">
-                <input class="form-check-input" type="radio" name="urlType"id="exampleRadios1" value="isgd" checked>
-                <span class="form-check-sign"></span>
-                is.gd
-              </label>
-            </div>
-
-            <div class="form-check form-check-radio mx-2">
-              <label class="form-check-label">
-                <input class="form-check-input" type="radio"name="urlType" id="exampleRadios1" value="qaw" >
-                <span class="form-check-sign"></span>
-                qaw.bio
-              </label>
-            </div>
-
             <div class="form-check form-check-radio mx-2">
               <label class="form-check-label">
                 <input class="form-check-input" type="radio"name="urlType" id="exampleRadios1" value="vwlin" >
@@ -166,16 +148,9 @@
               </label>
             </div>
 
-<!--            <div class="form-check form-check-radio mx-2">-->
-<!--              <label class="form-check-label">-->
-<!--                <input class="form-check-input" type="radio"name="urlType" id="exampleRadios1" value="tinyurl" >-->
-<!--                <span class="form-check-sign"></span>-->
-<!--                tinyurl.com-->
-<!--              </label>-->
-<!--            </div>-->
             <div class="form-check form-check-radio mx-2">
               <label class="form-check-label">
-                <input class="form-check-input" type="radio"name="urlType" id="exampleRadios1" value="local" >
+                <input class="form-check-input" type="radio"name="urlType" id="exampleRadios1" value="local" checked>
                 <span class="form-check-sign"></span>
                 local.com
               </label>

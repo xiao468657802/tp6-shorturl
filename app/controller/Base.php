@@ -13,7 +13,7 @@ class Base
         ];
         return Response::create($result,$type);
     }
-    public function generateRandNumberVerificationCode(int $size = 4)
+    public function generateRandNumber(int $size = 4)
     {
         if ($size <= 0 || empty($size) || !isset($size)) {
             $size = 4;

@@ -25,7 +25,6 @@ class Home extends BaseController
     }
     public function api(Request $request)  //主页前台的api请求接口
     {
-//        error_reporting(0);
         $url=$request->param();
         header('Content-type: application/json; charset=utf-8');
         header('Access-Control-Allow-Origin:*');
@@ -37,18 +36,16 @@ class Home extends BaseController
             } else {
                 return json(['code'=>'400','url'=>'','msg'=>'fial']);}
         }elseif ($url['type'] == 'toShort') {
-            if ($url['kind'] == 'isgd') {
-                $short_url = $this->get("https://is.gd/api.php?longurl=" . $url['url']);
-            } elseif ($url['kind'] == 'unu') {
-//                $short_url = $this->get("https://u.nu/api/?key=SGX4yitHzsEJ&url=" . $url['url']);
-                $short_url = $this->repost($url['url']);
-
-            } elseif ($url['kind'] == 'tinyurl') {
-                $short_url = $this->get("https://tinyurl.com/api-create.php?url=" .$url['url']);
+            if($url['kind'] == 'unu') {
+                $dataUrl = $this->file_get("https://u.nu/api/?key=SGX4yitHzsEJ&url=" . $url['url']);
+                $shortUrl = array($dataUrl);
+                $short_url= array($shortUrl[0]->short);
             } elseif ($url['kind'] == 'vwlin') {
-                $short_url = $this->get("https://vwlin.cn//api.php?url=" .$url['url']);
+                $dataUrl = $this->get("https://vwlin.cn//api.php?url=" .$url['url']);
+                $shortUrl = array($dataUrl);
+                $short_url= array($shortUrl[0]->shorturl);
             } elseif ($url['kind'] == 'local') {
-//                for($i=1;$i<500;$i++){
+//                for($i=1;$i<1000;$i++){
                 $dataUrl = $this->get("http://192.168.133.131/Api/?url=".$url['url']);
 //                }
                 $shortUrl = array($dataUrl);
@@ -73,7 +70,7 @@ class Home extends BaseController
             if ($data['pass']==$passurl['pass']){
                 $longurl = $passurl['url'];
                 if($passurl) {
-                    return json(['url'=>$longurl,'code'=>200]);  //换成return 报错 variable type error： array
+                    return json(['url'=>$longurl,'code'=>200]);
                 }
             }else{
                 return json(['url'=>'error ','code'=>400]);

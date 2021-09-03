@@ -217,5 +217,21 @@ class Links extends Base
         }
         return json(['code'=>0,'status'=>1,'msg'=>'error or empty!','data'=>'']);
     }
+    public function countlink(){
+        $number = Db::name('links')->count();  // tongji link条数
+        $hits = Db::name('links')->where('hits','<>',0)->select();//点击的条link
+        $hitsnum = Db::name('links')->where('hits','<>',0)->count(); //点击条不为0
+        print_r($hits);
+        $history = 0;
+        for($i=0;$i<$hitsnum;$i++){
+            $history=$history+(int)$hits[$i]['hits'];
+        }
+        $datime = date("Y-m-d",time());
+        var_dump($datime);
+        $daycreate = Db::name('links')->whereDay('date',$datime)->count();
+
+        $data = [''];
+        return json(['code'=>0,'status'=>0,'msg'=>'secuess!','data'=>$data]);
+    }
 
 }

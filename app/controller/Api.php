@@ -23,49 +23,43 @@ class Api extends Base
     public function index(Request $request)
     {
         /*api 请求 GET
-http://192.168.133.131/Api/?url=http://192.168.133.131:8888/site
----17点46分*/
+        * http://192.168.133.131/Api/?url=http://192.168.133.131:8888/site     ---17点46分*/
         $data = $request->param();
         if(empty($data['link'])){
-            for($i=1;$i<2;$i++){
-                $data['link'] = $this->generateRandNumberVerificationCode($size = 5);
-            }
+                $data['link'] = $this->generateRandNumber($size = 5);
         }
         if(empty($data['pass'])){
-            for($i=1;$i<2;$i++){
                 $data['pass'] = '';
-            }
         }
         $datime = date("Y-m-d H:i:s",time());
 
-        $dataarray = ['pass' =>'',
-            'last_visit'=> $datime
-            ,        'url'=>$data['url']
-            ,        'link'=>$data['link']
-            ,         'pass'=>$data['pass']];
-        $longUrl = $dataarray['url'];
+        $dataarray = [
+                  'last_visit'=> $datime
+            ,     'url'=>$data['url']
+            ,     'link'=>$data['link']
+            ,     'pass'=>$data['pass']];
+//        $longUrl = $dataarray['url'];
 
         $checkon = Db::name('users')->where('id','=','1')->find();
-//        print_r($checkon);
         if($checkon['checkon'] == 'on'){
-            $seldata= Db::name('links')->where('url','=',"$longUrl")->select();
-            if (is_object($seldata)) {  ///单条链接重复生成短链开关
-                $selarray = array_values((array)$seldata);
-                if(!empty($selarray[0])){
+            //checkon = on 开启了单条 长URL 转shortURL 的去重,                               会查询已有的shortURL返回
+            $seldata= Db::name('links')->where('url','=',$dataarray['url'])->select();
+            $selarray = array_values((array)$seldata);
+            if(!empty($selarray[0])){   //如果在库中查询此URL 不为空,则将查询到的 shortURL 直接返回
                     $shortlink= $selarray[0][0]['link'];
                     $hostarr = $_SERVER['HTTP_HOST'];
                     $httphost = [ 'data' => $_SERVER['REQUEST_SCHEME'].'://'.$hostarr];
                     $dataarray=['link'=>$httphost['data'].'/u/'.$shortlink];
                     return $this->create($dataarray,'success',200);
-                }
             }
         }
 
         $findda = Db::name('links')->where('link','=',$dataarray['link'])->find();
+        //此条在用户直接请求已存在库中的shortURL ,则生成新的shortURL
         if (empty($findda)){  //判断是否查询到库中存在的
-            $dataarray['link'] = $this->generateRandNumberVerificationCode($size = 5);
+            $dataarray['link'] = $this->generateRandNumber($size = 5);
         }
-
+        //下面要验证shortURL 是否是长度为 5-10
         try {
             //验证                验证别名                  验证的数据内容
             validate(ApiValidate::class)->check($dataarray);}

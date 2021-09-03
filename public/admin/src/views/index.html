@@ -66,31 +66,35 @@
 
               <div class="layui-carousel layadmin-carousel layadmin-backlog">
                 <div carousel-item>
+
                   <ul class="layui-row layui-col-space10">
+                    <script type="text/html" template lay-url="/links/countlink">
                     <li class="layui-col-xs6">
-                      <a lay-href="app/content/comment" class="layadmin-backlog-body">
+                      <a lay-href="#" class="layadmin-backlog-body">
+                        <h3>总计转址</h3>
+                        <p><cite>{{d.data.Number}}</cite></p>
+                      </a>
+                    </li>
+                    <li class="layui-col-xs6">
+                      <a lay-href="#" class="layadmin-backlog-body">
                         <h3>总点击量</h3>
-                        <p><cite>66</cite></p>
+                        <p><cite>{{d.data.totalHits}}</cite></p>
                       </a>
                     </li>
                     <li class="layui-col-xs6">
-                      <a lay-href="app/forum/list" class="layadmin-backlog-body">
-                        <h3>总计转址 </h3>
-                        <p><cite>12</cite></p>
-                      </a>
-                    </li>
-                    <li class="layui-col-xs6">
-                      <a lay-href="template/goodslist" class="layadmin-backlog-body">
+                      <a lay-href="#" class="layadmin-backlog-body">
+<!--                          <a lay-href="template/goodslist" class="layadmin-backlog-body">-->
                         <h3>今日转址</h3>
-                        <p><cite>99</cite></p>
+                        <p><cite>{{d.data.todaycreate}}</cite></p>
                       </a>
                     </li>
                     <li class="layui-col-xs6">
-                      <a href="javascript:;" onclick="layer.tips('不跳转', this, {tips: 3});" class="layadmin-backlog-body">
-                        <h3>待发货</h3>
-                        <p><cite>20</cite></p>
+                      <a href="javascript:;"  class="layadmin-backlog-body">
+<!--                        onclick="layer.tips('不跳转', this, {tips: 3});" -->
+                        <h3>昨日转址</h3>
+                        <p><cite>{{d.data.yesterday}}</cite></p>
                       </a>
-                    </li>
+                    </li></script>
                   </ul>
 <!--                  <ul class="layui-row layui-col-space10">-->
 <!--                    <li class="layui-col-xs6">-->

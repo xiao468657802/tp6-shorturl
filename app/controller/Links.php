@@ -229,7 +229,13 @@ class Links extends Base
         $datime = date("Y-m-d",time());
         $todaycreate = Db::name('links')->whereDay('date',$datime)->count();//jin今日转换数量
         $yesterday = Db::name('links')->whereDay('date','yesterday')->count();//j
-        $data = ['Number'=>$transformationNumber,'totalHits'=>$totalHits,'todaycreate'=>$todaycreate,'yesterday'=>$yesterday];
+
+        $data = ['Number'=>$transformationNumber
+            ,'totalHits'=>$totalHits
+            ,'todaycreate'=>$todaycreate
+            ,'yesterday'=>$yesterday
+
+        ];
         return json(['code'=>0,'status'=>0,'msg'=>'secuess!','data'=>$data]);
     }
 

@@ -167,12 +167,19 @@ admin
 }
 
 在服务器运行时请删除 .env 文件
+当然可以先在 。env 文件开启  APP_DEBUG = true 调试，当网站正常运行在删除。env
+然后配置下面的数据库文件
+APP_DEBUG = true
+
+
 数据库修改文件file
 config/database.php
 因为要写入session,所以给予runtime目录755权限
-chmod 755 runtime
-
-
+chmod -R 755 runtime
+chown -R www.www runtime/
+创建库
+将short.sql 导入库中
+short_com(2).sql是我在本地测试的十万条数据链接，经测试十万条数据依然稳定快捷，速度很快
 
 ~~~
 
@@ -185,7 +192,8 @@ api说明,前台显示  √
 页面自动安装配置页面 
 api文件/get 方式的缩短链接  √
 link 链接的访问次数统计 √
-网站的首页导航的关键词等设置  
+首页api使用的方法等介绍 √
+网站的首页导航的关键词等设置  后端√
 对前台信息查询进行安全加固，如/links
 
 //q前台页面的url请求

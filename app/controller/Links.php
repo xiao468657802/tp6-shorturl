@@ -217,26 +217,6 @@ class Links extends Base
         }
         return json(['code'=>0,'status'=>1,'msg'=>'error or empty!','data'=>'']);
     }
-    public function countlink(){
-        $transformationNumber = Db::name('links')->count();  // tongji link条数
-        $hits = Db::name('links')->where('hits','<>',0)->select();//点击的条link
-        $hitsnum = Db::name('links')->where('hits','<>',0)->count(); //点击条不为0
-//        print_r($hits);
-        $totalHits = 0;  //zo总点击量
-        for($i=0;$i<$hitsnum;$i++){
-            $totalHits=$totalHits+(int)$hits[$i]['hits'];
-        }
-        $datime = date("Y-m-d",time());
-        $todaycreate = Db::name('links')->whereDay('date',$datime)->count();//jin今日转换数量
-        $yesterday = Db::name('links')->whereDay('date','yesterday')->count();//j
 
-        $data = ['Number'=>$transformationNumber
-            ,'totalHits'=>$totalHits
-            ,'todaycreate'=>$todaycreate
-            ,'yesterday'=>$yesterday
-
-        ];
-        return json(['code'=>0,'status'=>0,'msg'=>'secuess!','data'=>$data]);
-    }
 
 }

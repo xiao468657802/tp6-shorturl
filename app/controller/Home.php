@@ -12,9 +12,9 @@ use think\facade\View;
 
 class Home extends BaseController
 {
-    public function repostPOST(Request $request )
+    public function Faq(Request $request )
     {
-		 
+		 return View::fetch('api/faq');
     }
     public function verify(){ // yan验证码方法
         return Captcha::create();
@@ -39,14 +39,43 @@ class Home extends BaseController
             if($url['kind'] == 'unu') {
                 $dataUrl = $this->file_get("https://u.nu/api/?key=SGX4yitHzsEJ&url=" . $url['url']);
                 $shortUrl = array($dataUrl);
-                $short_url= array($shortUrl[0]->short);
+//                var_dump(boolval($shortUrl[0]->error));//0 true//1 false
+//                print_r(array($dataUrl));
+
+                /*
+                 * bool(true)
+Array//   https://www.baidu.com/s?ie=UTF-8&wd=Undefined%20property%3A%20stdClass%3A%3A$short
+(
+    [0] => stdClass Object
+        (
+            [error] => 0
+            [short] => https://u.nu/YyYaT
+        )
+
+)
+                 * ---bool(true)
+Array
+(
+    [0] => stdClass Object
+        (
+            [error] => 1
+            [msg] => This URL contains blacklisted keywords.
+        )
+
+)*/
+                if($shortUrl[0]->error==true){
+                    $short_url= "$shortUrl[0]->short";
+                }else{
+                    $short_url= "$shortUrl[0]->msg";
+                }
+
             } elseif ($url['kind'] == 'vwlin') {
                 $dataUrl = $this->get("https://vwlin.cn//api.php?url=" .$url['url']);
                 $shortUrl = array($dataUrl);
                 $short_url= array($shortUrl[0]->shorturl);
             } elseif ($url['kind'] == 'local') {
 //                for($i=1;$i<1000;$i++){
-                $dataUrl = $this->get("http://192.168.133.131/Api/?url=".$url['url']);
+                $dataUrl = $this->get($_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['HTTP_HOST']."/Api/?url=".$url['url']);
 //                }
                 $shortUrl = array($dataUrl);
                 $short_url= array($shortUrl[0]->data->link);
@@ -179,9 +208,9 @@ class Home extends BaseController
     /*上面重置密码模块或方法,不用的话尽量选择注释掉  home.php/respwd */
     /* 下面自动获取 域名   */
     public function httphost(){
-        $hostarr = $_SERVER['HTTP_HOST'];
-//        print_r($hostarr);  //192.168.133.131
-        $httphost = [ 'data' => 'http://'.$hostarr];
+        $httphost = [ 'data' => $_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['HTTP_HOST']];
+//        var_dump($_SERVER);
+//        var_dump($_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['HTTP_HOST']);
         if($httphost){
             return json(['code'=>0,'status'=>0,'msg'=>'success','data'=>$httphost]);
         }
@@ -228,5 +257,26 @@ class Home extends BaseController
             return json(['code'=>0,'status'=>0,'msg'=>'success!','data'=>$data]);
         }
         return json(['code'=>0,'status'=>1,'msg'=>'fail !','data'=>'']);
+    }
+    public function countlink(){
+        $transformationNumber = Db::name('links')->count();  // tongji link条数
+        $hits = Db::name('links')->where('hits','<>',0)->select();//点击的条link
+        $hitsnum = Db::name('links')->where('hits','<>',0)->count(); //点击条不为0
+//        print_r($hits);
+        $totalHits = 0;  //zo总点击量
+        for($i=0;$i<$hitsnum;$i++){
+            $totalHits=$totalHits+(int)$hits[$i]['hits'];
+        }
+        $datime = date("Y-m-d",time());
+        $todaycreate = Db::name('links')->whereDay('date',$datime)->count();//jin今日转换数量
+        $yesterday = Db::name('links')->whereDay('date','yesterday')->count();//j
+
+        $data = ['Number'=>$transformationNumber
+            ,'totalHits'=>$totalHits
+            ,'todaycreate'=>$todaycreate
+            ,'yesterday'=>$yesterday
+
+        ];
+        return json(['code'=>0,'status'=>0,'msg'=>'secuess!','data'=>$data]);
     }
 }

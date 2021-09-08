@@ -11323,3 +11323,11 @@
 [2021-09-03T17:59:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` WHERE  `hits` <> 0 LIMIT 1 [ RunTime:0.022321s ]
 [2021-09-03T17:59:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` WHERE  `date` BETWEEN '2021-09-03 00:00:00' AND '2021-09-03 23:59:59' LIMIT 1 [ RunTime:0.085258s ]
 [2021-09-03T17:59:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` WHERE  `date` BETWEEN '2021-09-02 00:00:00' AND '2021-09-02 23:59:59' LIMIT 1 [ RunTime:0.092860s ]
+[2021-09-03T18:01:20+08:00][sql] CONNECT:[ UseTime:0.000654s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-09-03T18:01:20+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000916s ]
+[2021-09-03T18:01:20+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` LIMIT 1 [ RunTime:0.012056s ]
+[2021-09-03T18:01:20+08:00][sql] SELECT * FROM `links` WHERE  `hits` <> 0 [ RunTime:0.032302s ]
+[2021-09-03T18:01:20+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` WHERE  `hits` <> 0 LIMIT 1 [ RunTime:0.019627s ]
+[2021-09-03T18:01:20+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` WHERE  `date` BETWEEN '2021-09-03 00:00:00' AND '2021-09-03 23:59:59' LIMIT 1 [ RunTime:0.083632s ]
+[2021-09-03T18:01:20+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` WHERE  `date` BETWEEN '2021-09-02 00:00:00' AND '2021-09-02 23:59:59' LIMIT 1 [ RunTime:0.086542s ]
+[2021-09-03T18:01:20+08:00][error] [8]未定义数组下标: 3[/www/wwwroot/short.com/app/controller/Links.php:241]

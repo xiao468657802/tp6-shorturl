@@ -80,7 +80,6 @@ $aa = generateRandNumberVerificationCodeImg($code);
 <script>
   function reimg(){
     var img = document.getElementById("img");
-    // img.src = "<?=$Verify['url']?>?rnd=" + Math.random();
     img.src='/home/captcha?'+new Date().getTime();
   }
 

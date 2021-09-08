@@ -32,9 +32,6 @@
       ,"list": [{
         "name": "website"
         ,"title": "网站设置"
-      },{
-        "name": "email"
-        ,"title": "邮件服务"
       }]
     },{
       "name": "user"

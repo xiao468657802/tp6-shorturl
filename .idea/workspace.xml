@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f4d2da0c-46ac-4564-ba28-f52cf4ba7f61" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/topthink/framework" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-trace" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-view" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem-cached-adapter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-orm" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-template" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-captcha" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-helper" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1wfTrwx7WapTiAZJJRKwzzTleQW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cloud.short.com/susu-shorturl-api-master" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="V:\www\wwwroot\short.com\public\api\assets\js" />
+      <recent name="V:\www\wwwroot\short.com\public\api\assets\css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4d2da0c-46ac-4564-ba28-f52cf4ba7f61" name="Default Changelist" comment="" />
+      <created>1628848848789</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628848848789</updated>
+      <workItem from="1628848852428" duration="27000" />
+      <workItem from="1629007846903" duration="23000" />
+      <workItem from="1629007871894" duration="55000" />
+      <workItem from="1629007928883" duration="102000" />
+      <workItem from="1629008032815" duration="142000" />
+      <workItem from="1629008177429" duration="69000" />
+      <workItem from="1629008268290" duration="498000" />
+      <workItem from="1629008769151" duration="61000" />
+      <workItem from="1629008839035" duration="389000" />
+      <workItem from="1629009230134" duration="168000" />
+      <workItem from="1629009399948" duration="23000" />
+      <workItem from="1629009434468" duration="30000" />
+      <workItem from="1629009466853" duration="44000" />
+      <workItem from="1629014647800" duration="6900000" />
+      <workItem from="1629166614848" duration="9490000" />
+      <workItem from="1629248318757" duration="23390000" />
+      <workItem from="1629279966717" duration="411000" />
+      <workItem from="1629426347363" duration="4656000" />
+      <workItem from="1629439008149" duration="14105000" />
+      <workItem from="1629767824066" duration="9881000" />
+      <workItem from="1629852352920" duration="23205000" />
+      <workItem from="1629938102382" duration="10186000" />
+      <workItem from="1629962790756" duration="9668000" />
+      <workItem from="1629972583441" duration="907000" />
+      <workItem from="1630235683104" duration="357000" />
+      <workItem from="1630305678868" duration="5504000" />
+      <workItem from="1630371394038" duration="6197000" />
+      <workItem from="1630381542119" duration="4727000" />
+      <workItem from="1630483234279" duration="7028000" />
+      <workItem from="1630567202301" duration="1577000" />
+      <workItem from="1630572237403" duration="4522000" />
+      <workItem from="1630636515294" duration="16287000" />
+      <workItem from="1630660866655" duration="2429000" />
+      <workItem from="1630915816432" duration="6601000" />
+      <workItem from="1630982487549" duration="7677000" />
+      <workItem from="1631062015269" duration="3136000" />
+      <workItem from="1631081249571" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/public/api" />
+      <path value="$PROJECT_DIR$/runtime/temp/api" />
+      <path value="$PROJECT_DIR$/think/public/api" />
+      <path value="$PROJECT_DIR$/think/public/index" />
+      <path value="$PROJECT_DIR$/think/runtime/temp/api" />
+      <path value="$PROJECT_DIR$/think/view/api" />
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/pwt" />
+    </ignored-roots>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

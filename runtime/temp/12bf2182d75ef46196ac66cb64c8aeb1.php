@@ -1,4 +1,4 @@
-<?php /*a:1:{s:42:"/www/wwwroot/short.com/view/api/index.html";i:1631004183;}*/ ?>
+<?php /*a:1:{s:42:"/www/wwwroot/short.com/view/api/index.html";i:1631087309;}*/ ?>
 <!--   qaw,短链接生成,新浪短连接,腾讯短连接,QAW短网址      -->
 <!DOCTYPE html>
 <html lang="en">
@@ -19,9 +19,9 @@
 <!--//  <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />-->
   <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet">
   <!-- <link href="./ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet"> 本地css,经测不稳定    Nucleo Icons  https://cdn.bootcdn.net/ajax/libs/font-awesome/5.13.1/css/all.min.css-->
-  <link href="./api/assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="assets/css/nucleo-icons.css" rel="stylesheet" />
   <!-- CSS Files -->
-  <link href="./api/assets/css/blk-design-system.css?v=1.0.0" rel="stylesheet" />
+  <link href="assets/css/blk-design-system.css?v=1.0.0" rel="stylesheet" />
 
 </head>
 
@@ -252,11 +252,12 @@
 </div>
 <!--   Core JS Files   -->
 <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script> <!---这三条本地有备份js-->
-<script src="api/assets/js/popper.min.js" type="text/javascript"></script>
 <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
-<script src="api/assets/js/blk-design-system.min.js?v=1.0.0" type="text/javascript"></script>
 <script src="https://cdn.bootcdn.net/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
-<script type="text/javascript" src="api/assets/js/main.js"></script>
+
+<script src="assets/js/blk-design-system.min.js?v=1.0.0" type="text/javascript"></script>
+<script src="assets/js/popper.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
 <script>
   $(document).ready(function() {
     blackKit.initDatePicker();

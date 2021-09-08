@@ -66,7 +66,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cloud.short.com/susu-shorturl-api-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -127,6 +127,9 @@
       <workItem from="1630982487549" duration="7677000" />
       <workItem from="1631062015269" duration="3136000" />
       <workItem from="1631081249571" duration="17000" />
+      <workItem from="1631082285693" duration="37000" />
+      <workItem from="1631082324558" duration="5000" />
+      <workItem from="1631087115095" duration="344000" />
     </task>
     <servers />
   </component>

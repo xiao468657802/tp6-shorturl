@@ -9,6 +9,7 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 use think\facade\Route;
+//Route::get('favicon.ico','favicon.ico');
 Route::rule('/home/api','/Home/api','GET|POST');
 Route::get('/home/captcha','/Home/verify'); //http://192.168.133.131/home/captcha?1627879768528=  此目录接参数,不用加  :h
 Route::get('/home/index','/Home/index');  //家入口路由

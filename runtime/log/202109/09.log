@@ -1,0 +1,113 @@
+[2021-09-09T09:52:06+08:00][sql] CONNECT:[ UseTime:0.002690s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-09-09T09:52:06+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.081346s ]
+[2021-09-09T09:52:06+08:00][sql] SELECT * FROM `users` [ RunTime:0.000771s ]
+[2021-09-09T09:52:06+08:00][sql] CONNECT:[ UseTime:0.006255s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-09-09T09:52:06+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.025966s ]
+[2021-09-09T09:52:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` LIMIT 1 [ RunTime:0.029805s ]
+[2021-09-09T09:52:06+08:00][sql] SELECT * FROM `links` WHERE  `hits` <> 0 [ RunTime:0.144793s ]
+[2021-09-09T09:52:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` WHERE  `hits` <> 0 LIMIT 1 [ RunTime:0.016398s ]
+[2021-09-09T09:52:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` WHERE  `date` BETWEEN '2021-09-09 00:00:00' AND '2021-09-09 23:59:59' LIMIT 1 [ RunTime:0.068488s ]
+[2021-09-09T09:52:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` WHERE  `date` BETWEEN '2021-09-08 00:00:00' AND '2021-09-08 23:59:59' LIMIT 1 [ RunTime:0.065299s ]
+[2021-09-09T14:48:27+08:00][error] [0]模板文件不存在:api/favicon.ico[/www/wwwroot/short.com/vendor/topthink/think-view/src/Think.php:146]
+[2021-09-09T14:48:46+08:00][error] [0]模板文件不存在:/www/wwwroot/short.com/view/api/favicon.html[/www/wwwroot/short.com/vendor/topthink/think-view/src/Think.php:146]
+[2021-09-09T14:48:47+08:00][error] [0]模板文件不存在:/www/wwwroot/short.com/view/api/favicon.html[/www/wwwroot/short.com/vendor/topthink/think-view/src/Think.php:146]
+[2021-09-09T14:51:45+08:00][sql] CONNECT:[ UseTime:0.010344s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-09-09T14:51:45+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.007989s ]
+[2021-09-09T14:51:45+08:00][sql] SELECT * FROM `users` [ RunTime:0.001154s ]
+[2021-09-09T14:51:45+08:00][sql] CONNECT:[ UseTime:0.000998s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-09-09T14:51:45+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001585s ]
+[2021-09-09T14:51:45+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` LIMIT 1 [ RunTime:0.024406s ]
+[2021-09-09T14:51:45+08:00][sql] SELECT * FROM `links` WHERE  `hits` <> 0 [ RunTime:0.053047s ]
+[2021-09-09T14:51:45+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` WHERE  `hits` <> 0 LIMIT 1 [ RunTime:0.016864s ]
+[2021-09-09T14:51:45+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` WHERE  `date` BETWEEN '2021-09-09 00:00:00' AND '2021-09-09 23:59:59' LIMIT 1 [ RunTime:0.074642s ]
+[2021-09-09T14:51:45+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` WHERE  `date` BETWEEN '2021-09-08 00:00:00' AND '2021-09-08 23:59:59' LIMIT 1 [ RunTime:0.076112s ]
+[2021-09-09T14:52:15+08:00][sql] CONNECT:[ UseTime:0.000811s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-09-09T14:52:15+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001495s ]
+[2021-09-09T14:52:15+08:00][sql] SELECT * FROM `users` [ RunTime:0.000594s ]
+[2021-09-09T14:52:15+08:00][sql] CONNECT:[ UseTime:0.000658s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-09-09T14:52:15+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000962s ]
+[2021-09-09T14:52:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` LIMIT 1 [ RunTime:0.011584s ]
+[2021-09-09T14:52:15+08:00][sql] SELECT * FROM `links` WHERE  `hits` <> 0 [ RunTime:0.030379s ]
+[2021-09-09T14:52:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` WHERE  `hits` <> 0 LIMIT 1 [ RunTime:0.019423s ]
+[2021-09-09T14:52:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` WHERE  `date` BETWEEN '2021-09-09 00:00:00' AND '2021-09-09 23:59:59' LIMIT 1 [ RunTime:0.074090s ]
+[2021-09-09T14:52:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` WHERE  `date` BETWEEN '2021-09-08 00:00:00' AND '2021-09-08 23:59:59' LIMIT 1 [ RunTime:0.073477s ]
+[2021-09-09T14:52:34+08:00][sql] CONNECT:[ UseTime:0.003716s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-09-09T14:52:34+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001132s ]
+[2021-09-09T14:52:34+08:00][sql] SELECT * FROM `users` [ RunTime:0.000481s ]
+[2021-09-09T14:52:34+08:00][sql] CONNECT:[ UseTime:0.001099s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-09-09T14:52:34+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001566s ]
+[2021-09-09T14:52:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` LIMIT 1 [ RunTime:0.023064s ]
+[2021-09-09T14:52:34+08:00][sql] SELECT * FROM `links` WHERE  `hits` <> 0 [ RunTime:0.069930s ]
+[2021-09-09T14:52:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` WHERE  `hits` <> 0 LIMIT 1 [ RunTime:0.024888s ]
+[2021-09-09T14:52:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` WHERE  `date` BETWEEN '2021-09-09 00:00:00' AND '2021-09-09 23:59:59' LIMIT 1 [ RunTime:0.101142s ]
+[2021-09-09T14:52:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` WHERE  `date` BETWEEN '2021-09-08 00:00:00' AND '2021-09-08 23:59:59' LIMIT 1 [ RunTime:0.091438s ]
+[2021-09-09T14:52:43+08:00][sql] CONNECT:[ UseTime:0.000879s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-09-09T14:52:43+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.003647s ]
+[2021-09-09T14:52:43+08:00][sql] SELECT * FROM `users` [ RunTime:0.001115s ]
+[2021-09-09T14:52:44+08:00][sql] CONNECT:[ UseTime:0.002283s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-09-09T14:52:44+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.009670s ]
+[2021-09-09T14:52:44+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` LIMIT 1 [ RunTime:0.026099s ]
+[2021-09-09T14:52:44+08:00][sql] SELECT * FROM `links` WHERE  `hits` <> 0 [ RunTime:0.076631s ]
+[2021-09-09T14:52:44+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` WHERE  `hits` <> 0 LIMIT 1 [ RunTime:0.023950s ]
+[2021-09-09T14:52:44+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` WHERE  `date` BETWEEN '2021-09-09 00:00:00' AND '2021-09-09 23:59:59' LIMIT 1 [ RunTime:0.130997s ]
+[2021-09-09T14:52:44+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` WHERE  `date` BETWEEN '2021-09-08 00:00:00' AND '2021-09-08 23:59:59' LIMIT 1 [ RunTime:0.091526s ]
+[2021-09-09T14:54:03+08:00][sql] CONNECT:[ UseTime:0.000954s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-09-09T14:54:03+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001230s ]
+[2021-09-09T14:54:03+08:00][sql] SELECT * FROM `users` [ RunTime:0.001169s ]
+[2021-09-09T14:54:04+08:00][sql] CONNECT:[ UseTime:0.000761s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-09-09T14:54:04+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002993s ]
+[2021-09-09T14:54:04+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` LIMIT 1 [ RunTime:0.025412s ]
+[2021-09-09T14:54:04+08:00][sql] SELECT * FROM `links` WHERE  `hits` <> 0 [ RunTime:0.049765s ]
+[2021-09-09T14:54:04+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` WHERE  `hits` <> 0 LIMIT 1 [ RunTime:0.020908s ]
+[2021-09-09T14:54:04+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` WHERE  `date` BETWEEN '2021-09-09 00:00:00' AND '2021-09-09 23:59:59' LIMIT 1 [ RunTime:0.079871s ]
+[2021-09-09T14:54:04+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` WHERE  `date` BETWEEN '2021-09-08 00:00:00' AND '2021-09-08 23:59:59' LIMIT 1 [ RunTime:0.077012s ]
+[2021-09-09T16:17:46+08:00][sql] CONNECT:[ UseTime:0.002501s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-09-09T16:17:46+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.036782s ]
+[2021-09-09T16:17:46+08:00][sql] SELECT * FROM `users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002230s ]
+[2021-09-09T16:17:46+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002049s ]
+[2021-09-09T16:17:46+08:00][sql] SELECT * FROM `links` WHERE  `url` = 'https://fanyi.baidu.com/' [ RunTime:0.114952s ]
+[2021-09-09T16:17:47+08:00][sql] CONNECT:[ UseTime:0.000782s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-09-09T16:17:47+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001008s ]
+[2021-09-09T16:17:47+08:00][sql] SELECT * FROM `users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000520s ]
+[2021-09-09T16:17:47+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000737s ]
+[2021-09-09T16:17:47+08:00][sql] SELECT * FROM `links` WHERE  `url` = 'https://fanyi.baidu.com/' [ RunTime:0.043588s ]
+[2021-09-09T16:17:48+08:00][sql] CONNECT:[ UseTime:0.000816s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-09-09T16:17:48+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000812s ]
+[2021-09-09T16:17:48+08:00][sql] SELECT * FROM `users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000522s ]
+[2021-09-09T16:17:48+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000667s ]
+[2021-09-09T16:17:48+08:00][sql] SELECT * FROM `links` WHERE  `url` = 'https://fanyi.baidu.com/' [ RunTime:0.041319s ]
+[2021-09-09T16:17:48+08:00][sql] CONNECT:[ UseTime:0.000804s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-09-09T16:17:48+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000858s ]
+[2021-09-09T16:17:48+08:00][sql] SELECT * FROM `users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000554s ]
+[2021-09-09T16:17:48+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000720s ]
+[2021-09-09T16:17:48+08:00][sql] SELECT * FROM `links` WHERE  `url` = 'https://fanyi.baidu.com/' [ RunTime:0.040229s ]
+[2021-09-09T16:17:55+08:00][sql] CONNECT:[ UseTime:0.000912s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-09-09T16:17:55+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001128s ]
+[2021-09-09T16:17:55+08:00][sql] SELECT * FROM `users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000649s ]
+[2021-09-09T16:17:55+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000673s ]
+[2021-09-09T16:17:55+08:00][sql] SELECT * FROM `links` WHERE  `url` = 'https://fanyi.baidu.com/' [ RunTime:0.041016s ]
+[2021-09-09T16:17:57+08:00][sql] CONNECT:[ UseTime:0.000773s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-09-09T16:17:57+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000926s ]
+[2021-09-09T16:17:57+08:00][sql] SELECT * FROM `users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000509s ]
+[2021-09-09T16:17:57+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000636s ]
+[2021-09-09T16:17:57+08:00][sql] SELECT * FROM `links` WHERE  `url` = 'https://fanyi.baidu.com/' [ RunTime:0.042900s ]
+[2021-09-09T16:18:00+08:00][sql] CONNECT:[ UseTime:0.000764s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-09-09T16:18:00+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001265s ]
+[2021-09-09T16:18:00+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'Nv5QF' LIMIT 1 [ RunTime:0.001404s ]
+[2021-09-09T16:18:00+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'Nv5QF' [ RunTime:0.000777s ]
+[2021-09-09T16:18:00+08:00][sql] UPDATE `links`  SET `hits` = 1  WHERE  `link` = 'Nv5QF' [ RunTime:0.005121s ]
+[2021-09-09T16:55:10+08:00][sql] CONNECT:[ UseTime:0.001918s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-09-09T16:55:10+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001870s ]
+[2021-09-09T16:55:10+08:00][sql] SELECT * FROM `users` [ RunTime:0.000614s ]
+[2021-09-09T16:55:10+08:00][sql] SELECT * FROM `users` WHERE  `username` = 'admin' [ RunTime:0.001322s ]
+[2021-09-09T16:55:10+08:00][sql] UPDATE `users`  SET `last_ip` = '192.168.133.1' , `is_admin` = 1 , `lastlogin_time` = '2021-09-09 16:55:10' , `login_count` = 5  WHERE  `id` = 1 [ RunTime:0.003555s ]
+[2021-09-09T16:55:11+08:00][sql] CONNECT:[ UseTime:0.001780s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-09-09T16:55:11+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001572s ]
+[2021-09-09T16:55:11+08:00][sql] SELECT * FROM `users` [ RunTime:0.000680s ]
+[2021-09-09T16:55:11+08:00][sql] CONNECT:[ UseTime:0.000741s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-09-09T16:55:11+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000904s ]
+[2021-09-09T16:55:11+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` LIMIT 1 [ RunTime:0.019078s ]
+[2021-09-09T16:55:11+08:00][sql] SELECT * FROM `links` WHERE  `hits` <> 0 [ RunTime:0.037186s ]
+[2021-09-09T16:55:11+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` WHERE  `hits` <> 0 LIMIT 1 [ RunTime:0.018158s ]
+[2021-09-09T16:55:11+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` WHERE  `date` BETWEEN '2021-09-09 00:00:00' AND '2021-09-09 23:59:59' LIMIT 1 [ RunTime:0.075540s ]
+[2021-09-09T16:55:11+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` WHERE  `date` BETWEEN '2021-09-08 00:00:00' AND '2021-09-08 23:59:59' LIMIT 1 [ RunTime:0.078321s ]

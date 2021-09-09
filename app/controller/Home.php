@@ -12,6 +12,9 @@ use think\facade\View;
 
 class Home extends BaseController
 {
+//    public function favicon(){
+//        return View::fetch('api/favicon');
+//    }
     public function Faq(Request $request )
     {
 		 return View::fetch('api/faq');

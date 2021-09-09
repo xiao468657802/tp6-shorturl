@@ -17,6 +17,7 @@
                 <div class="layui-card-body" pad15>
 
                     <div class="layui-form" lay-filter="">
+
                         <div class="layui-form-item">
                             <label class="layui-form-label">我的角色</label>
                             <div class="layui-input-inline">
@@ -29,13 +30,25 @@
                             </div>
                             <div class="layui-form-mid layui-word-aux">当前角色不可更改为其它角色</div>
                         </div>
+
+
+                        <div class="layui-card layui-form" lay-filter="component-form-element">
+                            <div class="layui-card-header">单条链接重复生成短链开关</div>
+                            <div class="layui-card-body layui-row layui-col-space10">
+                                <div class="layui-col-md12">
+                                    <input type="checkbox" name="checkon" lay-skin="switch" id="checkon" lay-text="ON|OFF" value="on" checked="checked">
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="layui-form-item">
                             <label class="layui-form-label">性别</label>
                             <div class="layui-input-block" id="sex1">
-                                <input type="radio" name="sex" value="男" title="男" >
-                                <input type="radio" name="sex" value="女" title="女" checked >
+                                <input type="radio" name="sex" value="男" title="男" id="layui-sexman">
+                                <input type="radio" name="sex" value="女" title="女" id="layui-sexwoman">
                             </div>
                         </div>
+
                         <script type="text/html" template lay-url="/home/token">
                             <div class="layui-form" lay-filter="">
                                 <div class="layui-form-item" >
@@ -49,17 +62,13 @@
                         </script>
 
                         <script type="text/html" template lay-url="/home/setuser">
+
                             <div class="layui-form-item" id="layuiadmin-infoa-form-tags">
                                 <label class="layui-form-label">用户名</label>
                                 <div class="layui-input-inline">
                                     <input type="text" name="username" value="{{d.data[0].username}}"  class="layui-input">
                                     <!--                        readonly -->
                                 </div>
-                                <!--                      <div class="layui-input-block" style="width:190px;height:2px;line-height:1.3px">-->
-                                <!--                          <textarea name="username" class="layui-textarea" style="width:190px;height:2px;line-height:1.3px">-->
-                                <!--                               {{d.data[0].username}}-->
-                                <!--                          </textarea>-->
-                                <!--                      </div>-->
                                 <div class="layui-form-mid layui-word-aux"></div>
                             </div>
                             <div class="layui-form-item" id="layuiadmin-infob-form-tags">
@@ -117,11 +126,69 @@
         </div>
     </div>
 </div>
-<script>
+
+<script type="text/javascript">
     function reimg(){
         var input = document.getElementById("input");
         input.src = "<?=$Verify['url']?>?rnd=" + Math.random();
     }
+    // (function (){
+    //     var sexman  = document.getElementById('layui-sexman');
+    //     var sexwoman = document.getElementById('layui-sexwoman');
+    // })();
+    layui.use('contlist', layui.factory('contlist')).use(['admin', 'contlist', 'table'], function() {
+        var $ = layui.$
+            , admin = layui.admin
+            , view = layui.view
+            , table = layui.table
+            , layer = layui.layer
+            , form = layui.form;
+        $.ajax({
+            type: "GET",
+            url: "/home/setuser",
+            data: "access_token=c276e61cd13ad99fc650e6908c7e5e65b63d2f32185ecfed6b801ee3fbdd5c1b"
+            , dataType: 'json'
+            , success: function (result) {
+                var data = Object.values(result);
+                var sexnum = data[3][0]['sex'];
+                // var checkon = data[3][0]['checkon'];
+                var sexman  = document.getElementById('layui-sexman');
+                var $msgman = $(sexman);
+                var sexwoman = document.getElementById('layui-sexwoman');
+                // var checkonid = document.getElementById('checkon');
+                // var checkclass = document.getElementsByClassName('layui-form-switch');
+                if (sexnum == "男"){
+                    // document.getElementById('layui-sexman').checked = true;
+                    $msgman.prop("checked","checked");
+                    layui.use('element', function() {
+                        var element = layui.element;
+                        element.init();
+                    });
+                    layui.use('form', function() {
+                        var form = layui.form;
+                        //只有执行了这一步，部分表单元素才会自动修饰成功
+                        // 类似的，如果form中的radio没有渲染，则在加载页面添加以下代码亦可解决：
+                        form.render();
+                    });
+                }else {
+                    // document.getElementById('layui-sexwoman').checked=true;
+                    $(function(){
+                        $("#layui-sexwoman").prop("checked","checked")
+                    });
+                    layui.use('element', function() {
+                        var element = layui.element;
+                        element.init();
+                    });
+                    layui.use('form', function() {
+                        var form = layui.form;
+                        //只有执行了这一步，部分表单元素才会自动修饰成功
+                        // 类似的，如果form中的radio没有渲染，则在加载页面添加以下代码亦可解决：
+                        form.render();
+                    });
+                    }
+                }
+            });
+        })
 </script>
 <script>
     //layui.use('set', layui.factory('set'));
@@ -133,7 +200,7 @@
             ,form = layui.form;
         form.on('submit(setmyinfo)',function (data){
             var data = data.field;
-            console.log(data);
+            // console.log(data);
             admin.req({
                 url:'/home/save'
                 ,data:data

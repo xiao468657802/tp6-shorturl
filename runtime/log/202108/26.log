@@ -1,0 +1,1352 @@
+[2021-08-26T08:36:14+08:00][sql] CONNECT:[ UseTime:0.001634s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:36:14+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001290s ]
+[2021-08-26T08:36:14+08:00][sql] SELECT * FROM `users` [ RunTime:0.000551s ]
+[2021-08-26T08:36:16+08:00][sql] CONNECT:[ UseTime:0.000781s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:36:16+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.003465s ]
+[2021-08-26T08:36:16+08:00][sql] SELECT * FROM `users` [ RunTime:0.001015s ]
+[2021-08-26T08:36:16+08:00][sql] CONNECT:[ UseTime:0.001058s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:36:16+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000983s ]
+[2021-08-26T08:36:16+08:00][sql] SELECT * FROM `users` [ RunTime:0.000505s ]
+[2021-08-26T08:36:24+08:00][sql] CONNECT:[ UseTime:0.000466s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:36:24+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001546s ]
+[2021-08-26T08:36:24+08:00][sql] SELECT * FROM `users` [ RunTime:0.000345s ]
+[2021-08-26T08:36:24+08:00][sql] CONNECT:[ UseTime:0.002769s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:36:24+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000724s ]
+[2021-08-26T08:36:24+08:00][sql] SELECT * FROM `users` [ RunTime:0.000331s ]
+[2021-08-26T08:36:24+08:00][sql] CONNECT:[ UseTime:0.000769s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:36:24+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000934s ]
+[2021-08-26T08:36:24+08:00][sql] SELECT * FROM `users` [ RunTime:0.000532s ]
+[2021-08-26T08:36:26+08:00][sql] CONNECT:[ UseTime:0.000665s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:36:26+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000765s ]
+[2021-08-26T08:36:26+08:00][sql] UPDATE `users`  SET `username` = 'admin' , `nickname` = '小桃' , `checkon` = 'on' , `sex` = '女' , `avatar` = 'http://cdn.layui.com/avatar/168.jpg' , `email` = 'susu@163.com' , `remarks` = 'test112233'  WHERE  `id` = 1 [ RunTime:0.006172s ]
+[2021-08-26T08:36:34+08:00][sql] CONNECT:[ UseTime:0.000695s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:36:34+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001000s ]
+[2021-08-26T08:36:34+08:00][sql] SELECT * FROM `users` [ RunTime:0.001607s ]
+[2021-08-26T08:36:34+08:00][sql] CONNECT:[ UseTime:0.000654s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:36:34+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000763s ]
+[2021-08-26T08:36:34+08:00][sql] SELECT * FROM `users` [ RunTime:0.000581s ]
+[2021-08-26T08:36:34+08:00][sql] CONNECT:[ UseTime:0.000784s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:36:34+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000845s ]
+[2021-08-26T08:36:34+08:00][sql] SELECT * FROM `users` [ RunTime:0.000482s ]
+[2021-08-26T08:36:40+08:00][sql] CONNECT:[ UseTime:0.000732s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:36:40+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000804s ]
+[2021-08-26T08:36:40+08:00][sql] UPDATE `users`  SET `username` = 'admin' , `nickname` = '小桃' , `checkon` = 'on' , `sex` = '男' , `avatar` = 'http://cdn.layui.com/avatar/168.jpg' , `email` = 'susu@163.com' , `remarks` = 'test112233'  WHERE  `id` = 1 [ RunTime:0.002617s ]
+[2021-08-26T08:36:45+08:00][sql] CONNECT:[ UseTime:0.000738s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:36:45+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000890s ]
+[2021-08-26T08:36:45+08:00][sql] SELECT * FROM `users` [ RunTime:0.000789s ]
+[2021-08-26T08:36:45+08:00][sql] CONNECT:[ UseTime:0.001282s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:36:45+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000864s ]
+[2021-08-26T08:36:45+08:00][sql] SELECT * FROM `users` [ RunTime:0.000595s ]
+[2021-08-26T08:36:45+08:00][sql] CONNECT:[ UseTime:0.000768s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:36:45+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000679s ]
+[2021-08-26T08:36:45+08:00][sql] SELECT * FROM `users` [ RunTime:0.000319s ]
+[2021-08-26T08:38:37+08:00][sql] CONNECT:[ UseTime:0.000757s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:38:37+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000976s ]
+[2021-08-26T08:38:37+08:00][sql] SELECT * FROM `users` [ RunTime:0.000575s ]
+[2021-08-26T08:39:09+08:00][sql] CONNECT:[ UseTime:0.000772s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:39:09+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000764s ]
+[2021-08-26T08:39:09+08:00][sql] SELECT * FROM `users` [ RunTime:0.000493s ]
+[2021-08-26T08:41:22+08:00][sql] CONNECT:[ UseTime:0.000687s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:41:22+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000869s ]
+[2021-08-26T08:41:22+08:00][sql] SELECT * FROM `users` [ RunTime:0.000606s ]
+[2021-08-26T08:43:28+08:00][sql] CONNECT:[ UseTime:0.001220s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:43:28+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000802s ]
+[2021-08-26T08:43:28+08:00][sql] SELECT * FROM `users` [ RunTime:0.000569s ]
+[2021-08-26T08:43:29+08:00][sql] CONNECT:[ UseTime:0.000630s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:43:29+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000724s ]
+[2021-08-26T08:43:29+08:00][sql] SELECT * FROM `users` [ RunTime:0.000340s ]
+[2021-08-26T08:43:29+08:00][sql] CONNECT:[ UseTime:0.000613s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:43:29+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000640s ]
+[2021-08-26T08:43:29+08:00][sql] SELECT * FROM `users` [ RunTime:0.000322s ]
+[2021-08-26T08:44:01+08:00][sql] CONNECT:[ UseTime:0.000983s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:44:01+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000880s ]
+[2021-08-26T08:44:01+08:00][sql] SELECT * FROM `users` [ RunTime:0.000446s ]
+[2021-08-26T08:44:01+08:00][sql] CONNECT:[ UseTime:0.000710s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:44:01+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001143s ]
+[2021-08-26T08:44:01+08:00][sql] SELECT * FROM `users` [ RunTime:0.000517s ]
+[2021-08-26T08:44:02+08:00][sql] CONNECT:[ UseTime:0.000622s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:44:02+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000860s ]
+[2021-08-26T08:44:02+08:00][sql] SELECT * FROM `users` [ RunTime:0.000542s ]
+[2021-08-26T08:47:54+08:00][sql] CONNECT:[ UseTime:0.001006s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:47:54+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001134s ]
+[2021-08-26T08:47:54+08:00][sql] SELECT * FROM `users` [ RunTime:0.000682s ]
+[2021-08-26T08:47:54+08:00][sql] CONNECT:[ UseTime:0.000602s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:47:54+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000766s ]
+[2021-08-26T08:47:54+08:00][sql] SELECT * FROM `users` [ RunTime:0.002284s ]
+[2021-08-26T08:47:54+08:00][sql] CONNECT:[ UseTime:0.001002s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:47:54+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002536s ]
+[2021-08-26T08:47:54+08:00][sql] SELECT * FROM `users` [ RunTime:0.000583s ]
+[2021-08-26T08:47:56+08:00][sql] CONNECT:[ UseTime:0.000738s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:47:56+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000770s ]
+[2021-08-26T08:47:56+08:00][sql] UPDATE `users`  SET `username` = 'admin' , `nickname` = '小桃' , `checkon` = 'off' , `sex` = '男' , `avatar` = 'http://cdn.layui.com/avatar/168.jpg' , `email` = 'susu@163.com' , `remarks` = 'test112233'  WHERE  `id` = 1 [ RunTime:0.003139s ]
+[2021-08-26T08:48:01+08:00][sql] CONNECT:[ UseTime:0.000665s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:48:01+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001006s ]
+[2021-08-26T08:48:01+08:00][sql] SELECT * FROM `users` [ RunTime:0.000473s ]
+[2021-08-26T08:48:01+08:00][sql] CONNECT:[ UseTime:0.000589s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:48:01+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000634s ]
+[2021-08-26T08:48:01+08:00][sql] SELECT * FROM `users` [ RunTime:0.000345s ]
+[2021-08-26T08:48:01+08:00][sql] CONNECT:[ UseTime:0.001116s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:48:01+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000946s ]
+[2021-08-26T08:48:01+08:00][sql] SELECT * FROM `users` [ RunTime:0.000560s ]
+[2021-08-26T08:48:06+08:00][sql] CONNECT:[ UseTime:0.003277s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:48:06+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000765s ]
+[2021-08-26T08:48:06+08:00][sql] SELECT * FROM `users` [ RunTime:0.000392s ]
+[2021-08-26T08:48:32+08:00][sql] CONNECT:[ UseTime:0.001505s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:48:32+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002397s ]
+[2021-08-26T08:48:32+08:00][sql] SELECT * FROM `users` [ RunTime:0.000825s ]
+[2021-08-26T08:48:32+08:00][sql] CONNECT:[ UseTime:0.000672s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:48:32+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000973s ]
+[2021-08-26T08:48:32+08:00][sql] SELECT * FROM `users` [ RunTime:0.000555s ]
+[2021-08-26T08:48:32+08:00][sql] CONNECT:[ UseTime:0.001230s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:48:32+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002594s ]
+[2021-08-26T08:48:32+08:00][sql] SELECT * FROM `users` [ RunTime:0.000413s ]
+[2021-08-26T08:49:49+08:00][sql] CONNECT:[ UseTime:0.000822s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:49:49+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000885s ]
+[2021-08-26T08:49:49+08:00][sql] SELECT * FROM `users` [ RunTime:0.000481s ]
+[2021-08-26T08:49:49+08:00][sql] CONNECT:[ UseTime:0.000711s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:49:49+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002304s ]
+[2021-08-26T08:49:49+08:00][sql] SELECT * FROM `users` [ RunTime:0.000563s ]
+[2021-08-26T08:49:49+08:00][sql] CONNECT:[ UseTime:0.000719s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:49:49+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000776s ]
+[2021-08-26T08:49:49+08:00][sql] SELECT * FROM `users` [ RunTime:0.000496s ]
+[2021-08-26T08:50:30+08:00][sql] CONNECT:[ UseTime:0.000666s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:50:30+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000886s ]
+[2021-08-26T08:50:30+08:00][sql] SELECT * FROM `users` [ RunTime:0.000350s ]
+[2021-08-26T08:50:30+08:00][sql] CONNECT:[ UseTime:0.000562s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:50:30+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000705s ]
+[2021-08-26T08:50:30+08:00][sql] SELECT * FROM `users` [ RunTime:0.000332s ]
+[2021-08-26T08:50:30+08:00][sql] CONNECT:[ UseTime:0.000737s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:50:30+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000879s ]
+[2021-08-26T08:50:30+08:00][sql] SELECT * FROM `users` [ RunTime:0.000569s ]
+[2021-08-26T08:50:50+08:00][sql] CONNECT:[ UseTime:0.000656s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:50:50+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000789s ]
+[2021-08-26T08:50:50+08:00][sql] SELECT * FROM `users` [ RunTime:0.000428s ]
+[2021-08-26T08:50:50+08:00][sql] CONNECT:[ UseTime:0.000631s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:50:50+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002080s ]
+[2021-08-26T08:50:50+08:00][sql] SELECT * FROM `users` [ RunTime:0.000630s ]
+[2021-08-26T08:50:50+08:00][sql] CONNECT:[ UseTime:0.000705s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:50:50+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001122s ]
+[2021-08-26T08:50:50+08:00][sql] SELECT * FROM `users` [ RunTime:0.000552s ]
+[2021-08-26T08:51:15+08:00][sql] CONNECT:[ UseTime:0.000892s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:51:15+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001829s ]
+[2021-08-26T08:51:15+08:00][sql] SELECT * FROM `users` [ RunTime:0.000780s ]
+[2021-08-26T08:51:15+08:00][sql] CONNECT:[ UseTime:0.000662s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:51:15+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001072s ]
+[2021-08-26T08:51:15+08:00][sql] SELECT * FROM `users` [ RunTime:0.008024s ]
+[2021-08-26T08:51:15+08:00][sql] CONNECT:[ UseTime:0.000635s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:51:15+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000967s ]
+[2021-08-26T08:51:15+08:00][sql] SELECT * FROM `users` [ RunTime:0.000598s ]
+[2021-08-26T08:53:25+08:00][sql] CONNECT:[ UseTime:0.000965s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:53:25+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000984s ]
+[2021-08-26T08:53:25+08:00][sql] SELECT * FROM `users` [ RunTime:0.000434s ]
+[2021-08-26T08:53:25+08:00][sql] CONNECT:[ UseTime:0.000740s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:53:25+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001166s ]
+[2021-08-26T08:53:25+08:00][sql] SELECT * FROM `users` [ RunTime:0.000820s ]
+[2021-08-26T08:53:25+08:00][sql] CONNECT:[ UseTime:0.000556s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:53:25+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000678s ]
+[2021-08-26T08:53:25+08:00][sql] SELECT * FROM `users` [ RunTime:0.000353s ]
+[2021-08-26T08:53:38+08:00][sql] CONNECT:[ UseTime:0.000778s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:53:38+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002647s ]
+[2021-08-26T08:53:38+08:00][sql] UPDATE `users`  SET `username` = 'admin' , `nickname` = '小桃' , `checkon` = 'on' , `sex` = '男' , `avatar` = 'http://cdn.layui.com/avatar/168.jpg' , `email` = 'susu@163.com' , `remarks` = 'test112233'  WHERE  `id` = 1 [ RunTime:0.003328s ]
+[2021-08-26T08:53:52+08:00][sql] CONNECT:[ UseTime:0.000523s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:53:52+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000724s ]
+[2021-08-26T08:53:52+08:00][sql] SELECT * FROM `users` [ RunTime:0.000353s ]
+[2021-08-26T08:53:52+08:00][sql] CONNECT:[ UseTime:0.000664s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:53:52+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001592s ]
+[2021-08-26T08:53:52+08:00][sql] SELECT * FROM `users` [ RunTime:0.000847s ]
+[2021-08-26T08:53:52+08:00][sql] CONNECT:[ UseTime:0.000706s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:53:52+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.003039s ]
+[2021-08-26T08:53:52+08:00][sql] SELECT * FROM `users` [ RunTime:0.000727s ]
+[2021-08-26T08:54:11+08:00][sql] CONNECT:[ UseTime:0.001850s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:54:11+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000761s ]
+[2021-08-26T08:54:11+08:00][sql] SELECT * FROM `users` [ RunTime:0.000348s ]
+[2021-08-26T08:54:23+08:00][sql] CONNECT:[ UseTime:0.000657s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:54:23+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000714s ]
+[2021-08-26T08:54:23+08:00][sql] SELECT * FROM `users` [ RunTime:0.000369s ]
+[2021-08-26T08:54:23+08:00][sql] CONNECT:[ UseTime:0.000657s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:54:23+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000763s ]
+[2021-08-26T08:54:23+08:00][sql] SELECT * FROM `users` [ RunTime:0.000561s ]
+[2021-08-26T08:54:23+08:00][sql] CONNECT:[ UseTime:0.000812s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:54:23+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000675s ]
+[2021-08-26T08:54:23+08:00][sql] SELECT * FROM `users` [ RunTime:0.000332s ]
+[2021-08-26T08:55:32+08:00][sql] CONNECT:[ UseTime:0.000763s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:55:32+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002622s ]
+[2021-08-26T08:55:32+08:00][sql] SELECT * FROM `users` [ RunTime:0.000694s ]
+[2021-08-26T08:55:32+08:00][sql] CONNECT:[ UseTime:0.000532s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:55:32+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000708s ]
+[2021-08-26T08:55:32+08:00][sql] SELECT * FROM `users` [ RunTime:0.000446s ]
+[2021-08-26T08:55:32+08:00][sql] CONNECT:[ UseTime:0.000769s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T08:55:32+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001602s ]
+[2021-08-26T08:55:32+08:00][sql] SELECT * FROM `users` [ RunTime:0.001551s ]
+[2021-08-26T09:09:37+08:00][sql] CONNECT:[ UseTime:0.000509s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:09:37+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000811s ]
+[2021-08-26T09:09:37+08:00][sql] SELECT * FROM `users` [ RunTime:0.000283s ]
+[2021-08-26T09:09:37+08:00][sql] CONNECT:[ UseTime:0.000681s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:09:37+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001100s ]
+[2021-08-26T09:09:37+08:00][sql] SELECT * FROM `users` [ RunTime:0.000600s ]
+[2021-08-26T09:09:37+08:00][sql] CONNECT:[ UseTime:0.000649s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:09:37+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000726s ]
+[2021-08-26T09:09:37+08:00][sql] SELECT * FROM `users` [ RunTime:0.000682s ]
+[2021-08-26T09:15:57+08:00][sql] CONNECT:[ UseTime:0.000533s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:15:57+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001009s ]
+[2021-08-26T09:15:57+08:00][sql] SELECT * FROM `users` [ RunTime:0.000963s ]
+[2021-08-26T09:15:57+08:00][sql] CONNECT:[ UseTime:0.001320s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:15:57+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000923s ]
+[2021-08-26T09:15:57+08:00][sql] SELECT * FROM `users` [ RunTime:0.000493s ]
+[2021-08-26T09:15:57+08:00][sql] CONNECT:[ UseTime:0.000664s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:15:57+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001539s ]
+[2021-08-26T09:15:57+08:00][sql] SELECT * FROM `users` [ RunTime:0.000586s ]
+[2021-08-26T09:17:13+08:00][sql] CONNECT:[ UseTime:0.001538s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:17:13+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002289s ]
+[2021-08-26T09:17:13+08:00][sql] SELECT * FROM `users` [ RunTime:0.000650s ]
+[2021-08-26T09:17:13+08:00][sql] CONNECT:[ UseTime:0.000698s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:17:13+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000885s ]
+[2021-08-26T09:17:13+08:00][sql] SELECT * FROM `users` [ RunTime:0.000379s ]
+[2021-08-26T09:17:14+08:00][sql] CONNECT:[ UseTime:0.000586s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:17:14+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000658s ]
+[2021-08-26T09:17:14+08:00][sql] SELECT * FROM `users` [ RunTime:0.000355s ]
+[2021-08-26T09:17:18+08:00][sql] CONNECT:[ UseTime:0.000676s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:17:18+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000740s ]
+[2021-08-26T09:17:18+08:00][sql] UPDATE `users`  SET `username` = 'admin' , `nickname` = '小桃' , `checkon` = 'off' , `sex` = '男' , `avatar` = 'http://cdn.layui.com/avatar/168.jpg' , `email` = 'susu@163.com' , `remarks` = 'test112233'  WHERE  `id` = 1 [ RunTime:0.006219s ]
+[2021-08-26T09:17:22+08:00][sql] CONNECT:[ UseTime:0.000793s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:17:22+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000855s ]
+[2021-08-26T09:17:22+08:00][sql] SELECT * FROM `users` [ RunTime:0.000510s ]
+[2021-08-26T09:17:26+08:00][sql] CONNECT:[ UseTime:0.000767s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:17:26+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000819s ]
+[2021-08-26T09:17:26+08:00][sql] SELECT * FROM `users` [ RunTime:0.000964s ]
+[2021-08-26T09:17:26+08:00][sql] CONNECT:[ UseTime:0.001576s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:17:26+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000976s ]
+[2021-08-26T09:17:26+08:00][sql] SELECT * FROM `users` [ RunTime:0.000438s ]
+[2021-08-26T09:17:26+08:00][sql] CONNECT:[ UseTime:0.000523s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:17:26+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000802s ]
+[2021-08-26T09:17:26+08:00][sql] SELECT * FROM `users` [ RunTime:0.000327s ]
+[2021-08-26T09:18:04+08:00][sql] CONNECT:[ UseTime:0.000652s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:18:04+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001145s ]
+[2021-08-26T09:18:04+08:00][sql] SELECT * FROM `users` [ RunTime:0.000867s ]
+[2021-08-26T09:18:04+08:00][sql] CONNECT:[ UseTime:0.001159s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:18:04+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000986s ]
+[2021-08-26T09:18:04+08:00][sql] SELECT * FROM `users` [ RunTime:0.000411s ]
+[2021-08-26T09:18:04+08:00][sql] CONNECT:[ UseTime:0.000772s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:18:04+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000937s ]
+[2021-08-26T09:18:04+08:00][sql] SELECT * FROM `users` [ RunTime:0.000510s ]
+[2021-08-26T09:18:31+08:00][sql] CONNECT:[ UseTime:0.000757s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:18:31+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001060s ]
+[2021-08-26T09:18:31+08:00][sql] SELECT * FROM `users` [ RunTime:0.000470s ]
+[2021-08-26T09:18:31+08:00][sql] CONNECT:[ UseTime:0.000805s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:18:31+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000793s ]
+[2021-08-26T09:18:31+08:00][sql] SELECT * FROM `users` [ RunTime:0.000384s ]
+[2021-08-26T09:18:31+08:00][sql] CONNECT:[ UseTime:0.001220s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:18:31+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002298s ]
+[2021-08-26T09:18:31+08:00][sql] SELECT * FROM `users` [ RunTime:0.000624s ]
+[2021-08-26T09:19:56+08:00][sql] CONNECT:[ UseTime:0.000797s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:19:56+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000890s ]
+[2021-08-26T09:19:56+08:00][sql] SELECT * FROM `users` [ RunTime:0.002623s ]
+[2021-08-26T09:19:56+08:00][sql] CONNECT:[ UseTime:0.000692s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:19:56+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000682s ]
+[2021-08-26T09:19:56+08:00][sql] SELECT * FROM `users` [ RunTime:0.000357s ]
+[2021-08-26T09:19:56+08:00][sql] CONNECT:[ UseTime:0.000706s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:19:56+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000785s ]
+[2021-08-26T09:19:56+08:00][sql] SELECT * FROM `users` [ RunTime:0.000401s ]
+[2021-08-26T09:23:24+08:00][sql] CONNECT:[ UseTime:0.000539s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:23:24+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000887s ]
+[2021-08-26T09:23:24+08:00][sql] SELECT * FROM `users` [ RunTime:0.000327s ]
+[2021-08-26T09:23:24+08:00][sql] CONNECT:[ UseTime:0.000581s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:23:24+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001573s ]
+[2021-08-26T09:23:24+08:00][sql] SELECT * FROM `users` [ RunTime:0.000753s ]
+[2021-08-26T09:23:24+08:00][sql] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:23:24+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000819s ]
+[2021-08-26T09:23:24+08:00][sql] SELECT * FROM `users` [ RunTime:0.000543s ]
+[2021-08-26T09:23:29+08:00][sql] CONNECT:[ UseTime:0.001754s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:23:29+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000757s ]
+[2021-08-26T09:23:29+08:00][sql] SELECT * FROM `users` [ RunTime:0.000425s ]
+[2021-08-26T09:23:41+08:00][sql] CONNECT:[ UseTime:0.006875s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:23:41+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001958s ]
+[2021-08-26T09:23:41+08:00][sql] SELECT * FROM `users` [ RunTime:0.000573s ]
+[2021-08-26T09:23:41+08:00][sql] CONNECT:[ UseTime:0.000804s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:23:41+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000823s ]
+[2021-08-26T09:23:41+08:00][sql] SELECT * FROM `users` [ RunTime:0.000567s ]
+[2021-08-26T09:23:41+08:00][sql] CONNECT:[ UseTime:0.000910s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:23:41+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000876s ]
+[2021-08-26T09:23:41+08:00][sql] SELECT * FROM `users` [ RunTime:0.000774s ]
+[2021-08-26T09:25:04+08:00][sql] CONNECT:[ UseTime:0.000791s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:25:04+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001001s ]
+[2021-08-26T09:25:04+08:00][sql] SELECT * FROM `users` [ RunTime:0.000498s ]
+[2021-08-26T09:25:04+08:00][sql] CONNECT:[ UseTime:0.001207s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:25:04+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000792s ]
+[2021-08-26T09:25:04+08:00][sql] SELECT * FROM `users` [ RunTime:0.000388s ]
+[2021-08-26T09:25:04+08:00][sql] CONNECT:[ UseTime:0.000621s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:25:04+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000727s ]
+[2021-08-26T09:25:04+08:00][sql] SELECT * FROM `users` [ RunTime:0.001253s ]
+[2021-08-26T09:25:18+08:00][sql] CONNECT:[ UseTime:0.000752s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:25:18+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.004707s ]
+[2021-08-26T09:25:18+08:00][sql] SELECT * FROM `users` [ RunTime:0.000592s ]
+[2021-08-26T09:25:18+08:00][sql] CONNECT:[ UseTime:0.000656s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:25:18+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000918s ]
+[2021-08-26T09:25:18+08:00][sql] SELECT * FROM `users` [ RunTime:0.000524s ]
+[2021-08-26T09:25:18+08:00][sql] CONNECT:[ UseTime:0.003123s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:25:18+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000853s ]
+[2021-08-26T09:25:18+08:00][sql] SELECT * FROM `users` [ RunTime:0.000643s ]
+[2021-08-26T09:25:47+08:00][sql] CONNECT:[ UseTime:0.001426s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:25:47+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000929s ]
+[2021-08-26T09:25:47+08:00][sql] SELECT * FROM `users` [ RunTime:0.000567s ]
+[2021-08-26T09:25:47+08:00][sql] CONNECT:[ UseTime:0.001051s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:25:47+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000704s ]
+[2021-08-26T09:25:47+08:00][sql] SELECT * FROM `users` [ RunTime:0.000377s ]
+[2021-08-26T09:25:47+08:00][sql] CONNECT:[ UseTime:0.000725s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:25:47+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000712s ]
+[2021-08-26T09:25:47+08:00][sql] SELECT * FROM `users` [ RunTime:0.000428s ]
+[2021-08-26T09:26:14+08:00][sql] CONNECT:[ UseTime:0.000831s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:26:14+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000901s ]
+[2021-08-26T09:26:14+08:00][sql] SELECT * FROM `users` [ RunTime:0.000468s ]
+[2021-08-26T09:26:14+08:00][sql] CONNECT:[ UseTime:0.000625s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:26:14+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000703s ]
+[2021-08-26T09:26:14+08:00][sql] SELECT * FROM `users` [ RunTime:0.000355s ]
+[2021-08-26T09:26:14+08:00][sql] CONNECT:[ UseTime:0.000562s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:26:14+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000589s ]
+[2021-08-26T09:26:14+08:00][sql] SELECT * FROM `users` [ RunTime:0.000369s ]
+[2021-08-26T09:26:22+08:00][sql] CONNECT:[ UseTime:0.000780s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:26:22+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001091s ]
+[2021-08-26T09:26:22+08:00][sql] SELECT * FROM `users` [ RunTime:0.000700s ]
+[2021-08-26T09:26:22+08:00][sql] CONNECT:[ UseTime:0.000726s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:26:22+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000695s ]
+[2021-08-26T09:26:22+08:00][sql] SELECT * FROM `users` [ RunTime:0.000829s ]
+[2021-08-26T09:26:29+08:00][sql] CONNECT:[ UseTime:0.000610s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:26:29+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001296s ]
+[2021-08-26T09:26:29+08:00][sql] SELECT * FROM `links` LIMIT 0,20 [ RunTime:0.000625s ]
+[2021-08-26T09:26:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` LIMIT 1 [ RunTime:0.004191s ]
+[2021-08-26T09:26:31+08:00][sql] CONNECT:[ UseTime:0.002728s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:26:31+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001067s ]
+[2021-08-26T09:26:31+08:00][sql] SELECT * FROM `links` LIMIT 0,20 [ RunTime:0.000660s ]
+[2021-08-26T09:26:31+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` LIMIT 1 [ RunTime:0.002637s ]
+[2021-08-26T09:27:46+08:00][sql] CONNECT:[ UseTime:0.000705s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:27:46+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.004372s ]
+[2021-08-26T09:27:46+08:00][sql] SELECT * FROM `links` LIMIT 0,20 [ RunTime:0.000647s ]
+[2021-08-26T09:27:46+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` LIMIT 1 [ RunTime:0.001678s ]
+[2021-08-26T09:27:47+08:00][sql] CONNECT:[ UseTime:0.000741s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:27:47+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000946s ]
+[2021-08-26T09:27:47+08:00][sql] SELECT * FROM `links` LIMIT 0,20 [ RunTime:0.001045s ]
+[2021-08-26T09:27:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` LIMIT 1 [ RunTime:0.002954s ]
+[2021-08-26T09:27:48+08:00][sql] CONNECT:[ UseTime:0.000728s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:27:48+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000824s ]
+[2021-08-26T09:27:48+08:00][sql] SELECT * FROM `links` LIMIT 0,20 [ RunTime:0.000910s ]
+[2021-08-26T09:27:48+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` LIMIT 1 [ RunTime:0.001837s ]
+[2021-08-26T09:27:49+08:00][sql] CONNECT:[ UseTime:0.000880s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:27:49+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001291s ]
+[2021-08-26T09:27:49+08:00][sql] SELECT * FROM `links` LIMIT 0,20 [ RunTime:0.001560s ]
+[2021-08-26T09:27:49+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` LIMIT 1 [ RunTime:0.003680s ]
+[2021-08-26T09:27:58+08:00][sql] CONNECT:[ UseTime:0.000660s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:27:58+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000809s ]
+[2021-08-26T09:27:58+08:00][sql] SELECT * FROM `links` LIMIT 0,20 [ RunTime:0.000576s ]
+[2021-08-26T09:27:58+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` LIMIT 1 [ RunTime:0.001722s ]
+[2021-08-26T09:30:20+08:00][sql] CONNECT:[ UseTime:0.000686s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:30:20+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000800s ]
+[2021-08-26T09:30:20+08:00][sql] SELECT * FROM `users` [ RunTime:0.000547s ]
+[2021-08-26T09:30:20+08:00][sql] CONNECT:[ UseTime:0.000758s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:30:20+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000709s ]
+[2021-08-26T09:30:20+08:00][sql] SELECT * FROM `users` [ RunTime:0.000471s ]
+[2021-08-26T09:30:21+08:00][sql] CONNECT:[ UseTime:0.002735s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:30:21+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000762s ]
+[2021-08-26T09:30:21+08:00][sql] SELECT * FROM `users` [ RunTime:0.000325s ]
+[2021-08-26T09:30:21+08:00][sql] CONNECT:[ UseTime:0.000813s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:30:21+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000754s ]
+[2021-08-26T09:30:21+08:00][sql] SELECT * FROM `users` [ RunTime:0.001329s ]
+[2021-08-26T09:30:21+08:00][sql] CONNECT:[ UseTime:0.000729s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:30:21+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000809s ]
+[2021-08-26T09:30:21+08:00][sql] SELECT * FROM `users` [ RunTime:0.000498s ]
+[2021-08-26T09:30:21+08:00][sql] CONNECT:[ UseTime:0.000709s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:30:21+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000759s ]
+[2021-08-26T09:30:21+08:00][sql] SELECT * FROM `users` [ RunTime:0.000673s ]
+[2021-08-26T09:30:42+08:00][sql] CONNECT:[ UseTime:0.001144s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:30:42+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000945s ]
+[2021-08-26T09:30:42+08:00][sql] UPDATE `links`  SET `url` = 'https://www.huaweicloud.com' , `link` = 'zgfXY' , `pass` = '666' , `last_visit` = '2021-08-26 09:30:42'  WHERE  `id` = 509 [ RunTime:0.007407s ]
+[2021-08-26T09:30:42+08:00][sql] CONNECT:[ UseTime:0.000767s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:30:42+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000844s ]
+[2021-08-26T09:30:42+08:00][sql] SELECT * FROM `links` LIMIT 0,20 [ RunTime:0.000721s ]
+[2021-08-26T09:30:42+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` LIMIT 1 [ RunTime:0.003110s ]
+[2021-08-26T09:35:25+08:00][sql] CONNECT:[ UseTime:0.000795s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:35:25+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002535s ]
+[2021-08-26T09:35:25+08:00][sql] SELECT * FROM `users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000793s ]
+[2021-08-26T09:35:25+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000598s ]
+[2021-08-26T09:35:25+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'e5SnD' LIMIT 1 [ RunTime:0.000581s ]
+[2021-08-26T09:35:25+08:00][sql] SELECT `id` FROM `links` WHERE  `link` = '0xUDW' LIMIT 1 [ RunTime:0.000922s ]
+[2021-08-26T09:35:25+08:00][sql] INSERT INTO `links` SET `pass` = '' , `last_visit` = '2021-08-26 09:35:25' , `url` = 'https://www.huaweicloud.com' , `link` = '0xUDW' [ RunTime:0.000909s ]
+[2021-08-26T09:35:53+08:00][sql] CONNECT:[ UseTime:0.000722s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:35:53+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002965s ]
+[2021-08-26T09:35:53+08:00][sql] SELECT * FROM `links` WHERE  `link` = '0xUDW' LIMIT 1 [ RunTime:0.000524s ]
+[2021-08-26T09:35:53+08:00][sql] SELECT * FROM `links` WHERE  `link` = '0xUDW' [ RunTime:0.000753s ]
+[2021-08-26T09:36:14+08:00][sql] CONNECT:[ UseTime:0.000659s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:36:14+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000705s ]
+[2021-08-26T09:36:14+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000560s ]
+[2021-08-26T09:36:14+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' [ RunTime:0.000554s ]
+[2021-08-26T09:39:03+08:00][sql] CONNECT:[ UseTime:0.000725s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:39:03+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002276s ]
+[2021-08-26T09:39:03+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000512s ]
+[2021-08-26T09:39:03+08:00][error] [2]include(&lt;!--   qaw,短链接生成,新浪短连接,腾讯短连接,QAW短网址      --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no,user-scalable=no&quot;&gt;
+  &lt;title&gt;QAW短网址&lt;/title&gt;
+  &lt;meta name=&quot;keywords&quot; content=&quot;qaw,短链接生成,新浪短连接,腾讯短连接,QAW短网址&quot;&gt;
+  &lt;meta name=&quot;description&quot; content=&quot;qaw短网址 - 免费的短网址生成与还原&quot;&gt;
+  &lt;meta property=&quot;og:description&quot; content=&quot;qaw短网址 - 免费的短网址生成与还原&quot;&gt;
+  &lt;meta property=&quot;og:type&quot; content=&quot;acticle&quot;&gt;
+  &lt;meta property=&quot;og:locale&quot; content=&quot;zh-CN&quot; /&gt;
+  &lt;meta property=&quot;og:site_name&quot; content=&quot;qaw短网址&quot;&gt;
+  &lt;meta property=&quot;og:title&quot; content=&quot;qaw短网址&quot;&gt;
+  &lt;link rel=&quot;shortcut icon&quot; href=&quot;./api/css/favicon.ico&quot; /&gt;
+  &lt;!--     Fonts and icons     --&gt;
+&lt;!--//  &lt;link href=&quot;https://...@gmail.com&quot;&gt;feilvbinsong@gmail.com&lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/footer&gt;
+&lt;/div&gt;
+&lt;!--错误提示框--&gt;
+
+&lt;div class=&quot;modal fade&quot; id=&quot;errPop&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;myModalLabel&quot; aria-hidden=&quot;true&quot;&gt;
+  &lt;div class=&quot;modal-dialog&quot;&gt;
+    &lt;div class=&quot;modal-content&quot;&gt;
+      &lt;div class=&quot;modal-header justify-content-center&quot;&gt;
+        &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-hidden=&quot;true&quot;&gt;
+          &lt;i class=&quot;tim-icons icon-simple-remove&quot;&gt;&lt;/i&gt;
+        &lt;/button&gt;
+        &lt;h4 class=&quot;title title-up&quot;&gt;温馨提示&lt;/h4&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;modal-body text-center&quot;&gt;
+        &lt;p id=&quot;errTip&quot;&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;modal-footer&quot;&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-primary col-12&quot; data-dismiss=&quot;modal&quot;&gt;确 定&lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--   Core JS Files   --&gt;
+&lt;script src=&quot;https://cdn.bootcdn.net/ajax/libs/jquery/3.2.1/jquery.min.js&quot;&gt;&lt;/script&gt; &lt;!---这三条本地有备份js--&gt;
+&lt;script src=&quot;api/assets/js/popper.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;api/assets/js/blk-design-system.min.js?v=1.0.0&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://cdn.bootcdn.net/ajax/libs/clipboard.js/2.0.6/clipboard.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;api/assets/js/main.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+  $(document).ready(function() {
+    blackKit.initDatePicker();
+    blackKit.initSliders();
+  });
+
+  function scrollToDownload() {
+    if ($('.section-download').length != 0) {
+      $(&quot;html, body&quot;).animate({
+        scrollTop: $('.section-download').offset().top
+      }, 1000);
+    }
+  }
+&lt;/script&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;): failed to open stream: Invalid argument[/www/wwwroot/short.com/app/controller/Url.php:22]
+[2021-08-26T09:40:06+08:00][sql] CONNECT:[ UseTime:0.000613s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:40:06+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000755s ]
+[2021-08-26T09:40:06+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000517s ]
+[2021-08-26T09:40:06+08:00][error] [2]include(&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;checkpass&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+
+&lt;div class=&quot;layui-form&quot; lay-filter=&quot;layuiadmin-form-tags&quot; id=&quot;layuiadmin-app-form-tags&quot;&gt;
+  &lt;div class=&quot;layui-form-item&quot;&gt;
+    &lt;label class=&quot;layui-form-label&quot;&gt;目标网址&lt;/label&gt;
+    &lt;div class=&quot;layui-input-inline&quot;&gt;
+      &lt;script type=&quot;text/html&quot; template&gt;
+        &lt;input type=&quot;text&quot; name=&quot;url&quot; value=&quot;{{ d.params.url || '' }}&quot; lay-verify=&quot;required&quot; placeholder=&quot;请输入...&quot; autocomplete=&quot;off&quot; class=&quot;layui-input&quot;&gt;
+      &lt;/script&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;layui-form&quot; lay-filter=&quot;layuiadmin-form-tags&quot; id=&quot;layuiadmin-app-form-tags&quot;&gt;
+    &lt;div class=&quot;layui-form-item&quot;&gt;
+      &lt;label class=&quot;layui-form-label&quot;&gt;短链&lt;/label&gt;
+      &lt;div class=&quot;layui-input-inline&quot;&gt;
+        &lt;script type=&quot;text/html&quot; template&gt;
+          &lt;input type=&quot;text&quot; name=&quot;link&quot; value=&quot;{{ d.params.link || '' }}&quot; lay-verify=&quot;required&quot; placeholder=&quot;请输入...&quot; autocomplete=&quot;off&quot; class=&quot;layui-input&quot;&gt;
+        &lt;/script&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;layui-form-item&quot;&gt;
+      &lt;label class=&quot;layui-form-label&quot;&gt;密码&lt;/label&gt;
+      &lt;div class=&quot;layui-input-inline&quot;&gt;
+        &lt;script type=&quot;text/html&quot; template&gt;
+          &lt;input type=&quot;text&quot; name=&quot;pass&quot; value=&quot;{{ d.params.pass || '' }}&quot; lay-verify=&quot;required&quot; placeholder=&quot;请输入...&quot; autocomplete=&quot;off&quot; class=&quot;layui-input&quot;&gt;
+        &lt;/script&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;script type=&quot;text/html&quot; template&gt;
+      &lt;input type=&quot;hidden&quot; name=&quot;id&quot; value=&quot;{{ d.params.id || '' }}&quot;&gt;
+    &lt;/script&gt;
+
+
+    &lt;div class=&quot;layui-form&quot; lay-filter=&quot;layuiadmin-form-tags&quot; id=&quot;layuiadmin-app-form-tags&quot;&gt;
+      &lt;div class=&quot;layui-form-item&quot;&gt;
+        &lt;label class=&quot;layui-form-label&quot;&gt;&lt;/label&gt;
+        &lt;div class=&quot;layui-input-inline&quot;&gt;
+          &lt;input type=&quot;button&quot; lay-submit lay-filter=&quot;layuiadmin-app-tags-submit&quot; value=&quot;确认&quot; class=&quot;layui-btn&quot;&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;): failed to open stream: No such file or directory[/www/wwwroot/short.com/app/controller/Url.php:22]
+[2021-08-26T09:41:55+08:00][sql] CONNECT:[ UseTime:0.000665s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:41:55+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000760s ]
+[2021-08-26T09:41:55+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.002973s ]
+[2021-08-26T09:41:55+08:00][error] [2]include(&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;checkpass&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+
+    &lt;div class=&quot;layui-form-item&quot;&gt;
+      &lt;label class=&quot;layui-form-label&quot;&gt;密码&lt;/label&gt;
+      &lt;div class=&quot;layui-input-inline&quot;&gt;
+        &lt;script type=&quot;text/html&quot; template&gt;
+          &lt;input type=&quot;text&quot; name=&quot;pass&quot; value=&quot;{{ d.params.pass || '' }}&quot; lay-verify=&quot;required&quot; placeholder=&quot;请输入...&quot; autocomplete=&quot;off&quot; class=&quot;layui-input&quot;&gt;
+        &lt;/script&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;script type=&quot;text/html&quot; template&gt;
+      &lt;input type=&quot;hidden&quot; name=&quot;id&quot; value=&quot;{{ d.params.id || '' }}&quot;&gt;
+    &lt;/script&gt;
+
+
+    &lt;div class=&quot;layui-form&quot; lay-filter=&quot;layuiadmin-form-tags&quot; id=&quot;layuiadmin-app-form-tags&quot;&gt;
+      &lt;div class=&quot;layui-form-item&quot;&gt;
+        &lt;label class=&quot;layui-form-label&quot;&gt;&lt;/label&gt;
+        &lt;div class=&quot;layui-input-inline&quot;&gt;
+          &lt;input type=&quot;button&quot; lay-submit lay-filter=&quot;layuiadmin-app-tags-submit&quot; value=&quot;确认&quot; class=&quot;layui-btn&quot;&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;): failed to open stream: No such file or directory[/www/wwwroot/short.com/app/controller/Url.php:22]
+[2021-08-26T09:42:13+08:00][sql] CONNECT:[ UseTime:0.000649s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:42:13+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001161s ]
+[2021-08-26T09:42:13+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000633s ]
+[2021-08-26T09:42:13+08:00][error] [2]include(&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;checkpass&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+
+    &lt;div class=&quot;layui-form-item&quot;&gt;
+      &lt;label class=&quot;layui-form-label&quot;&gt;密码&lt;/label&gt;
+      &lt;div class=&quot;layui-input-inline&quot;&gt;
+        &lt;script type=&quot;text/html&quot; template&gt;
+          &lt;input type=&quot;text&quot; name=&quot;pass&quot; value=&quot;{{ d.params.pass || '' }}&quot; lay-verify=&quot;required&quot; placeholder=&quot;请输入...&quot; autocomplete=&quot;off&quot; class=&quot;layui-input&quot;&gt;
+        &lt;/script&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;script type=&quot;text/html&quot; template&gt;
+      &lt;input type=&quot;hidden&quot; name=&quot;id&quot; value=&quot;{{ d.params.id || '' }}&quot;&gt;
+    &lt;/script&gt;
+
+
+    &lt;div class=&quot;layui-form&quot; lay-filter=&quot;layuiadmin-form-tags&quot; id=&quot;layuiadmin-app-form-tags&quot;&gt;
+      &lt;div class=&quot;layui-form-item&quot;&gt;
+        &lt;label class=&quot;layui-form-label&quot;&gt;&lt;/label&gt;
+        &lt;div class=&quot;layui-input-inline&quot;&gt;
+          &lt;input type=&quot;button&quot; lay-submit lay-filter=&quot;layuiadmin-app-tags-submit&quot; value=&quot;确认&quot; class=&quot;layui-btn&quot;&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;): failed to open stream: No such file or directory[/www/wwwroot/short.com/app/controller/Url.php:22]
+[2021-08-26T09:42:14+08:00][sql] CONNECT:[ UseTime:0.000671s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:42:14+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001316s ]
+[2021-08-26T09:42:14+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000835s ]
+[2021-08-26T09:43:27+08:00][sql] CONNECT:[ UseTime:0.000966s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:43:27+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000821s ]
+[2021-08-26T09:43:27+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000504s ]
+[2021-08-26T09:47:49+08:00][sql] CONNECT:[ UseTime:0.000680s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:47:49+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000764s ]
+[2021-08-26T09:47:49+08:00][sql] SELECT * FROM `users` [ RunTime:0.000652s ]
+[2021-08-26T09:47:49+08:00][sql] SELECT * FROM `users` WHERE  `username` = 'admin' [ RunTime:0.000705s ]
+[2021-08-26T09:47:50+08:00][sql] CONNECT:[ UseTime:0.000804s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:47:50+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000863s ]
+[2021-08-26T09:47:50+08:00][sql] SELECT * FROM `users` [ RunTime:0.000435s ]
+[2021-08-26T09:47:52+08:00][sql] CONNECT:[ UseTime:0.000793s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:47:52+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000735s ]
+[2021-08-26T09:47:52+08:00][sql] SELECT * FROM `links` LIMIT 0,20 [ RunTime:0.001270s ]
+[2021-08-26T09:47:52+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` LIMIT 1 [ RunTime:0.003605s ]
+[2021-08-26T09:49:53+08:00][sql] CONNECT:[ UseTime:0.000727s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:49:53+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000812s ]
+[2021-08-26T09:49:53+08:00][sql] SELECT * FROM `users` [ RunTime:0.000400s ]
+[2021-08-26T09:50:39+08:00][sql] CONNECT:[ UseTime:0.000763s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:50:39+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001186s ]
+[2021-08-26T09:50:39+08:00][sql] SELECT * FROM `users` [ RunTime:0.000744s ]
+[2021-08-26T09:50:40+08:00][sql] CONNECT:[ UseTime:0.000971s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:50:40+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002319s ]
+[2021-08-26T09:50:40+08:00][sql] SELECT * FROM `users` [ RunTime:0.001875s ]
+[2021-08-26T09:51:10+08:00][sql] CONNECT:[ UseTime:0.001772s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:51:10+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001154s ]
+[2021-08-26T09:51:10+08:00][sql] SELECT * FROM `users` [ RunTime:0.000981s ]
+[2021-08-26T09:56:06+08:00][sql] CONNECT:[ UseTime:0.001027s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:56:06+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000982s ]
+[2021-08-26T09:56:06+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000564s ]
+[2021-08-26T09:56:07+08:00][sql] CONNECT:[ UseTime:0.000926s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:56:07+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001099s ]
+[2021-08-26T09:56:07+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000647s ]
+[2021-08-26T09:59:46+08:00][sql] CONNECT:[ UseTime:0.000848s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T09:59:46+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000904s ]
+[2021-08-26T09:59:46+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000646s ]
+[2021-08-26T10:06:33+08:00][sql] CONNECT:[ UseTime:0.000745s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:06:33+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002976s ]
+[2021-08-26T10:06:33+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000458s ]
+[2021-08-26T10:07:25+08:00][sql] CONNECT:[ UseTime:0.000703s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:07:25+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000793s ]
+[2021-08-26T10:07:25+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000526s ]
+[2021-08-26T10:15:44+08:00][sql] CONNECT:[ UseTime:0.000818s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:15:44+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000734s ]
+[2021-08-26T10:15:44+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000576s ]
+[2021-08-26T10:15:45+08:00][sql] CONNECT:[ UseTime:0.001114s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:15:45+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001739s ]
+[2021-08-26T10:15:45+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.001123s ]
+[2021-08-26T10:15:45+08:00][sql] CONNECT:[ UseTime:0.001095s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:15:45+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000899s ]
+[2021-08-26T10:15:45+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.001156s ]
+[2021-08-26T10:15:46+08:00][sql] CONNECT:[ UseTime:0.000705s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:15:46+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000885s ]
+[2021-08-26T10:15:46+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000527s ]
+[2021-08-26T10:15:46+08:00][sql] CONNECT:[ UseTime:0.000645s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:15:46+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000750s ]
+[2021-08-26T10:15:46+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000787s ]
+[2021-08-26T10:15:46+08:00][sql] CONNECT:[ UseTime:0.000533s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:15:46+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000703s ]
+[2021-08-26T10:15:46+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000424s ]
+[2021-08-26T10:17:30+08:00][sql] CONNECT:[ UseTime:0.000701s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:17:30+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001304s ]
+[2021-08-26T10:17:30+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000913s ]
+[2021-08-26T10:17:32+08:00][sql] CONNECT:[ UseTime:0.000792s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:17:32+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000747s ]
+[2021-08-26T10:17:32+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.003048s ]
+[2021-08-26T10:18:00+08:00][sql] CONNECT:[ UseTime:0.000682s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:18:00+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000890s ]
+[2021-08-26T10:18:00+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000518s ]
+[2021-08-26T10:18:02+08:00][sql] CONNECT:[ UseTime:0.000559s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:18:02+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000918s ]
+[2021-08-26T10:18:02+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000600s ]
+[2021-08-26T10:18:33+08:00][sql] CONNECT:[ UseTime:0.000671s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:18:33+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002539s ]
+[2021-08-26T10:18:33+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000413s ]
+[2021-08-26T10:19:22+08:00][sql] CONNECT:[ UseTime:0.001106s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:19:22+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002381s ]
+[2021-08-26T10:19:22+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000415s ]
+[2021-08-26T10:19:23+08:00][sql] CONNECT:[ UseTime:0.001047s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:19:23+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001145s ]
+[2021-08-26T10:19:23+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000554s ]
+[2021-08-26T10:19:39+08:00][sql] CONNECT:[ UseTime:0.000717s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:19:39+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001143s ]
+[2021-08-26T10:19:39+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.001234s ]
+[2021-08-26T10:20:56+08:00][sql] CONNECT:[ UseTime:0.000631s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:20:56+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001390s ]
+[2021-08-26T10:20:56+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000500s ]
+[2021-08-26T10:21:08+08:00][sql] CONNECT:[ UseTime:0.000749s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:21:08+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000865s ]
+[2021-08-26T10:21:08+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.001268s ]
+[2021-08-26T10:21:16+08:00][sql] CONNECT:[ UseTime:0.000811s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:21:16+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000898s ]
+[2021-08-26T10:21:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000699s ]
+[2021-08-26T10:21:36+08:00][sql] CONNECT:[ UseTime:0.000753s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:21:36+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000854s ]
+[2021-08-26T10:21:36+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000706s ]
+[2021-08-26T10:23:06+08:00][sql] CONNECT:[ UseTime:0.000754s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:23:06+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000743s ]
+[2021-08-26T10:23:06+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000493s ]
+[2021-08-26T10:23:30+08:00][sql] CONNECT:[ UseTime:0.000725s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:23:30+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000779s ]
+[2021-08-26T10:23:30+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000512s ]
+[2021-08-26T10:24:07+08:00][sql] CONNECT:[ UseTime:0.001946s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:24:07+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001838s ]
+[2021-08-26T10:24:07+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000547s ]
+[2021-08-26T10:25:40+08:00][sql] CONNECT:[ UseTime:0.000670s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:25:40+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000907s ]
+[2021-08-26T10:25:40+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000896s ]
+[2021-08-26T10:25:54+08:00][sql] CONNECT:[ UseTime:0.002075s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:25:54+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000775s ]
+[2021-08-26T10:25:54+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000867s ]
+[2021-08-26T10:26:37+08:00][sql] CONNECT:[ UseTime:0.000658s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:26:37+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.003284s ]
+[2021-08-26T10:26:37+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000873s ]
+[2021-08-26T10:30:27+08:00][sql] CONNECT:[ UseTime:0.000669s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:30:27+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000724s ]
+[2021-08-26T10:30:27+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.002990s ]
+[2021-08-26T10:32:52+08:00][sql] CONNECT:[ UseTime:0.000719s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:32:52+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000955s ]
+[2021-08-26T10:32:52+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000550s ]
+[2021-08-26T10:33:36+08:00][sql] CONNECT:[ UseTime:0.000771s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:33:36+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001340s ]
+[2021-08-26T10:33:36+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.001116s ]
+[2021-08-26T10:37:49+08:00][sql] CONNECT:[ UseTime:0.002867s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:37:49+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000764s ]
+[2021-08-26T10:37:49+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000475s ]
+[2021-08-26T10:38:16+08:00][sql] CONNECT:[ UseTime:0.000643s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:38:16+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000767s ]
+[2021-08-26T10:38:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000780s ]
+[2021-08-26T10:42:39+08:00][sql] CONNECT:[ UseTime:0.001304s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:42:39+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001098s ]
+[2021-08-26T10:42:39+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000717s ]
+[2021-08-26T10:44:37+08:00][sql] CONNECT:[ UseTime:0.000628s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:44:37+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000909s ]
+[2021-08-26T10:44:37+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000423s ]
+[2021-08-26T10:50:41+08:00][sql] CONNECT:[ UseTime:0.000907s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:50:41+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001924s ]
+[2021-08-26T10:50:41+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000543s ]
+[2021-08-26T10:54:05+08:00][sql] CONNECT:[ UseTime:0.000734s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T10:54:05+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000891s ]
+[2021-08-26T10:54:05+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000554s ]
+[2021-08-26T11:22:33+08:00][sql] CONNECT:[ UseTime:0.000976s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T11:22:33+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001422s ]
+[2021-08-26T11:22:33+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000718s ]
+[2021-08-26T11:23:50+08:00][sql] CONNECT:[ UseTime:0.000777s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T11:23:50+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000987s ]
+[2021-08-26T11:23:50+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000574s ]
+[2021-08-26T15:22:03+08:00][sql] CONNECT:[ UseTime:0.002902s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T15:22:03+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.022481s ]
+[2021-08-26T15:22:03+08:00][sql] SELECT * FROM `users` [ RunTime:0.000582s ]
+[2021-08-26T15:22:11+08:00][sql] CONNECT:[ UseTime:0.000765s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T15:22:11+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000795s ]
+[2021-08-26T15:22:11+08:00][sql] SELECT * FROM `users` [ RunTime:0.000555s ]
+[2021-08-26T15:22:11+08:00][sql] CONNECT:[ UseTime:0.001436s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T15:22:11+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000762s ]
+[2021-08-26T15:22:11+08:00][sql] SELECT * FROM `users` [ RunTime:0.000965s ]
+[2021-08-26T15:22:16+08:00][sql] CONNECT:[ UseTime:0.001034s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T15:22:16+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001098s ]
+[2021-08-26T15:22:16+08:00][sql] SELECT * FROM `users` [ RunTime:0.000515s ]
+[2021-08-26T15:22:16+08:00][sql] CONNECT:[ UseTime:0.000611s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T15:22:16+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000831s ]
+[2021-08-26T15:22:16+08:00][sql] SELECT * FROM `users` [ RunTime:0.000756s ]
+[2021-08-26T15:22:38+08:00][sql] CONNECT:[ UseTime:0.000770s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T15:22:38+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002750s ]
+[2021-08-26T15:22:38+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'dfg45' LIMIT 1 [ RunTime:0.002251s ]
+[2021-08-26T15:22:38+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'dfg45' [ RunTime:0.000617s ]
+[2021-08-26T15:22:44+08:00][sql] CONNECT:[ UseTime:0.000721s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T15:22:44+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000823s ]
+[2021-08-26T15:22:44+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'Rbjnq' LIMIT 1 [ RunTime:0.000486s ]
+[2021-08-26T15:22:44+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'Rbjnq' [ RunTime:0.000461s ]
+[2021-08-26T15:22:48+08:00][sql] CONNECT:[ UseTime:0.000720s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T15:22:48+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000838s ]
+[2021-08-26T15:22:48+08:00][sql] SELECT * FROM `links` LIMIT 0,20 [ RunTime:0.000518s ]
+[2021-08-26T15:22:48+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` LIMIT 1 [ RunTime:0.004271s ]
+[2021-08-26T15:23:04+08:00][sql] CONNECT:[ UseTime:0.000850s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T15:23:04+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001386s ]
+[2021-08-26T15:23:04+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.002451s ]
+[2021-08-26T15:58:32+08:00][sql] CONNECT:[ UseTime:0.001440s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T15:58:32+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001627s ]
+[2021-08-26T15:58:32+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000812s ]
+[2021-08-26T16:00:45+08:00][sql] CONNECT:[ UseTime:0.001265s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:00:45+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001164s ]
+[2021-08-26T16:00:45+08:00][sql] SELECT * FROM `users` [ RunTime:0.000535s ]
+[2021-08-26T16:01:00+08:00][sql] CONNECT:[ UseTime:0.000740s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:01:00+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000700s ]
+[2021-08-26T16:01:00+08:00][sql] SELECT * FROM `links` LIMIT 0,20 [ RunTime:0.000512s ]
+[2021-08-26T16:01:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` LIMIT 1 [ RunTime:0.001779s ]
+[2021-08-26T16:01:01+08:00][sql] CONNECT:[ UseTime:0.000803s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:01:01+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002028s ]
+[2021-08-26T16:01:01+08:00][sql] SELECT * FROM `links` LIMIT 0,20 [ RunTime:0.001375s ]
+[2021-08-26T16:01:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` LIMIT 1 [ RunTime:0.001674s ]
+[2021-08-26T16:01:02+08:00][sql] CONNECT:[ UseTime:0.000704s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:01:02+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000791s ]
+[2021-08-26T16:01:02+08:00][sql] SELECT * FROM `links` LIMIT 0,20 [ RunTime:0.000606s ]
+[2021-08-26T16:01:02+08:00][sql] SELECT COUNT(*) AS think_count FROM `links` LIMIT 1 [ RunTime:0.003114s ]
+[2021-08-26T16:01:15+08:00][sql] CONNECT:[ UseTime:0.000681s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:01:15+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000774s ]
+[2021-08-26T16:01:15+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000442s ]
+[2021-08-26T16:01:15+08:00][sql] CONNECT:[ UseTime:0.000621s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:01:15+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000747s ]
+[2021-08-26T16:01:15+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000486s ]
+[2021-08-26T16:01:15+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000449s ]
+[2021-08-26T16:01:31+08:00][sql] CONNECT:[ UseTime:0.000673s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:01:31+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000775s ]
+[2021-08-26T16:01:31+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000474s ]
+[2021-08-26T16:01:31+08:00][sql] CONNECT:[ UseTime:0.000614s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:01:31+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000706s ]
+[2021-08-26T16:01:31+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000680s ]
+[2021-08-26T16:01:31+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000433s ]
+[2021-08-26T16:03:54+08:00][sql] CONNECT:[ UseTime:0.000770s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:03:54+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000930s ]
+[2021-08-26T16:03:54+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000605s ]
+[2021-08-26T16:03:55+08:00][sql] CONNECT:[ UseTime:0.000755s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:03:55+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001301s ]
+[2021-08-26T16:03:55+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000935s ]
+[2021-08-26T16:03:55+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000548s ]
+[2021-08-26T16:04:49+08:00][sql] CONNECT:[ UseTime:0.000875s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:04:49+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000725s ]
+[2021-08-26T16:04:49+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000517s ]
+[2021-08-26T16:04:49+08:00][sql] CONNECT:[ UseTime:0.000696s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:04:49+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001133s ]
+[2021-08-26T16:04:49+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000542s ]
+[2021-08-26T16:04:49+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000421s ]
+[2021-08-26T16:08:29+08:00][sql] CONNECT:[ UseTime:0.000735s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:08:29+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000831s ]
+[2021-08-26T16:08:29+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000943s ]
+[2021-08-26T16:08:29+08:00][sql] CONNECT:[ UseTime:0.000613s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:08:29+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000852s ]
+[2021-08-26T16:08:29+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000695s ]
+[2021-08-26T16:08:29+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000763s ]
+[2021-08-26T16:11:08+08:00][sql] CONNECT:[ UseTime:0.001201s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:11:08+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001970s ]
+[2021-08-26T16:11:08+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.001049s ]
+[2021-08-26T16:11:09+08:00][sql] CONNECT:[ UseTime:0.000665s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:11:09+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002260s ]
+[2021-08-26T16:11:09+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.001028s ]
+[2021-08-26T16:11:09+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000642s ]
+[2021-08-26T16:16:20+08:00][sql] CONNECT:[ UseTime:0.002296s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:16:20+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000982s ]
+[2021-08-26T16:16:20+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000777s ]
+[2021-08-26T16:16:21+08:00][sql] CONNECT:[ UseTime:0.000699s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:16:21+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000669s ]
+[2021-08-26T16:16:21+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000913s ]
+[2021-08-26T16:16:21+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000407s ]
+[2021-08-26T16:31:25+08:00][sql] CONNECT:[ UseTime:0.001086s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:31:25+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.003183s ]
+[2021-08-26T16:31:25+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000997s ]
+[2021-08-26T16:31:26+08:00][sql] CONNECT:[ UseTime:0.000768s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:31:26+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000831s ]
+[2021-08-26T16:31:26+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000615s ]
+[2021-08-26T16:31:26+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000607s ]
+[2021-08-26T16:32:35+08:00][sql] CONNECT:[ UseTime:0.001394s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:32:35+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001037s ]
+[2021-08-26T16:32:35+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000649s ]
+[2021-08-26T16:32:36+08:00][sql] CONNECT:[ UseTime:0.000847s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:32:36+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001140s ]
+[2021-08-26T16:32:36+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.001096s ]
+[2021-08-26T16:32:36+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.001367s ]
+[2021-08-26T16:32:46+08:00][sql] CONNECT:[ UseTime:0.000681s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:32:46+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001170s ]
+[2021-08-26T16:32:46+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.001375s ]
+[2021-08-26T16:32:47+08:00][sql] CONNECT:[ UseTime:0.000667s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:32:47+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001085s ]
+[2021-08-26T16:32:47+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000765s ]
+[2021-08-26T16:32:47+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000807s ]
+[2021-08-26T16:33:17+08:00][sql] CONNECT:[ UseTime:0.001657s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:33:17+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000811s ]
+[2021-08-26T16:33:17+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000610s ]
+[2021-08-26T16:33:17+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000483s ]
+[2021-08-26T16:35:09+08:00][sql] CONNECT:[ UseTime:0.001018s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:35:09+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001207s ]
+[2021-08-26T16:35:09+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000820s ]
+[2021-08-26T16:35:09+08:00][sql] CONNECT:[ UseTime:0.000623s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:35:09+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001767s ]
+[2021-08-26T16:35:09+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000968s ]
+[2021-08-26T16:35:09+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000975s ]
+[2021-08-26T16:37:40+08:00][sql] CONNECT:[ UseTime:0.000725s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:37:40+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000804s ]
+[2021-08-26T16:37:40+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000673s ]
+[2021-08-26T16:37:41+08:00][sql] CONNECT:[ UseTime:0.000822s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:37:41+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000900s ]
+[2021-08-26T16:37:41+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000865s ]
+[2021-08-26T16:37:41+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000651s ]
+[2021-08-26T16:39:09+08:00][sql] CONNECT:[ UseTime:0.000877s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:39:09+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000817s ]
+[2021-08-26T16:39:09+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.001066s ]
+[2021-08-26T16:39:09+08:00][sql] CONNECT:[ UseTime:0.000597s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:39:09+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000906s ]
+[2021-08-26T16:39:09+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000683s ]
+[2021-08-26T16:39:09+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000695s ]
+[2021-08-26T16:54:01+08:00][sql] CONNECT:[ UseTime:0.000935s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:54:01+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001530s ]
+[2021-08-26T16:54:01+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.001126s ]
+[2021-08-26T16:54:01+08:00][error] [8]未定义变量: link[/www/wwwroot/short.com/runtime/temp/d1fd26c8994938a99c826900b8052454.php:103]
+[2021-08-26T16:55:48+08:00][sql] CONNECT:[ UseTime:0.000812s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:55:48+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000807s ]
+[2021-08-26T16:55:48+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000595s ]
+[2021-08-26T16:55:49+08:00][sql] CONNECT:[ UseTime:0.000826s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:55:49+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002167s ]
+[2021-08-26T16:55:49+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.001160s ]
+[2021-08-26T16:55:49+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000660s ]
+[2021-08-26T16:56:35+08:00][sql] CONNECT:[ UseTime:0.000692s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:56:35+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000712s ]
+[2021-08-26T16:56:35+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000574s ]
+[2021-08-26T16:56:36+08:00][sql] CONNECT:[ UseTime:0.001082s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:56:36+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001677s ]
+[2021-08-26T16:56:36+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.001272s ]
+[2021-08-26T16:56:36+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.001200s ]
+[2021-08-26T16:57:36+08:00][sql] CONNECT:[ UseTime:0.000773s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T16:57:36+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000674s ]
+[2021-08-26T16:57:36+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'H5hC2' LIMIT 1 [ RunTime:0.000529s ]
+[2021-08-26T16:57:36+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'H5hC2' [ RunTime:0.000502s ]
+[2021-08-26T17:00:11+08:00][sql] CONNECT:[ UseTime:0.001047s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:00:11+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001316s ]
+[2021-08-26T17:00:11+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000585s ]
+[2021-08-26T17:00:11+08:00][error] [8]未定义变量: pass[/www/wwwroot/short.com/runtime/temp/d1fd26c8994938a99c826900b8052454.php:103]
+[2021-08-26T17:00:31+08:00][sql] CONNECT:[ UseTime:0.000665s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:00:31+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001151s ]
+[2021-08-26T17:00:31+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000646s ]
+[2021-08-26T17:00:31+08:00][sql] CONNECT:[ UseTime:0.000681s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:00:31+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001018s ]
+[2021-08-26T17:00:31+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000554s ]
+[2021-08-26T17:00:31+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000523s ]
+[2021-08-26T17:00:33+08:00][error] [8]未定义变量: whe[/www/wwwroot/short.com/app/controller/Home.php:68]
+[2021-08-26T17:01:27+08:00][sql] CONNECT:[ UseTime:0.000654s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:01:27+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000704s ]
+[2021-08-26T17:01:27+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000846s ]
+[2021-08-26T17:01:27+08:00][sql] CONNECT:[ UseTime:0.000856s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:01:27+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001300s ]
+[2021-08-26T17:01:27+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000888s ]
+[2021-08-26T17:01:27+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.001202s ]
+[2021-08-26T17:01:28+08:00][sql] CONNECT:[ UseTime:0.000772s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:01:28+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000797s ]
+[2021-08-26T17:01:28+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000646s ]
+[2021-08-26T17:02:19+08:00][sql] CONNECT:[ UseTime:0.000682s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:02:19+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001233s ]
+[2021-08-26T17:02:19+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000758s ]
+[2021-08-26T17:02:20+08:00][sql] CONNECT:[ UseTime:0.000677s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:02:20+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001141s ]
+[2021-08-26T17:02:20+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000979s ]
+[2021-08-26T17:02:20+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.001725s ]
+[2021-08-26T17:04:28+08:00][sql] CONNECT:[ UseTime:0.000599s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:04:28+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000628s ]
+[2021-08-26T17:04:28+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000501s ]
+[2021-08-26T17:04:28+08:00][sql] CONNECT:[ UseTime:0.003576s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:04:28+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001812s ]
+[2021-08-26T17:04:28+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000781s ]
+[2021-08-26T17:04:28+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.002736s ]
+[2021-08-26T17:04:29+08:00][sql] CONNECT:[ UseTime:0.000709s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:04:29+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001354s ]
+[2021-08-26T17:04:29+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000637s ]
+[2021-08-26T17:05:43+08:00][sql] CONNECT:[ UseTime:0.000806s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:05:43+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000641s ]
+[2021-08-26T17:05:43+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000481s ]
+[2021-08-26T17:05:43+08:00][sql] CONNECT:[ UseTime:0.001209s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:05:43+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001157s ]
+[2021-08-26T17:05:43+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000612s ]
+[2021-08-26T17:05:43+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000595s ]
+[2021-08-26T17:05:44+08:00][sql] CONNECT:[ UseTime:0.000664s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:05:44+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000712s ]
+[2021-08-26T17:05:44+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000510s ]
+[2021-08-26T17:07:51+08:00][sql] CONNECT:[ UseTime:0.000835s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:07:51+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000728s ]
+[2021-08-26T17:07:51+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000610s ]
+[2021-08-26T17:07:51+08:00][sql] CONNECT:[ UseTime:0.000657s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:07:51+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001255s ]
+[2021-08-26T17:07:51+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000569s ]
+[2021-08-26T17:07:51+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000502s ]
+[2021-08-26T17:07:52+08:00][sql] CONNECT:[ UseTime:0.000682s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:07:52+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000666s ]
+[2021-08-26T17:07:52+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000612s ]
+[2021-08-26T17:10:58+08:00][sql] CONNECT:[ UseTime:0.000739s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:10:58+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000743s ]
+[2021-08-26T17:10:58+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000496s ]
+[2021-08-26T17:10:59+08:00][sql] CONNECT:[ UseTime:0.000609s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:10:59+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000756s ]
+[2021-08-26T17:10:59+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.001098s ]
+[2021-08-26T17:10:59+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.001202s ]
+[2021-08-26T17:11:05+08:00][sql] CONNECT:[ UseTime:0.000639s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:11:05+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000657s ]
+[2021-08-26T17:11:05+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000525s ]
+[2021-08-26T17:12:28+08:00][sql] CONNECT:[ UseTime:0.000682s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:12:28+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000901s ]
+[2021-08-26T17:12:28+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000654s ]
+[2021-08-26T17:12:29+08:00][sql] CONNECT:[ UseTime:0.000796s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:12:29+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000782s ]
+[2021-08-26T17:12:29+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000810s ]
+[2021-08-26T17:12:29+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.001509s ]
+[2021-08-26T17:12:30+08:00][sql] CONNECT:[ UseTime:0.000732s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:12:30+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001242s ]
+[2021-08-26T17:12:30+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000772s ]
+[2021-08-26T17:12:33+08:00][sql] CONNECT:[ UseTime:0.000777s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:12:33+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000847s ]
+[2021-08-26T17:12:33+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000684s ]
+[2021-08-26T17:19:27+08:00][sql] CONNECT:[ UseTime:0.000885s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:19:27+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000903s ]
+[2021-08-26T17:19:27+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000699s ]
+[2021-08-26T17:19:28+08:00][sql] CONNECT:[ UseTime:0.000674s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:19:28+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001449s ]
+[2021-08-26T17:19:28+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000991s ]
+[2021-08-26T17:19:28+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000720s ]
+[2021-08-26T17:21:11+08:00][sql] CONNECT:[ UseTime:0.000752s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:21:11+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000712s ]
+[2021-08-26T17:21:11+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000497s ]
+[2021-08-26T17:21:11+08:00][sql] CONNECT:[ UseTime:0.000832s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:21:11+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001674s ]
+[2021-08-26T17:21:11+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000974s ]
+[2021-08-26T17:21:11+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000801s ]
+[2021-08-26T17:23:00+08:00][sql] CONNECT:[ UseTime:0.000651s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:23:00+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000802s ]
+[2021-08-26T17:23:00+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000881s ]
+[2021-08-26T17:23:00+08:00][sql] CONNECT:[ UseTime:0.000681s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:23:00+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001542s ]
+[2021-08-26T17:23:00+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.001606s ]
+[2021-08-26T17:23:00+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.001626s ]
+[2021-08-26T17:23:48+08:00][sql] CONNECT:[ UseTime:0.000673s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:23:48+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000736s ]
+[2021-08-26T17:23:48+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.001281s ]
+[2021-08-26T17:23:49+08:00][sql] CONNECT:[ UseTime:0.000591s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:23:49+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000796s ]
+[2021-08-26T17:23:49+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.001767s ]
+[2021-08-26T17:23:49+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.001131s ]
+[2021-08-26T17:24:43+08:00][sql] CONNECT:[ UseTime:0.000727s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:24:43+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002142s ]
+[2021-08-26T17:24:43+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000535s ]
+[2021-08-26T17:24:44+08:00][sql] CONNECT:[ UseTime:0.000869s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:24:44+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000864s ]
+[2021-08-26T17:24:44+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000674s ]
+[2021-08-26T17:24:44+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000778s ]
+[2021-08-26T17:25:55+08:00][sql] CONNECT:[ UseTime:0.000689s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:25:55+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000716s ]
+[2021-08-26T17:25:55+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'eEKfE' LIMIT 1 [ RunTime:0.000680s ]
+[2021-08-26T17:25:55+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'eEKfE' [ RunTime:0.000831s ]
+[2021-08-26T17:26:47+08:00][sql] CONNECT:[ UseTime:0.000763s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:26:47+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001356s ]
+[2021-08-26T17:26:47+08:00][sql] SELECT * FROM `users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000881s ]
+[2021-08-26T17:26:47+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000712s ]
+[2021-08-26T17:26:47+08:00][sql] SELECT * FROM `links` WHERE  `link` = '5NpAI' LIMIT 1 [ RunTime:0.001734s ]
+[2021-08-26T17:26:47+08:00][sql] SELECT `id` FROM `links` WHERE  `link` = '6GtbP' LIMIT 1 [ RunTime:0.000590s ]
+[2021-08-26T17:26:47+08:00][sql] INSERT INTO `links` SET `pass` = '' , `last_visit` = '2021-08-26 17:26:47' , `url` = 'https://www.cnblogs.com/hongyuyingxiao/p/9633874.html' , `link` = '6GtbP' [ RunTime:0.002386s ]
+[2021-08-26T17:27:16+08:00][sql] CONNECT:[ UseTime:0.001351s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:27:16+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001501s ]
+[2021-08-26T17:27:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000554s ]
+[2021-08-26T17:27:16+08:00][sql] CONNECT:[ UseTime:0.001364s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:27:16+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001792s ]
+[2021-08-26T17:27:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000975s ]
+[2021-08-26T17:27:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000541s ]
+[2021-08-26T17:27:43+08:00][sql] CONNECT:[ UseTime:0.000562s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:27:43+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000798s ]
+[2021-08-26T17:27:43+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000659s ]
+[2021-08-26T17:27:44+08:00][sql] CONNECT:[ UseTime:0.000639s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:27:44+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000999s ]
+[2021-08-26T17:27:44+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000745s ]
+[2021-08-26T17:27:44+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000483s ]
+[2021-08-26T17:28:39+08:00][sql] CONNECT:[ UseTime:0.000775s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:28:39+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000798s ]
+[2021-08-26T17:28:39+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000538s ]
+[2021-08-26T17:28:40+08:00][sql] CONNECT:[ UseTime:0.001087s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:28:40+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000828s ]
+[2021-08-26T17:28:40+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000708s ]
+[2021-08-26T17:28:40+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000567s ]
+[2021-08-26T17:29:11+08:00][sql] CONNECT:[ UseTime:0.002497s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:29:11+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001243s ]
+[2021-08-26T17:29:11+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000572s ]
+[2021-08-26T17:29:12+08:00][sql] CONNECT:[ UseTime:0.000586s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:29:12+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000919s ]
+[2021-08-26T17:29:12+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000560s ]
+[2021-08-26T17:29:12+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000509s ]
+[2021-08-26T17:30:02+08:00][sql] CONNECT:[ UseTime:0.000657s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:30:02+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000642s ]
+[2021-08-26T17:30:02+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000517s ]
+[2021-08-26T17:30:03+08:00][sql] CONNECT:[ UseTime:0.000989s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:30:03+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000869s ]
+[2021-08-26T17:30:03+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000725s ]
+[2021-08-26T17:30:03+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000600s ]
+[2021-08-26T17:30:23+08:00][sql] CONNECT:[ UseTime:0.000767s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:30:23+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000693s ]
+[2021-08-26T17:30:23+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000561s ]
+[2021-08-26T17:30:24+08:00][sql] CONNECT:[ UseTime:0.000709s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:30:24+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001339s ]
+[2021-08-26T17:30:24+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000765s ]
+[2021-08-26T17:30:24+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.001038s ]
+[2021-08-26T17:31:53+08:00][sql] CONNECT:[ UseTime:0.001257s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:31:53+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000937s ]
+[2021-08-26T17:31:53+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000593s ]
+[2021-08-26T17:31:54+08:00][sql] CONNECT:[ UseTime:0.001126s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:31:54+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001850s ]
+[2021-08-26T17:31:54+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000811s ]
+[2021-08-26T17:31:54+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000744s ]
+[2021-08-26T17:36:12+08:00][sql] CONNECT:[ UseTime:0.000780s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:36:12+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000946s ]
+[2021-08-26T17:36:12+08:00][sql] SELECT * FROM `users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001300s ]
+[2021-08-26T17:36:12+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001158s ]
+[2021-08-26T17:36:12+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'yiBHR' LIMIT 1 [ RunTime:0.000805s ]
+[2021-08-26T17:36:12+08:00][sql] SELECT `id` FROM `links` WHERE  `link` = 'meAbH' LIMIT 1 [ RunTime:0.000828s ]
+[2021-08-26T17:36:12+08:00][sql] INSERT INTO `links` SET `pass` = '' , `last_visit` = '2021-08-26 17:36:12' , `url` = 'https://www.cnblogs.com/hongyuyingxiao/p/9633874.html' , `link` = 'meAbH' [ RunTime:0.000662s ]
+[2021-08-26T17:39:16+08:00][sql] CONNECT:[ UseTime:0.000593s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:39:16+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000743s ]
+[2021-08-26T17:39:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000595s ]
+[2021-08-26T17:39:19+08:00][sql] CONNECT:[ UseTime:0.000987s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:39:19+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001224s ]
+[2021-08-26T17:39:19+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.001024s ]
+[2021-08-26T17:39:19+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000708s ]
+[2021-08-26T17:40:16+08:00][sql] CONNECT:[ UseTime:0.000740s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:40:16+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000671s ]
+[2021-08-26T17:40:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000518s ]
+[2021-08-26T17:40:16+08:00][sql] CONNECT:[ UseTime:0.000938s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:40:16+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000871s ]
+[2021-08-26T17:40:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000696s ]
+[2021-08-26T17:40:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000580s ]
+[2021-08-26T17:40:27+08:00][sql] CONNECT:[ UseTime:0.000730s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:40:27+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000820s ]
+[2021-08-26T17:40:27+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000664s ]
+[2021-08-26T17:40:29+08:00][sql] CONNECT:[ UseTime:0.000964s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:40:29+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001916s ]
+[2021-08-26T17:40:29+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.001189s ]
+[2021-08-26T17:40:29+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000857s ]
+[2021-08-26T17:44:22+08:00][sql] CONNECT:[ UseTime:0.000752s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:44:22+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000968s ]
+[2021-08-26T17:44:22+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.001467s ]
+[2021-08-26T17:44:23+08:00][sql] CONNECT:[ UseTime:0.000778s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:44:23+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001161s ]
+[2021-08-26T17:44:23+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.001715s ]
+[2021-08-26T17:44:23+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000568s ]
+[2021-08-26T17:45:16+08:00][sql] CONNECT:[ UseTime:0.000610s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:45:16+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002427s ]
+[2021-08-26T17:45:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000784s ]
+[2021-08-26T17:45:17+08:00][sql] CONNECT:[ UseTime:0.000710s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:45:17+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001123s ]
+[2021-08-26T17:45:17+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000691s ]
+[2021-08-26T17:45:17+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000772s ]
+[2021-08-26T17:45:29+08:00][sql] CONNECT:[ UseTime:0.000714s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:45:29+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001349s ]
+[2021-08-26T17:45:29+08:00][sql] SELECT * FROM `users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000664s ]
+[2021-08-26T17:45:29+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000806s ]
+[2021-08-26T17:45:29+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'DQsRQ' LIMIT 1 [ RunTime:0.000584s ]
+[2021-08-26T17:45:29+08:00][sql] SELECT `id` FROM `links` WHERE  `link` = 'DC5ja' LIMIT 1 [ RunTime:0.000478s ]
+[2021-08-26T17:45:29+08:00][sql] INSERT INTO `links` SET `pass` = '' , `last_visit` = '2021-08-26 17:45:29' , `url` = 'https://www.cnblogs.com/hongyuyingxiao/p/9633874.html' , `link` = 'DC5ja' [ RunTime:0.000598s ]
+[2021-08-26T17:45:52+08:00][sql] CONNECT:[ UseTime:0.001568s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:45:52+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000868s ]
+[2021-08-26T17:45:52+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000607s ]
+[2021-08-26T17:45:53+08:00][sql] CONNECT:[ UseTime:0.000709s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:45:53+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001087s ]
+[2021-08-26T17:45:53+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000874s ]
+[2021-08-26T17:45:53+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000579s ]
+[2021-08-26T17:46:14+08:00][sql] CONNECT:[ UseTime:0.000644s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:46:14+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000698s ]
+[2021-08-26T17:46:14+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000534s ]
+[2021-08-26T17:46:15+08:00][sql] CONNECT:[ UseTime:0.000710s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:46:15+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000855s ]
+[2021-08-26T17:46:15+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000642s ]
+[2021-08-26T17:46:15+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000491s ]
+[2021-08-26T17:46:15+08:00][sql] CONNECT:[ UseTime:0.000750s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:46:15+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000608s ]
+[2021-08-26T17:46:15+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000550s ]
+[2021-08-26T17:46:15+08:00][sql] CONNECT:[ UseTime:0.000670s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:46:15+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000719s ]
+[2021-08-26T17:46:15+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000446s ]
+[2021-08-26T17:46:15+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000474s ]
+[2021-08-26T17:46:15+08:00][sql] CONNECT:[ UseTime:0.000599s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:46:15+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000635s ]
+[2021-08-26T17:46:15+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000393s ]
+[2021-08-26T17:46:15+08:00][sql] CONNECT:[ UseTime:0.000633s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:46:15+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001298s ]
+[2021-08-26T17:46:15+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000631s ]
+[2021-08-26T17:46:15+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000526s ]
+[2021-08-26T17:46:15+08:00][sql] CONNECT:[ UseTime:0.000742s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:46:15+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000755s ]
+[2021-08-26T17:46:15+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000529s ]
+[2021-08-26T17:46:16+08:00][sql] CONNECT:[ UseTime:0.001732s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:46:16+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001494s ]
+[2021-08-26T17:46:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.001681s ]
+[2021-08-26T17:46:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000911s ]
+[2021-08-26T17:46:16+08:00][sql] CONNECT:[ UseTime:0.000743s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:46:16+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000706s ]
+[2021-08-26T17:46:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000532s ]
+[2021-08-26T17:46:16+08:00][sql] CONNECT:[ UseTime:0.000680s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:46:16+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000697s ]
+[2021-08-26T17:46:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000421s ]
+[2021-08-26T17:46:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.001381s ]
+[2021-08-26T17:46:16+08:00][sql] CONNECT:[ UseTime:0.001480s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:46:16+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001364s ]
+[2021-08-26T17:46:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000737s ]
+[2021-08-26T17:46:16+08:00][sql] CONNECT:[ UseTime:0.000632s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:46:16+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000904s ]
+[2021-08-26T17:46:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000517s ]
+[2021-08-26T17:46:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000396s ]
+[2021-08-26T17:46:16+08:00][sql] CONNECT:[ UseTime:0.000727s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:46:16+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000666s ]
+[2021-08-26T17:46:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.001248s ]
+[2021-08-26T17:46:16+08:00][sql] CONNECT:[ UseTime:0.000595s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:46:16+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000617s ]
+[2021-08-26T17:46:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000508s ]
+[2021-08-26T17:46:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.001045s ]
+[2021-08-26T17:46:16+08:00][sql] CONNECT:[ UseTime:0.000498s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:46:16+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001804s ]
+[2021-08-26T17:46:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000708s ]
+[2021-08-26T17:46:16+08:00][sql] CONNECT:[ UseTime:0.001199s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:46:16+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000735s ]
+[2021-08-26T17:46:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000535s ]
+[2021-08-26T17:46:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000525s ]
+[2021-08-26T17:46:16+08:00][sql] CONNECT:[ UseTime:0.000740s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:46:16+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000702s ]
+[2021-08-26T17:46:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000559s ]
+[2021-08-26T17:46:17+08:00][sql] CONNECT:[ UseTime:0.000689s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:46:17+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000780s ]
+[2021-08-26T17:46:17+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000670s ]
+[2021-08-26T17:46:17+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000557s ]
+[2021-08-26T17:46:55+08:00][sql] CONNECT:[ UseTime:0.000717s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:46:55+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000690s ]
+[2021-08-26T17:46:55+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000554s ]
+[2021-08-26T17:46:56+08:00][sql] CONNECT:[ UseTime:0.000773s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:46:56+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000837s ]
+[2021-08-26T17:46:56+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000571s ]
+[2021-08-26T17:46:56+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000545s ]
+[2021-08-26T17:47:54+08:00][sql] CONNECT:[ UseTime:0.000706s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:47:54+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000762s ]
+[2021-08-26T17:47:54+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000577s ]
+[2021-08-26T17:47:55+08:00][sql] CONNECT:[ UseTime:0.001672s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:47:55+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000912s ]
+[2021-08-26T17:47:55+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.001818s ]
+[2021-08-26T17:47:55+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000843s ]
+[2021-08-26T17:48:05+08:00][sql] CONNECT:[ UseTime:0.001011s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:48:05+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000964s ]
+[2021-08-26T17:48:05+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000798s ]
+[2021-08-26T17:48:06+08:00][sql] CONNECT:[ UseTime:0.000646s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:48:06+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001593s ]
+[2021-08-26T17:48:06+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000885s ]
+[2021-08-26T17:48:06+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000551s ]
+[2021-08-26T17:48:14+08:00][sql] CONNECT:[ UseTime:0.000809s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:48:14+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000649s ]
+[2021-08-26T17:48:14+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000533s ]
+[2021-08-26T17:48:14+08:00][sql] CONNECT:[ UseTime:0.001644s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:48:14+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001563s ]
+[2021-08-26T17:48:14+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000836s ]
+[2021-08-26T17:48:14+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000578s ]
+[2021-08-26T17:52:32+08:00][sql] CONNECT:[ UseTime:0.000830s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:52:32+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000740s ]
+[2021-08-26T17:52:32+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000493s ]
+[2021-08-26T17:52:33+08:00][sql] CONNECT:[ UseTime:0.000766s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:52:33+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001393s ]
+[2021-08-26T17:52:33+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000926s ]
+[2021-08-26T17:52:33+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000678s ]
+[2021-08-26T17:52:34+08:00][sql] CONNECT:[ UseTime:0.000754s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:52:34+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000741s ]
+[2021-08-26T17:52:34+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000574s ]
+[2021-08-26T17:52:34+08:00][error] [2]explode() expects at least 2 parameters, 1 given[/www/wwwroot/short.com/app/controller/Home.php:74]
+[2021-08-26T17:53:10+08:00][sql] CONNECT:[ UseTime:0.000648s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:53:10+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000681s ]
+[2021-08-26T17:53:10+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000598s ]
+[2021-08-26T17:53:11+08:00][sql] CONNECT:[ UseTime:0.000965s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:53:11+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001009s ]
+[2021-08-26T17:53:11+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000922s ]
+[2021-08-26T17:53:11+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000523s ]
+[2021-08-26T17:53:36+08:00][sql] CONNECT:[ UseTime:0.000688s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:53:36+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000713s ]
+[2021-08-26T17:53:36+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000577s ]
+[2021-08-26T17:53:36+08:00][sql] CONNECT:[ UseTime:0.000785s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:53:36+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001199s ]
+[2021-08-26T17:53:36+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000629s ]
+[2021-08-26T17:53:36+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000521s ]
+[2021-08-26T17:55:17+08:00][sql] CONNECT:[ UseTime:0.000730s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:55:17+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001111s ]
+[2021-08-26T17:55:17+08:00][sql] SELECT * FROM `users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000547s ]
+[2021-08-26T17:55:17+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000596s ]
+[2021-08-26T17:55:17+08:00][sql] SELECT * FROM `links` WHERE  `link` = '9exiW' LIMIT 1 [ RunTime:0.000542s ]
+[2021-08-26T17:55:17+08:00][sql] SELECT `id` FROM `links` WHERE  `link` = 'VYeHg' LIMIT 1 [ RunTime:0.000571s ]
+[2021-08-26T17:55:17+08:00][sql] INSERT INTO `links` SET `pass` = '' , `last_visit` = '2021-08-26 17:55:17' , `url` = 'https://www.cnblogs.com/hongyuyingxiao/p/9633874.html' , `link` = 'VYeHg' [ RunTime:0.000503s ]
+[2021-08-26T17:55:28+08:00][sql] CONNECT:[ UseTime:0.001199s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:55:28+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000856s ]
+[2021-08-26T17:55:28+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000709s ]
+[2021-08-26T17:55:30+08:00][sql] CONNECT:[ UseTime:0.000876s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T17:55:30+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000927s ]
+[2021-08-26T17:55:30+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000803s ]
+[2021-08-26T17:55:30+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000709s ]
+[2021-08-26T18:00:48+08:00][sql] CONNECT:[ UseTime:0.000702s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T18:00:48+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001206s ]
+[2021-08-26T18:00:48+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000872s ]
+[2021-08-26T18:00:49+08:00][sql] CONNECT:[ UseTime:0.000643s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T18:00:49+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000856s ]
+[2021-08-26T18:00:49+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000597s ]
+[2021-08-26T18:00:49+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000547s ]
+[2021-08-26T18:02:09+08:00][sql] CONNECT:[ UseTime:0.000645s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T18:02:09+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000702s ]
+[2021-08-26T18:02:09+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000615s ]
+[2021-08-26T18:02:10+08:00][sql] CONNECT:[ UseTime:0.001339s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T18:02:10+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002939s ]
+[2021-08-26T18:02:10+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000887s ]
+[2021-08-26T18:02:10+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.002012s ]
+[2021-08-26T18:04:39+08:00][sql] CONNECT:[ UseTime:0.000804s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T18:04:39+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001262s ]
+[2021-08-26T18:04:39+08:00][sql] SELECT * FROM `users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000794s ]
+[2021-08-26T18:04:39+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000732s ]
+[2021-08-26T18:04:39+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'Dsa6s' LIMIT 1 [ RunTime:0.000574s ]
+[2021-08-26T18:04:39+08:00][sql] SELECT `id` FROM `links` WHERE  `link` = 'd1xAT' LIMIT 1 [ RunTime:0.000542s ]
+[2021-08-26T18:04:39+08:00][sql] INSERT INTO `links` SET `pass` = '' , `last_visit` = '2021-08-26 18:04:39' , `url` = 'https://www.cnblogs.com/hongyuyingxiao/p/9633874.html' , `link` = 'd1xAT' [ RunTime:0.001984s ]
+[2021-08-26T18:06:01+08:00][sql] CONNECT:[ UseTime:0.000620s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T18:06:01+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000680s ]
+[2021-08-26T18:06:01+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000511s ]
+[2021-08-26T18:06:02+08:00][sql] CONNECT:[ UseTime:0.000742s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T18:06:02+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001150s ]
+[2021-08-26T18:06:02+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000773s ]
+[2021-08-26T18:06:02+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.001344s ]
+[2021-08-26T18:06:21+08:00][sql] CONNECT:[ UseTime:0.000812s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T18:06:21+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000870s ]
+[2021-08-26T18:06:21+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000458s ]
+[2021-08-26T18:06:21+08:00][sql] CONNECT:[ UseTime:0.001253s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T18:06:21+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000879s ]
+[2021-08-26T18:06:21+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000610s ]
+[2021-08-26T18:06:21+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000825s ]
+[2021-08-26T18:06:40+08:00][sql] CONNECT:[ UseTime:0.000714s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T18:06:40+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.002127s ]
+[2021-08-26T18:06:40+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000446s ]
+[2021-08-26T18:06:41+08:00][sql] CONNECT:[ UseTime:0.000942s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T18:06:41+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001021s ]
+[2021-08-26T18:06:41+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000768s ]
+[2021-08-26T18:06:41+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.001164s ]
+[2021-08-26T18:11:56+08:00][sql] CONNECT:[ UseTime:0.001031s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T18:11:56+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000988s ]
+[2021-08-26T18:11:56+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000710s ]
+[2021-08-26T18:12:03+08:00][sql] CONNECT:[ UseTime:0.000798s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T18:12:03+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000842s ]
+[2021-08-26T18:12:03+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000515s ]
+[2021-08-26T18:12:03+08:00][error] [2]Use of undefined constant JSON - assumed 'JSON' (this will throw an Error in a future version of PHP)[/www/wwwroot/short.com/app/controller/Home.php:79]
+[2021-08-26T18:13:18+08:00][sql] CONNECT:[ UseTime:0.000779s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T18:13:18+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000896s ]
+[2021-08-26T18:13:18+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000551s ]
+[2021-08-26T18:13:19+08:00][sql] CONNECT:[ UseTime:0.001066s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T18:13:19+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000830s ]
+[2021-08-26T18:13:19+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000606s ]
+[2021-08-26T18:13:19+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000616s ]
+[2021-08-26T18:13:48+08:00][sql] CONNECT:[ UseTime:0.000833s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T18:13:48+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000734s ]
+[2021-08-26T18:13:48+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.001412s ]
+[2021-08-26T18:13:49+08:00][sql] CONNECT:[ UseTime:0.000800s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T18:13:49+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000901s ]
+[2021-08-26T18:13:49+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000549s ]
+[2021-08-26T18:13:49+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000475s ]
+[2021-08-26T18:13:50+08:00][sql] CONNECT:[ UseTime:0.000724s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T18:13:50+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000786s ]
+[2021-08-26T18:13:50+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000552s ]
+[2021-08-26T18:13:50+08:00][error] [0]variable type error： array[/www/wwwroot/short.com/vendor/topthink/framework/src/think/Response.php:392]
+[2021-08-26T18:16:15+08:00][sql] CONNECT:[ UseTime:0.000903s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T18:16:15+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001030s ]
+[2021-08-26T18:16:15+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000902s ]
+[2021-08-26T18:16:16+08:00][sql] CONNECT:[ UseTime:0.001759s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T18:16:16+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001314s ]
+[2021-08-26T18:16:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000793s ]
+[2021-08-26T18:16:16+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000815s ]
+[2021-08-26T18:17:24+08:00][sql] CONNECT:[ UseTime:0.001103s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T18:17:24+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001059s ]
+[2021-08-26T18:17:24+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000728s ]
+[2021-08-26T18:17:25+08:00][sql] CONNECT:[ UseTime:0.000827s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T18:17:25+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000993s ]
+[2021-08-26T18:17:25+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000845s ]
+[2021-08-26T18:17:25+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000576s ]
+[2021-08-26T18:19:26+08:00][sql] CONNECT:[ UseTime:0.001636s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T18:19:26+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001773s ]
+[2021-08-26T18:19:26+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000676s ]
+[2021-08-26T18:19:30+08:00][sql] CONNECT:[ UseTime:0.001142s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T18:19:30+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001220s ]
+[2021-08-26T18:19:30+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.002441s ]
+[2021-08-26T18:19:30+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000804s ]
+[2021-08-26T18:23:53+08:00][sql] CONNECT:[ UseTime:0.000500s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T18:23:53+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.001055s ]
+[2021-08-26T18:23:53+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'zgfXY' LIMIT 1 [ RunTime:0.000537s ]
+[2021-08-26T18:23:54+08:00][sql] CONNECT:[ UseTime:0.000926s ] mysql:host=127.0.0.1;port=3306;dbname=short_com;charset=utf8
+[2021-08-26T18:23:54+08:00][sql] SHOW FULL COLUMNS FROM `links` [ RunTime:0.000943s ]
+[2021-08-26T18:23:54+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' LIMIT 1 [ RunTime:0.000676s ]
+[2021-08-26T18:23:54+08:00][sql] SELECT * FROM `links` WHERE  `link` = 'api' [ RunTime:0.000511s ]

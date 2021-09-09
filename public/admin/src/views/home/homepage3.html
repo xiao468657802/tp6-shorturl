@@ -17,8 +17,21 @@
       <div class="layui-card">
         <div class="layui-card-header">头部工具栏</div>
         <div class="layui-card-body">
-          <table class="layui-hide" id="test-table-toolbar" lay-filter="test-table-toolbar"></table>
+          <table class="layui-hide" id="test-table-toolbar" lay-filter="test-table-toolbar">
+            <script type="text/html" template lay-url="/home/token">
+              <div class="layui-form" lay-filter="">
+                <div class="layui-form-item" >
+                  <div class="layui-input-inline">
+                    <!--         hidden         15c890958326b4f5cafc182616708eef250760ab ,c6f29e5f7ee627f5978549a488a6113819a16a0a   {{d.data}}   <?php echo token(); ?> -->
+                    <input type="text" name="__token__" value="{{d.data}}">
+                  </div>
+                </div>
+              </div>
+            </script>
+          </table>
+
           <script type="text/html" id="test-table-toolbar-toolbarDemo">
+
             <div class="layui-btn-container">
               <button class="layui-btn layui-btn-sm" lay-event="getCheckData">获取选中行数据</button>
               <button class="layui-btn layui-btn-sm" lay-event="getCheckLength">获取选中数目</button>
@@ -58,7 +71,7 @@
       ,title: '用户数据表'
       ,cols: [[
         {type: 'checkbox', fixed: 'left'}
-        ,{field:'id', title:'ID', width:80, fixed: 'left', unresize: true, sort: true}
+        ,{field:'id', title:'ID', width:90, fixed: 'left', unresize: true, sort: true}
         ,{field:'url', title:'目标网址', width:500}
         ,{field:'link', title:'短链', width:80}
         ,{field:'date', title:'创建日期', width:180, edit: 'text', sort: true}
@@ -69,6 +82,9 @@
         ,{fixed: 'right', title:'操作', toolbar: '#test-table-toolbar-barDemo', width:150}
       ]]
       ,page: true
+      ,limit:20
+      ,limits:[10,25,50,75,100,300,800]
+      ,text: '对不起，加载出现异常！'
     });
 
     //头工具栏事件

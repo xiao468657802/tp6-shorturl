@@ -6,7 +6,7 @@ namespace app;
 use think\App;
 use think\exception\ValidateException;
 use think\Validate;
-use app\Request;
+//use app\Request;
 //use think\Request;
 /**
  * 控制器基础类
@@ -106,4 +106,90 @@ abstract class BaseController
         }
     }
 
+    //post
+    public function send_post2($host,$port,$urlPage,$postData){
+        $errno = '';
+        $errstr = '';
+        $length = strlen($postData);
+        $fp = fsockopen($host,$port,$errno,$errstr,120) or exit($errstr."--->".$errno);
+        //构 造post请求的头
+        $header = "POST $urlPage HTTP/1.1\r\n";
+        $header .= "Host:".$host."\r\n";
+        $header .= "Referer:".$urlPage."\r\n";
+        $header .= "Content-Type:application/x-www-form-urlencoded\r\n";
+        $header .= "Content-Length:".$length."\r\n";
+        $header .= "Connection:Close\r\n\r\n";
+        //添加post的字符串
+        $header .= $postData."\r\n";
+        //发送post的数据
+        fputs($fp, $header);
+        $inheader = 1;
+        $result = ""; //最终结果
+        while (!feof($fp)){
+            $line = fgets($fp,1024); // 去除请求包的头只显示页面 的返回数据  (注意fgets  fread($fp,1)最少2个字节起。)
+            if($inheader && ($line == "\n" || $line == "\r\n"))
+                $inheader = 0;
+            if($inheader==0){
+                $result .= $line;
+            }
+        }
+        fclose($fp);
+        return $result;
+    }
+    function my_flush(){
+        ob_flush();
+        flush();
+    }
+
+//返回结果
+    public function restoreUrl($shortUrl)
+    { //还原短网址
+        $curl = curl_init();
+        curl_setopt($curl, CURLOPT_URL, $shortUrl);
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($curl, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0');
+        curl_setopt($curl, CURLOPT_HEADER, true);
+        curl_setopt($curl, CURLOPT_NOBODY, false);
+        curl_setopt($curl, CURLOPT_TIMEOUT, 15);
+        curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, 2);
+        curl_setopt($curl, CURLOPT_ENCODING, 'gzip');
+        $data = curl_exec($curl);
+        $curlInfo = curl_getinfo($curl);
+        curl_close($curl);
+        if ($curlInfo['http_code'] == 301 || $curlInfo['http_code'] == 302) {
+            return $curlInfo['redirect_url'];
+        }
+        return 'error';
+    }
+	public function repost($url)
+    {
+
+	}
+    public function get($url)
+    {//get请求
+        $ch = curl_init();
+        $timeout = 5;
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, FALSE);
+        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
+        $result = curl_exec($ch);
+        curl_close($ch);
+        if(is_string($result)){
+            return json_decode($result);
+        }else{
+            exit($result);
+        }
+    }
+    public function file_get($url){
+        $result = file_get_contents($url);
+        if(is_string($result)){
+            return json_decode($result);
+        }else{
+            exit($result);
+        }
+    }
 }
+

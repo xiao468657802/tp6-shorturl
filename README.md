@@ -162,45 +162,89 @@ admin
 123456
 ~~~
 ~~~
-部署流程
-2021年7月24日19:19:09
-nginx 伪静态
-location /home {
-if (!-e $request_filename){
-rewrite ^(.*)(.*?)$ /$1?k=$2 last;
-break;
-}}
-location /links {
-if (!-e $request_filename){
-rewrite ^(.*)(.*?)$ /$1?k=$2 last;
-break;
-}}
 
-location / {
-if (!-e $request_filename){
-rewrite ^(/u/)?$ /u/$2?u=$1 last;
-rewrite ^(.*)?$ /$2?s=$1 last;
 }
 }
 
 在服务器运行时请删除 .env 文件
+当然可以先在 。env 文件开启  APP_DEBUG = true 调试，当网站正常运行在删除。env
+然后配置下面的数据库文件
+APP_DEBUG = true
+
+
 数据库修改文件file
 config/database.php
 因为要写入session,所以给予runtime目录755权限
-chmod 755 runtime
+chmod -R 755 runtime
+chown -R www.www runtime/
+创建库
+将short.sql 导入库中
+short_com(2).sql是我在本地测试的十万条数据链接，经测试十万条数据依然稳定快捷，速度很快
+
+~~~
+
+~~~
+待开发 
+访问密码验证跳转功能  √
+dan单条链接重复生成短链   √
+url前台页面   √
+api说明,前台显示  √
+页面自动安装配置页面 
+api文件/get 方式的缩短链接  √
+link 链接的访问次数统计 √
+首页api使用的方法等介绍 √
+网站的首页导航的关键词等设置  后端√
+对前台信息查询进行安全加固，如/links
+支持十万条数据不卡顿，速度反应
+
+//q前台页面的url请求
+POST | get
+http://192.168.133.131/home/api?type=toShort&kind=local&url=https%3A%2F%2Ftinyurl.com%2Fapi-create.php
+
+api 请求 GET
+http://192.168.133.131/Api/?url=http://192.168.133.131:8888/site
+---17点46分
+
 
 
 
 ~~~
 
 ~~~
-待开发
-访问密码验证跳转功能
-url前台页面
-api说明,前台显示
-页面自动安装配置页面
-api文件/get 方式的缩短链接
+location ^~(api.php) {
+	if (!-e $request_filename){
+	    rewrite ^(api.php)(.*?)$ /Api.php?k=$2 last;
+	  break;
+	}}
+location /home {
+	if (!-e $request_filename){
+	    rewrite ^(.*)(.*?)$ /$1?k=$2 last;
+	  break;
+	}}
+location /links {
+	if (!-e $request_filename){
+    rewrite ^(.*)(.*?)$ /$1?k=$2 last;
+    break;
+	}}
+location / {
+	if (!-e $request_filename){
+	  rewrite ^(/u/)?$ /u/$2?u=$1 last;
+	  rewrite ^(.*)?$ /$2?s=$1 last;
+	}
+}
+
+https://www.layui.com/doc/element/form.html
+g官方文档
+
+
 
 ~~~
+~~~
+v0.3 版本修复bug
+210909
+1.完善了前端的显示
+2.修复页面图标的显示favicon
+3.设计了新的图标
+4.完善了js的链接内容显示不正常
 
-
+~~~

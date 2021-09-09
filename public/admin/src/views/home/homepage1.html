@@ -41,7 +41,7 @@
       ,url: '/links' //模拟接口
       ,cols: [[
         {type: 'numbers', fixed: 'left'}
-        ,{field: 'id', width: 60, title: 'ID', sort: true}
+        ,{field: 'id', width: 90, title: 'ID', sort: true}
         ,{field: 'url', title: '目标网址', minWidth: 100}
         ,{field: 'link', title: '短链', minWidth: 20,width:74}
         ,{field: 'date', title: '创建日期', minWidth: 20,width:124}
@@ -51,6 +51,9 @@
         ,{field: 'last_visit', title: '新访问', minWidth: 100,width:124}
         ,{title: '操作', width: 150, align: 'center', fixed: 'right', toolbar: '#layuiadmin-app-cont-tagsbar'}
       ]]
+      ,page:true
+      ,limit:20
+      ,limits:[10,25,50,75,100,300,800]
       ,text: '对不起，加载出现异常！'
     });
 

@@ -37,11 +37,7 @@
           <div class="layui-input-inline">
             <select name="label">
               <option value="">请选择标签</option>
-              <option value="0">美食</option>
-              <option value="1">新闻</option>
-              <option value="2">八卦</option>
-              <option value="3">体育</option>
-              <option value="4">音乐</option>
+
             </select>
           </div>
         </div>
@@ -53,24 +49,25 @@
       </div>
     </div>
 
-    <div class="layui-card-body">
-      <div style="padding-bottom: 10px;">
-        <button class="layui-btn layuiadmin-btn-list" data-type="batchdel">删除</button>
-        <button class="layui-btn layuiadmin-btn-list" data-type="add">添加</button>
-      </div>
-      <table id="LAY-app-content-list" lay-filter="LAY-app-content-list"></table>
-      <script type="text/html" id="buttonTpl">
-        {{#  if(d.status){ }}
-        <button class="layui-btn layui-btn-xs">已发布</button>
-        {{#  } else { }}
-        <button class="layui-btn layui-btn-primary layui-btn-xs">待修改</button>
-        {{#  } }}
-      </script>
-      <script type="text/html" id="table-content-list">
-        <a class="layui-btn layui-btn-normal layui-btn-xs" lay-event="edit"><i class="layui-icon layui-icon-edit"></i>编辑</a>
-        <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del"><i class="layui-icon layui-icon-delete"></i>删除</a>
-      </script>
-    </div>
+<!--    <div class="layui-card-body">-->
+<!--      <div style="padding-bottom: 10px;">-->
+<!--        <button class="layui-btn layuiadmin-btn-list" data-type="batchdel">删除</button>-->
+<!--        <button class="layui-btn layuiadmin-btn-list" data-type="add">添加</button>-->
+<!--      </div>-->
+<!--      <table id="LAY-app-content-list" lay-filter="LAY-app-content-list"></table>-->
+<!--      <script type="text/html" id="buttonTpl">-->
+<!--        {{#  if(d.status){ }}-->
+<!--        <button class="layui-btn layui-btn-xs">已发布</button>-->
+<!--        {{#  } else { }}-->
+<!--        <button class="layui-btn layui-btn-primary layui-btn-xs">待修改</button>-->
+<!--        {{#  } }}-->
+<!--      </script>-->
+<!--      <script type="text/html" id="table-content-list">-->
+<!--        <a class="layui-btn layui-btn-normal layui-btn-xs" lay-event="edit"><i class="layui-icon layui-icon-edit"></i>编辑</a>-->
+<!--        <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del"><i class="layui-icon layui-icon-delete"></i>删除</a>-->
+<!--      </script>-->
+<!--    </div>-->
+
   </div>
 </div>
 
@@ -124,7 +121,7 @@
           ,area: ['550px', '550px']
           ,id: 'LAY-popup-content-add'
           ,success: function(layero, index){
-            view(this.id).render('app/content/listform').done(function(){
+            view(this.id).render('home/home2_form').done(function(){
               form.render(null, 'layuiadmin-app-form-list');
 
               //监听提交
